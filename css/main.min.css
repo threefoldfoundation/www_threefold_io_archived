@@ -68,6 +68,10 @@ footer {
     margin-top: 300px
 }
 
+.navbar{
+  text-align: center;
+  display:block;
+}
 @media only screen and (min-width:321px) and (max-width:767px) {
     .mod-wrapper {
         width: 400px;
