@@ -394,7 +394,9 @@ footer {
     margin-left: -5px;
     width: 172px;
     text-align: left;
-    padding-left: 30px
+    padding-left: 30px;
+    background-color: #57be8e;
+    border-color: #007bff;
 }
 
 .cta-join-btn-arrow {
@@ -594,7 +596,7 @@ footer {
 
 .why-tardigrade__list-item-content {
     color: #000;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 40px;
     margin-left: 110px;
     font-weight: 300
@@ -732,7 +734,7 @@ footer {
 }
 
 .half-price__column-amount {
-    color: #2582ff;
+    color: #1072ba;
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 0
