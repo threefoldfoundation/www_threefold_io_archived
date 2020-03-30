@@ -26,15 +26,22 @@ h5 {
 span,
 p {
     font-size: 18px;
-    font-family: roboto;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     line-height: 19px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 21px
 }
 
 .text-white {
     color: #fff
+}
+
+.footer_title{
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+
 }
 
 .text-grey {
@@ -118,7 +125,7 @@ footer {
 }
 
 .navlink {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -178,7 +185,7 @@ footer {
 }
 
 .dropdown-menu p {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     color: #93a1af;
     font-weight: 700
 }
@@ -206,7 +213,7 @@ footer {
     border: 2px solid #fff;
     border-radius: 4px;
     color: #fff;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 14px;
     width: 150px
@@ -389,7 +396,7 @@ footer {
 }
 
 .cta-join-btn {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -423,7 +430,7 @@ footer {
 }
 
 .hiw-heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -432,7 +439,7 @@ footer {
 }
 
 .hiw-heading-simple {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -459,11 +466,11 @@ footer {
     font-size: 18px;
     color: #2582ff;
     font-weight: 700;
-    font-family: poppins
+    font-family: "Lato", sans-serif
 }
 
 .y-tar-heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -734,7 +741,7 @@ footer {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-family: poppins
+    font-family: "Lato", sans-serif
 }
 
 .half-price__column-image {
@@ -759,7 +766,7 @@ footer {
 }
 
 .half-price__image-wrapper__content__header__title {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -775,7 +782,7 @@ footer {
 }
 
 .half-price__cta {
-    background: #2582ff;
+    background: #1072ba;
     color: #fff;
     border-radius: 6px;
     font-size: 16px;
@@ -784,7 +791,7 @@ footer {
     margin: 0 auto;
     padding: 10px 0;
     letter-spacing: .25px;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     text-align: center
 }
 
@@ -868,7 +875,7 @@ footer {
 }
 
 .dev-in-mind__content .dev-in-mind__cta {
-    background: #2582ff;
+    background: #1072ba;
     color: #fff;
     border-radius: 6px;
     font-size: 16px;
@@ -877,7 +884,7 @@ footer {
     margin: 0 auto;
     padding: 10px 0;
     letter-spacing: .25px;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     text-align: center;
     float: left
 }
@@ -955,7 +962,7 @@ footer {
 }
 
 body {
-    font-family: poppins
+    font-family: "Lato", sans-serif
 }
 
 a {
@@ -982,7 +989,7 @@ a {
 
 .banner-text {
     margin-top: 5px;
-    font-family: poppins, sans-serif;
+    font-family: "Lato", sans-serif, sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
@@ -1030,7 +1037,7 @@ a {
 }
 
 .cta-btm {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1040,7 +1047,7 @@ a {
 
 @media only screen and (min-width:321px) and (max-width:767px) {
     .cta-btm {
-        font-family: poppins;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -1084,7 +1091,7 @@ a {
     height: 42.5px;
     margin-top: -5px;
     margin-left: -5px;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1122,7 +1129,7 @@ a {
         height: 42.5px;
         margin-top: -5px;
         margin-left: 0;
-        font-family: poppins;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -1163,7 +1170,7 @@ a {
         height: 42.5px;
         margin-top: -5px;
         margin-left: -5px;
-        font-family: poppins;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -1219,7 +1226,7 @@ a {
 
 .waitlist-middle {
     text-decoration: none!important;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1249,7 +1256,7 @@ a {
     border-left: 3px solid #dcdcdc;
     list-style-type: none;
     color: #354049;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 1px;
@@ -1261,7 +1268,7 @@ a {
 .usecase-link-wrapper-active {
     border-left: 3px solid #2582ff;
     list-style-type: none;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1320,7 +1327,7 @@ a {
 }
 
 .mstone-link-wrapper p {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1337,7 +1344,7 @@ a {
 }
 
 .isCurrent-milestone-text {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1355,7 +1362,7 @@ a {
 }
 
 .isFuture-milestone-text {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1364,7 +1371,7 @@ a {
 }
 
 .pop-set {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1376,7 +1383,7 @@ a {
 }
 
 .hiw-item-txt {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1731,7 +1738,7 @@ a {
 }
 
 .join-y-tar {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1740,7 +1747,7 @@ a {
 }
 
 .usecase-txt {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1751,7 +1758,7 @@ a {
 }
 
 .usecase-txt-active {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1761,7 +1768,7 @@ a {
 
 .tab-heading {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 28px;
     line-height: 39px;
     color: #000
@@ -1795,7 +1802,7 @@ a {
 }
 
 .anonc {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1808,7 +1815,7 @@ a {
 }
 
 .use-case__top-heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: bold;
     font-size: 28px
 }
@@ -1942,7 +1949,7 @@ a {
 }
 
 .s3Comp-heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -1962,7 +1969,7 @@ a {
 }
 
 .strg {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1971,7 +1978,7 @@ a {
 }
 
 .box-price {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -1980,7 +1987,7 @@ a {
 }
 
 .per-uom {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -2000,7 +2007,7 @@ a {
 }
 
 .hero-tardigrade-msg {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     height: 48px;
     background: rgba(255, 255, 255, .24);
     mix-blend-mode: normal;
@@ -2032,7 +2039,7 @@ a {
     border-radius: 4px;
     color: #fff;
     text-align: center;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -2473,7 +2480,7 @@ a {
 .waitlist__form-submit {
     font-weight: 700;
     background: #2582ff;
-    font-family: poppins, sans-serif;
+    font-family: "Lato", sans-serif, sans-serif;
     font-size: 14px;
     line-height: 20px;
     min-width: 220px;
@@ -2582,7 +2589,7 @@ a {
 }
 
 .community_hero_heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
@@ -2603,7 +2610,7 @@ a {
 
 .community_hero_btn_text {
     padding: 15px;
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -2629,7 +2636,7 @@ a {
 }
 
 .community_main_heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -2649,7 +2656,7 @@ a {
 }
 
 .community_main_cta {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -2674,7 +2681,7 @@ a {
 }
 
 .community_events_heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -2704,7 +2711,7 @@ a {
 }
 
 .community_events_link {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -2713,7 +2720,7 @@ a {
 }
 
 .community_events_name {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -2739,7 +2746,7 @@ a {
 }
 
 .community_events_bottom_heading {
-    font-family: poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -2885,7 +2892,7 @@ a {
 
 .press-kit-page .press-kit__hero__contact-us {
     color: #fff;
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -3001,7 +3008,7 @@ a {
 }
 
 .press-kit-page .press-kit__news #loadMore .press-kit__news-load-more-btn {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 14px;
     line-height: 41px;
@@ -3194,7 +3201,7 @@ a {
 
 .press-kit-page .press-kit__fonts__font-name,
 .press-kit-page .press-kit__fonts__font-name-title {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-size: 12px;
     line-height: 21px;
@@ -3269,7 +3276,7 @@ a {
 
 .press-kit-page .press-kit__colors__color-name,
 .press-kit-page .press-kit__colors__color-hex {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-size: 12px;
     line-height: 11px;
@@ -3296,7 +3303,7 @@ a {
 }
 
 .press-kit-page .press-kit__bottom__content {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 700
 }
@@ -3556,7 +3563,7 @@ a {
 
 .tech-partner__who .tech-partner__who-list-container .tech-partner__who-contact-us-text .tech-partner__who-contact-us-link {
     color: #2582ff;
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
