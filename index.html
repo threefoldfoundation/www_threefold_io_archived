@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+  <title>Tardigrade | Decentralized Cloud Object Storage</title>
+  <meta name="description" content="Get started with durable enterprise-grade cloud storage that's 100% secure, 20% faster, and half the cost of traditional cloud storage.">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <link rel="shortcut icon" href="https://tardigrade.io/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://tardigrade.io/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="theme.css">
+</head>
+
+<body data-gr-c-s-loaded="true" style="zoom: 1;"><span style="display:none" id="vwo_temp"></span>
+  <style type="text/css">
+    #mc_embed_signup input.mce_inline_error {
+      border-color: #6b0505;
+    }
+
+    #mc_embed_signup div.mce_inline_error {
+      margin: 0 0 1em 0;
+      padding: 5px 10px;
+      background-color: #6b0505;
+      font-weight: bold;
+      z-index: 1;
+      color: #fff;
+    }
+  </style>
+  <style type="text/css">
+    #mc_embed_signup input.mce_inline_error {
+      border-color: #6b0505;
+    }
+
+    #mc_embed_signup div.mce_inline_error {
+      margin: 0 0 1em 0;
+      padding: 5px 10px;
+      background-color: #6b0505;
+      font-weight: bold;
+      z-index: 1;
+      color: #fff;
+    }
+  </style>
+  <style type="text/css">
+    #mc_embed_signup input.mce_inline_error {
+      border-color: #6b0505;
+    }
+
+    #mc_embed_signup div.mce_inline_error {
+      margin: 0 0 1em 0;
+      padding: 5px 10px;
+      background-color: #6b0505;
+      font-weight: bold;
+      z-index: 1;
+      color: #fff;
+    }
+  </style>
+  <meta name="d41d8cd98f00b204e9800998ecf8427e_lib_detect" id="d41d8cd98f00b204e9800998ecf8427e_lib_detect" content="Bootstrap:4.3.1,jQuery:3.3.1,jQuery (Fast path):null">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXWQXGX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+    <div class="container-fluid bg-gradiant nomp">
+      <div class="container-fluid inner-hero-wrapper">
+        <div class="container">
+          <div class="spacer20"></div>
+          <nav class="navbar navbar-expand-lg p-0">
+            <a class="navbar-brand" href="https://tardigrade.io/"><img alt="Storj Labs logo in white" src="svg/tar-logo-whit-horizontal.svg" style="margin-top:-14px"></a>
+            <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav ml-auto">
+                <li class="btn-group nav-item mr-3 active">
+                  <button type="button" class="navlink btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Developers <span class="sr-only">(current)</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <p class="dropdown-item" href="#">For Developers</p>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://documentation.tardigrade.io/">Docs<img src="svg/blue-carrot.svg" height="13" width="13"></a>
+                    <a class="dropdown-item" href="https://tardigrade.io/community">Community<img src="svg/blue-carrot.svg" height="13" width="13"></a>
+                    <a class="dropdown-item" href="https://support.tardigrade.io/hc/en-us">Support<img src="svg/blue-carrot.svg" height="13" width="13"></a>
+                  </div>
+                </li>
+                <li class="btn-group nav-item mr-3 active">
+                  <button type="button" class="navlink btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Partners <span class="sr-only">(current)</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <p class="dropdown-item" href="#">Our Partners</p>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://tardigrade.io/partner">Open Source Partners<img src="svg/blue-carrot.svg" height="13" width="13"></a>
+                    <a class="dropdown-item" href="https://tardigrade.io/tech-partner">Technology Partners<img src="svg/blue-carrot.svg" height="13" width="13"></a>
+                  </div>
+                </li>
+                <li class="nav-item mr-3 active">
+                  <a class="nav-link" href="https://support.tardigrade.io/hc/en-us">
+                    <p class="navlink"> Support <span class="sr-only">(current)</span>
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item mr-3 active">
+                  <a class="nav-link" href="https://tardigrade.io/blog">
+                    <p class="navlink"> Blog <span class="sr-only">(current)</span>
+                    </p>
+                  </a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-3 active">
+                  <a class="nav-link" href="https://tardigrade.io/login">
+                    <p class="navlink"> Log In <span class="sr-only">(current)</span>
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item mr-3 active">
+                  <a href="https://tardigrade.io/satellites"><button class="btn my-2 my-sm-0 nav-join"> Get Started </button></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="row">
+            <div class="spacer20"></div>
+            <div class="jumbotron hero-tardigrade-msg">
+              <div>
+                <p class="hero-tardigrade-msg-left"> Tardigrade is Powered by Storj Labs </p>
+              </div>
+              <div>
+                <a target="_blank" href="https://storj.io/" style="text-decoration:none">
+                  <p class="hero-tardigrade-msg-right">Visit Storj.io</p>
+                  <img class="hero-tardigrade-msg-img" src="img/mini-storj-logo.png">
+                  <img class="hero-tardigrade-msg-img" src="img/chevron-right-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="spacer40"></div>
+            <div class="col-md-12 col-sm-12 col-lg-6 hero-content">
+              <h1 class="mt-4 hero-heading"> Decentralized Cloud<br>Storage is the Future </h1>
+              <div class="spacer20"></div>
+              <p class="white home-subheading"> Join thousands of developers experiencing the safer, faster, completely decentralized enterprise-grade cloud storage solution. </p>
+              <div class="spacer30"></div>
+              <a href="https://tardigrade.io/satellites" class="cta-join-btn-wrapper" id="mc_embed_signup_scroll"><button class="btn btn-primary cta-join-btn"> Get Started</button><img class="cta-join-btn-arrow" src="svg/arrow-right.svg"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid why-tardigrade">
+    <div class="container">
+      <div class="row p-3">
+        <div class="spacer90"></div>
+        <div class="col-lg-4 col-sm-12 why-tardigrade__section-wrapper">
+          <div class="why-tardigrade__section">
+            <div class="spacer30"></div>
+            <h2 class="why-tardigrade__heading">Why Tardigrade?</h2>
+            <div class="spacer20"></div>
+            <div class="why-tardigrade__list-container text-center">
+              <ul class="why-tardigrade__list">
+                <li class="why-tardigrade__list-item">
+                  <img class="why-tardigrade__list-img img-fluid" src="svg/check.svg" alt="Decentralized Cloud Storage Benfits Check Mark">
+                  <h4 class="why-tardigrade__list-item-content"> 100% Secure </h4>
+                </li>
+                <li class="why-tardigrade__list-item">
+                  <img class="why-tardigrade__list-img img-fluid" src="svg/check.svg" alt="Decentralized Cloud Storage Benfits Check Mark">
+                  <h4 class="why-tardigrade__list-item-content"> A Fraction of the Cost </h4>
+                </li>
+                <li class="why-tardigrade__list-item">
+                  <img class="why-tardigrade__list-img img-fluid" src="svg/check.svg" alt="Decentralized Cloud Storage Benfits Check Mark">
+                  <h4 class="why-tardigrade__list-item-content"> More Durable </h4>
+                </li>
+                <li class="why-tardigrade__list-item">
+                  <img class="why-tardigrade__list-img img-fluid" src="svg/check.svg" alt="Decentralized Cloud Storage Benfits Check Mark">
+                  <h4 class="why-tardigrade__list-item-content"> Enterprise-Grade </h4>
+                </li>
+                <div class="spacer40"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 superior-cloud-section">
+          <h2 class="superior-cloud__header"> S3-Compatible &amp; Lightyears Ahead </h2>
+          <div class="row">
+            <div class="spacer30"></div>
+            <div class="col-xs-12 col-lg-6 text-center">
+              <img alt="Secure cloud storage icon" class="superior-cloud__img" src="svg/tar-ico-lock.svg">
+              <h3 class="superior-cloud-heading">Secure by Default</h3>
+              <p class="superior-cloud-subheading"> Files are automatically encrypted before being uploaded. </p>
+            </div>
+            <div class="col-xs-12 col-lg-6 text-center second-section">
+              <img alt="Globally Distributed Storage Network for Developers" class="superior-cloud__img" src="svg/tar-ico-globe-network.svg">
+              <h3 class="superior-cloud-heading">Globally Distributed</h3>
+              <p class="superior-cloud-subheading"> Data is broken into smaller pieces and stored on a global network. </p>
+            </div>
+          </div>
+          <div class="spacer30"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid use-case">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="spacer90"></div>
+          <h2 class="mt-5 use-case__top-heading"> Upgrade Your Storage Layer </h2>
+          <div class="spacer30"></div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-8 offset-sm-1 col-md-8 col-lg-4 offset-lg-1 use-case__list" style="height:250px">
+          <div class="pl-3 usecase-link-wrapper" style="border-left: 2px solid rgb(220, 220, 220); opacity: 0.5; font-weight: 500;">
+            <a class="nav-link" onclick="select(this);" id="v-pills-backup-tab" data-toggle="pill" href="#v-pills-backup" role="tab" aria-controls="v-pills-backup" aria-selected="true">Backup, Recovery and Archival</a>
+          </div>
+          <div class="pl-3 usecase-link-wrapper-active" style="border-left: 2px solid rgb(220, 220, 220); opacity: 0.5; font-weight: 500;">
+            <a class="nav-link" onclick="select(this);" id="v-pills-media-tab" data-toggle="pill" href="#v-pills-media" role="tab" aria-controls="v-pills-media" aria-selected="true">Media Content Storage</a>
+          </div>
+          <div class="pl-3 usecase-link-wrapper" style="border-left: 2px solid rgb(220, 220, 220); opacity: 0.5; font-weight: 500;">
+            <a class="nav-link" onclick="select(this);" id="v-pills-cloud-tab" data-toggle="pill" href="#v-pills-cloud" role="tab" aria-controls="v-pills-cloud" aria-selected="true">Hybrid Cloud Storage</a>
+          </div>
+          <div class="pl-3 usecase-link-wrapper" style="border-left: 2px solid rgb(220, 220, 220); opacity: 0.5; font-weight: 500;">
+            <a class="nav-link" onclick="select(this);" id="v-pills-transfers-tab" data-toggle="pill" href="#v-pills-transfers" role="tab" aria-controls="v-pills-transfers" aria-selected="true">Large File Transfer</a>
+          </div>
+          <div class="pl-3 usecase-link-wrapper" style="border-left: 2px solid rgb(220, 220, 220); opacity: 0.5; font-weight: 500;">
+            <a class="nav-link" onclick="select(this);" id="v-pills-logs-tab" data-toggle="pill" href="#v-pills-logs" role="tab" aria-controls="v-pills-logs" aria-selected="true">Log Files Over 4kb</a>
+          </div>
+          <div class="pl-3 usecase-link-wrapper" style="border-left: 2px solid rgb(37, 130, 255); opacity: 1; font-weight: bold;">
+            <a class="nav-link active" onclick="select(this);" id="v-pills-snapshots-tab" data-toggle="pill" href="#v-pills-snapshots" role="tab" aria-controls="v-pills-snapshots" aria-selected="true">Database Snapshots</a>
+          </div>
+        </div>
+        <div class="col-sm-6 offset-lg-1 col-md-5 offset-md-1 col-lg-5 offset-lg-0 large-content">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="spacer30 d-block d-sm-none"></div>
+            <div class="tab-pane fade" id="v-pills-backup" role="tabpanel" aria-labelledby="v-pills-backup-tab">
+              <img src="svg/tar-ico-cloud-time.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Backup, Recovery and Archival</h3>
+              <p class="limit"> Long-term storage for infrequently accessed files for regulatory compliance, disaster recover, or archival purposes. </p>
+            </div>
+            <div class="tab-pane fadeshow" id="v-pills-media" role="tabpanel" aria-labelledby="v-pills-media-tab">
+              <img src="svg/tar-ico-media.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Media Content Storage</h3>
+              <p class="limit"> Store large volumes of video, photo, or audio media, including tape/physical alternatives. </p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-cloud" role="tabpanel" aria-labelledby="v-pills-cloud-tab">
+              <img src="svg/tar-ico-disk-cloud.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Hybrid Cloud Storage</h3>
+              <p class="limit"> Instantly available cloud to compliment your on-prem storage. </p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-transfers" role="tabpanel" aria-labelledby="v-pills-transfers-tab">
+              <img src="svg/tar-ico-files-folder.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Large File Transfer</h3>
+              <p class="limit"> Temporary storage of large files for sharing or point-to-point transfers. </p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-logs" role="tabpanel" aria-labelledby="v-pills-logs-tab">
+              <img src="svg/tar-ico-note.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Log Files Over 4kb</h3>
+              <p class="limit"> Long-term storage and easy accessibility for log data. </p>
+            </div>
+            <div class="tab-pane fade active show" id="v-pills-snapshots" role="tabpanel" aria-labelledby="v-pills-snapshots-tab">
+              <img src="svg/tar-ico-snapshot.svg" height="94" width="94">
+              <h3 class="mt-4 tab-heading">Database Snapshots</h3>
+              <p class="limit">Backup and store critical database records.</p>
+            </div>
+          </div>
+          <div class="spacer90"></div>
+        </div>
+      </div>
+    </div>
+    <img class="dev-in-mind__responsive-mobile-bg" src="img/tar-web-grey-bg-sm-2.png">
+  </div>
+  <script type="text/javascript">
+    let smallContent = document.querySelectorAll(".small-content");
+    let largeContent = document.getElementById("large-content");
+    if (window.innerWidth && window.innerWidth > "991") {
+      if (smallContent) {
+        document.querySelectorAll(".small-content").forEach(function(a) {
+          a.remove();
+        });
+      }
+    } else if (window.innerWidth && window.innerWidth < "991") {
+      if (largeContent) {
+        largeContent.remove();
+      }
+    }
+  </script>
+  <div class="container-fluid half-price">
+    <div class="container">
+      <div class="spacer125"></div>
+      <h2 class="half-price__heading">Straight-Forward Pricing</h2>
+      <div class="spacer40"></div>
+      <div class="spacer60"></div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 col-lg-6 col-sm-12 half-price__content">
+          <div class="spacer40"></div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 half-price__section" style="border-right:1px solid #979797">
+              <p class="half-price__column-heading">Storage</p>
+              <img alt="cloud object storage icon" class="half-price__column-image" src="img/tar-ico-cloud.png">
+              <h2 class="half-price__column-amount">$0.01</h2>
+              <p class="half-price__column-metric">PER GB PER MONTH</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 half-price__section">
+              <p class="half-price__column-heading">Bandwidth</p>
+              <img alt="storage bandwidth icon" class="half-price__column-image" src="img/tar-ico-arrows-left-right.png">
+              <h2 class="half-price__column-amount">$0.045</h2>
+              <p class="half-price__column-metric">PER GB</p>
+            </div>
+          </div>
+          <div class="spacer40"></div>
+          <div class="spacer60"></div>
+        </div>
+        <div class="col-lg-6 half-price__image-wrapper">
+          <div id="htcCollapseWrapper" class="half-price__image-wrapper__content">
+            <a data-toggle="collapse" href="https://tardigrade.io/#htcCollapse" role="button" aria-expanded="false" aria-controls="htcCollapse">
+              <div class="half-price__image-wrapper__content__header">
+                <h4 class="half-price__image-wrapper__content__header__title"> How Tardigrade Compares </h4>
+                <img class="half-price__image-wrapper__content__header__img" alt="How Tardigrade Compares Toggle Button" id="toggleDownBtn" src="svg/htc-down-arrow.svg">
+                <img class="half-price__image-wrapper__content__header__img" alt="How Tardigrade Compares Toggle Button" id="toggleUpBtn" src="svg/htc-up-arrow.svg">
+              </div>
+            </a>
+            <div class="collapse multi-collapse show" id="htcCollapse">
+              <img alt="Chart comparing Tardigrade as an alternative to AWS and Google Cloud" class="half-price__image-resp" src="svg/tar-pricing-resp.svg" width="1200">
+            </div>
+          </div>
+          <img alt="Chart comparing Tardigrade as an alternative to AWS and Google Cloud" class="half-price__image" src="svg/tar-pricing.svg" width="1200">
+        </div>
+      </div>
+      <div class="spacer70"></div>
+      <a class="half-price__cta__wrapper" href="https://tardigrade.io/satellites">
+        <p class="half-price__cta">Get Started</p>
+      </a>
+    </div>
+    <div class="spacer125"></div>
+  </div>
+  <script type="text/javascript">
+    var buttonWrapper = document.getElementById("htcCollapseWrapper");
+    var toggleDownBtn = document.getElementById("toggleDownBtn");
+    var toggleUpBtn = document.getElementById("toggleUpBtn");
+    buttonWrapper.onclick = function(event) {
+      if (window.getComputedStyle(toggleUpBtn).display === "none") {
+        toggleDownBtn.style.display = "none";
+        toggleUpBtn.style.display = "flex";
+      } else {
+        toggleDownBtn.style.display = "flex";
+        toggleUpBtn.style.display = "none";
+      }
+    };
+  </script>
+  <div class="dev-in-mind container-fluid">
+    <div class="container">
+      <div class="spacer125"></div>
+      <div class="row row-fluid">
+        <img class="pl-5 dev-in-mind__image" src="img/tar-gui-cli.png">
+        <img class="dev-in-mind__image-resp" src="svg/tar-gui-cli-resp.svg">
+        <div class="col-lg-6 col-sm-push-6  dev-in-mind__content">
+          <h2 class="dev-in-mind__heading">Built with Developers in Mind</h2>
+          <div class="spacer40"></div>
+          <p class="dev-in-mind__text"> Tardigrade is the perfect alternative to Amazon S3 -- in fact, it's S3 compatible so you can build your product using Tardigrade as your backend storage layer without any issues. Tardigrade is more secure than S3, it's open source, more affordable, and decentralized. </p>
+          <div class="spacer40"></div>
+          <a class="dev-in-mind__cta-wrapper" href="https://tardigrade.io/satellites">
+            <p class="dev-in-mind__cta">Get Started</p>
+          </a>
+        </div>
+        <div class="col-sm-5 col-sm-pull-6 col-lg-6 dev-in-mind__image-wrapper"></div>
+      </div>
+    </div>
+    <img alt="Developer tool made for developers" class="dev-in-mind__responsive-mobile-bg" src="img/tar-web-grey-bg-sm-2.png">
+    <div style="position:relative;top:50px" class="spacer125"></div>
+  </div>
+  <div class="lite-gray-bg container-fluid hiw">
+    <div class="row">
+      <div class="col hiw-col">
+        <h1 class="mt-5 hiw-heading">How it Works</h1>
+      </div>
+    </div>
+    <div class="row hiw-col mt-3">
+      <div class="col-xs-12 col-md-7 text-center hiw-subheading">
+        <p> With Tardigrade cloud storage, files are encrypted and split into pieces client-side, then distributed across our network of high-performance Storage Nodes, making it virtually impossible for your data to be compromised. </p>
+      </div>
+    </div>
+    <div class="row mt-5 hiw-col">
+      <div class="col-xs-2 col-sm-2 col-lg-3 hiw-image-wrapper text-center">
+        <img alt="Cloud storage encrypt ico" class="hiw-image" src="svg/encrypt.svg" height="94"><br>
+        <p class="mt-4">
+          <strong><span class="hiw-item-txt">Encrypt</span></strong>
+        </p>
+      </div>
+      <div class="hiw-arrow"></div>
+      <div class="d-block d-sm-none spacer30"></div>
+      <div class="col-xs-2 col-sm-2 col-lg-3 hiw-image-wrapper text-center">
+        <img alt="Cloud storage split icon" class="hiw-image" src="svg/split.svg" height="94"><br>
+        <p class="mt-4">
+          <span class="hiw-item-txt"><strong>Split</strong></span>
+        </p>
+      </div>
+      <div class="hiw-arrow"></div>
+      <div class="d-block d-sm-none spacer30"></div>
+      <div class="col-xs-2 col-sm-2 col-lg-3 hiw-image-wrapper text-center">
+        <img alt="Object storage distribute icon" class="hiw-image" src="svg/tar-ico-how-distributed.svg" height="94"><br>
+        <p class="mt-4">
+          <span class="hiw-item-txt"><strong>Distribute</strong></span>
+        </p>
+      </div>
+    </div>
+    <div class="spacer60"></div>
+    <div class="spacer90"></div>
+  </div>
+  <footer>
+    <div class="footer container">
+      <div class="footer__content row">
+        <div class="footer__content-item col-12 col-md-6 mt-2">
+          <div class="col-12 col-sm-4 pl-0">
+            <a href="https://tardigrade.io/" class="footer__logo"><img class="footer__logo-img img-fluid" src="svg/tar-logo-blue-horizontal.svg" alt="Tardigrade.io"></a>
+          </div>
+          <div class="col-12 pl-0 mt-3">
+            <span class="footer__list-unstyled"><span class="footer__link-text text-white">Tardigrade.io is a subsidiary of Storj Labs Inc. For further resources and information please visit <a class="footer__link-temp" href="https://storj.io/">Storj.io</a>.</span></span>
+          </div>
+        </div>
+        <div class="footer__content-item col-6 col-md-2 ml-xl-3">
+          <h5 class="text-white">Connect</h5>
+          <ul class="footer__list-unstyled">
+            <li>
+              <a class="footer__link" href="https://twitter.com/Tardigrade_io"><img class="footer__link-img" src="svg/twitter.svg" alt="">
+                <span class="footer__link-text">Twitter</span></a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/Storj/"><img class="footer__link-img" src="svg/github.svg" alt="">
+                <span class="footer__link-text">GitHub</span></a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://www.reddit.com/r/storj/"><img class="footer__link-img" src="svg/reddit.svg" alt="">
+                <span class="footer__link-text">Reddit</span></a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://www.linkedin.com/company/tardigrade-io"><img class="footer__link-img" src="svg/linkedin.svg" alt="">
+                <span class="footer__link-text">LinkedIn</span></a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://medium.com/@storjproject"><img class="footer__link-img" src="svg/medium.svg" alt="">
+                <span class="footer__link-text">Medium</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content-item footer__content-item-btn col-6 col-md-3 ml-xl-4">
+          <h5 class="text-white">Stay in Touch</h5>
+          <p class="footer-message"> For the best experience, disable ad blockers and use Chrome or Edge. </p>
+          <div style="padding-top:.1em" id="mc_embed_signup">
+            <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+              <div id="mc_embed_signup_scroll">
+                <input class="footer__email-input" style="height:50%;font-size:12px;font-family:Roboto" type="email" name="EMAIL" id="mce-EMAIL-newsletter" placeholder="Email Address" required="" aria-required="true">
+                <input class="footer__btn-submit btn-signup" style="height:50%;font-size:12px;font-family:Poppins" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-footer">
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response-newsletter" style="display:none"> The email address you provided is not valid! </div>
+                  <div class="response" id="mce-success-response-newsletter" style="display:none"> Thank you for subscribing! </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer__content d-flex row justify-content-center mt-5">
+          <div class="footer__content-address col-xs-12">
+            <address class="text-white">
+              <span>© 2019 Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</span>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.slim.min.js" integrity=""></script>
+  <script src="js/popper.min.js" integrity=""></script>
+  <script src="js/bootstrap.min.js" integrity=""></script>
+  <script>
+    function select(e) {
+      var currentTab = e.parentNode;
+      var choices = currentTab.parentNode.children;
+      for (var i = 0; i < choices.length; i++) {
+        choices[i].children[0].classList.remove("active");
+        choices[i].style.borderLeft = "2px solid #DCDCDC";
+        choices[i].style.opacity = 0.5;
+        choices[i].style.fontWeight = 500;
+      }
+      currentTab.style.borderLeft = "2px solid #2582FF";
+      currentTab.style.opacity = 1.0;
+      currentTab.style.fontWeight = "bold";
+    }
+  </script>
+  <script type="text/javascript">
+    window.onload = function() {
+      var button = document.getElementById("mc-embedded-subscribe-footer");
+      button.onclick = function(event) {
+        event.preventDefault();
+        var inputValue = document.getElementById("mce-EMAIL-newsletter").value;
+        var errElm = document.getElementById("mce-error-response-newsletter");
+        var succElm = document.getElementById("mce-success-response-newsletter");
+        if (!inputValue || inputValue.length < 0 || !inputValue.includes("@")) {
+          if (succElm) {
+            succElm.setAttribute("style", "display:none;");
+          }
+          if (errElm) {
+            errElm.setAttribute("style", "display:flex;");
+          }
+          return;
+        } else {
+          analytics.identify(inputValue, {
+            email: inputValue,
+            storj_newsletter: true
+          }, {}, function() {
+            analytics.track("storj_newsletter", {});
+            if (errElm) {
+              errElm.setAttribute("style", "display:none;");
+            }
+            if (succElm) {
+              succElm.setAttribute("style", "display:flex;");
+            }
+          });
+        }
+      };
+    };
+  </script>
+  <script type="text/javascript">
+    window.onload = function() {
+      if (document.getElementsByClassName("cta-btm-join")[0]) {
+        var buttomButton = document.getElementsByClassName("cta-btm-join")[0];
+        buttomButton.onclick = function(event) {
+          event.preventDefault();
+          if (document.getElementsByClassName("cta-btm-email") && document.getElementsByClassName("cta-btm-email")[0]) {
+            var inputValue = document.getElementsByClassName("cta-btm-email")[0].value;
+            var errElm = document.getElementById("mce-error-response-bottom");
+            if (!inputValue || inputValue.length < 0 || !inputValue.includes("@")) {
+              if (errElm) {
+                errElm.setAttribute("style", "display:flex;");
+              }
+              return;
+            } else {
+              analytics.identify(inputValue, {
+                email: inputValue
+              }, {}, function() {
+                analytics.track("developer_sign_up", {});
+                window.location = "/thank-you";
+              });
+            }
+          }
+        };
+      }
+      var newsletterButton = document.getElementById("mc-embedded-subscribe-footer");
+      newsletterButton.onclick = function(event) {
+        event.preventDefault().toLowerCase().trim();
+        var errElm = document.getElementById("mce-error-response-newsletter");
+        var succElm = document.getElementById("mce-success-response-newsletter");
+        if (!inputValue || inputValue.length < 0 || !inputValue.includes("@")) {
+          if (succElm) {
+            succElm.setAttribute("style", "display:none;");
+          }
+          if (errElm) {
+            errElm.setAttribute("style", "display:flex;");
+          }
+          return;
+        } else {
+          analytics.identify(inputValue, {
+            email: inputValue,
+            storj_newsletter: true
+          }, {}, function() {
+            analytics.track("storj_newsletter", {});
+            if (errElm) {
+              errElm.setAttribute("style", "display:none;");
+            }
+            if (succElm) {
+              succElm.setAttribute("style", "display:flex;");
+            }
+          });
+        }
+      };
+    };
+  </script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
