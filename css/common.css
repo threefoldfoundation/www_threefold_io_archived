@@ -39,7 +39,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 h6,
