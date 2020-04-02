@@ -1,0 +1,13 @@
+:2015 {
+    bind 0.0.0.0
+    gzip
+    root .
+
+    git {
+        repo https://github.com/threefoldfoundation/www_threefold.io_new
+        branch development
+        hook /webhook "zU3687$aJEb6"
+        key ~/.ssh/id_rsa
+        path .
+    }
+}
