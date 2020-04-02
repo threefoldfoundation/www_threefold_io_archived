@@ -26,6 +26,14 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.h_img {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
 
 /* 3BOT page */
 
