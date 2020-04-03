@@ -38,6 +38,9 @@ a:hover {
     align-self: flex-start;
 }
 
+.kubernetes{
+  margin-top: 9.5rem !important;
+}
 .kubernetes h3,
 .experiences h3,
 .tf-grid h3 {
@@ -49,6 +52,10 @@ a:hover {
 .tf-grid p {
     position: relative;
 }
+.tf-grid{
+  margin-top: 9.25rem !important;
+}
+
 
 .kubernetes p span,
 .experiences p span,
@@ -4073,6 +4080,13 @@ a:hover {
     .get_involved h1 {
         font-size: 6em;
     }
+
+    .kubernetes{
+      margin-top: 1.5rem !important;
+    }
+    .tf-grid{
+      margin-top: 2.25rem !important;
+    }
 }
 @media screen and (max-width:320px) {
     .ieo_page_banner.banner_ieo .desc {
@@ -4095,5 +4109,11 @@ a:hover {
         font-size: 1.1rem;
         font-weight: 300;
         line-height: 1.2rem;
+    }
+    .kubernetes{
+      margin-top: 1.5rem !important;
+    }
+    .tf-grid{
+      margin-top: 1.25rem !important;
     }
 }
