@@ -4107,6 +4107,15 @@ a:hover {
     .floated-btn{
       display: none;
     }
+    .open_ecosystem h4{
+      text-align: center !important;
+    }
+    .open_ecosystem p{
+      text-align: center !important;
+    }
+    .open_ecosystem a{
+      text-align: center !important;
+    }
 }
 @media screen and (max-width:320px) {
     .ieo_page_banner.banner_ieo .desc {
@@ -4140,5 +4149,9 @@ a:hover {
     }
     .floated-btn{
       display: none;
+    }
+    .open_ecosystem h4{
+      text-align: center !important;
+
     }
 }
