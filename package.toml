@@ -1,0 +1,5 @@
+[source]
+name = "www_threefold_me"
+description = "threefold.me website"
+threebot = "threefold"
+version = "1.0.0"
