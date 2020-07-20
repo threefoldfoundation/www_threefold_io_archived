@@ -9,7 +9,7 @@ REPOS = {
     "farmers": "https://github.com/threefoldfoundation/data_farmers/tree/master/farmers"
 }
 
-DOMAIN = "www.threefold.io"
+DOMAIN = "threefold.io"
 
 
 class Package(j.baseclasses.threebot_package):
