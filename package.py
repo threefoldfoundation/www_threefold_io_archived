@@ -2,19 +2,19 @@ import gevent
 from Jumpscale import j
 
 
-THREEFOLD_ME = "https://github.com/threefoldfoundation/www_tffoundation"
+THREEFOLD_IO = "https://github.com/threefoldfoundation/www_tfgrid"
 REPOS = {
     "team": "https://github.com/threefoldfoundation/data_team/tree/master/team",
     "community": "https://github.com/threefoldfoundation/data_partners/tree/master/partners",
     "farmers": "https://github.com/threefoldfoundation/data_farmers/tree/master/farmers"
 }
 
-DOMAIN = "www.threefold.me"
+DOMAIN = "www.threefold.io"
 
 
 class Package(j.baseclasses.threebot_package):
     def _init(self, **kwargs):
-        self.branch = kwargs["package"].branch or "master"
+        self.branch = kwargs["package"].branch or "development"
 
         self.auto_update_greetlet = None
         # disable auto updates in production
@@ -22,8 +22,8 @@ class Package(j.baseclasses.threebot_package):
 
     def clone_repos(self, pull=False):
         # clone website
-        self._log_debug("Pulling threefold.me...")
-        yield j.clients.git.getContentPathFromURLorPath(THREEFOLD_ME, branch=self.branch, pull=pull)
+        self._log_debug("Pulling threefold.io...")
+        yield j.clients.git.getContentPathFromURLorPath(THREEFOLD_IO, branch=self.branch, pull=pull)
 
         # all the rest is from master
         for name, url in REPOS.items():
@@ -58,7 +58,7 @@ class Package(j.baseclasses.threebot_package):
             website.ssl = port == 443
             locations = website.locations.get(f"threefold_me_locations_{port}")
 
-            include_location = locations.get_location_custom(f"threefold_me_include_{port}")
+            include_location = locations.get_location_custom(f"threefold_io_include_{port}")
             # default website locations include wiki and other related locations
             # so include them
             # also, add rewrite, as a default static location is created for html directory
