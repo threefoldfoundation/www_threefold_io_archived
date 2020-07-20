@@ -52,11 +52,11 @@ class Package(j.baseclasses.threebot_package):
         _, team_path, community_path, farmers_path = self.clone_repos()
 
         for port in (80, 443):
-            website = server.websites.get(f"threefold_me_{port}")
+            website = server.websites.get(f"threefold_io_{port}")
             website.domain = DOMAIN
             website.port = port
             website.ssl = port == 443
-            locations = website.locations.get(f"threefold_me_locations_{port}")
+            locations = website.locations.get(f"threefold_io_locations_{port}")
 
             include_location = locations.get_location_custom(f"threefold_io_include_{port}")
             # default website locations include wiki and other related locations
