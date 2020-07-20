@@ -1,5 +1,5 @@
-# www_threefold.io_new
-In this repo we will put the code for the new ThreeFold Network website.
+# www_threefold.io_tfgrid
+In this repo we will put the code for the new ThreeFold technology website. It is not a representation of ThreeFold Tech. To make that crystal clear, we are using the project title www_threefold.io_tfgrid
 
 You can see development updates at
 https://www2.threefold.io/
