@@ -9,12 +9,12 @@ REPOS = {
     "farmers": "https://github.com/threefoldfoundation/data_farmers/tree/master/farmers"
 }
 
-DOMAIN = "www2.threefold.io"
+DOMAIN = "threefold.io"
 
 
 class Package(j.baseclasses.threebot_package):
     def _init(self, **kwargs):
-        self.branch = kwargs["package"].branch or "development"
+        self.branch = kwargs["package"].branch or "master"
 
         self.auto_update_greetlet = None
         # disable auto updates in production
@@ -22,7 +22,7 @@ class Package(j.baseclasses.threebot_package):
 
     def clone_repos(self, pull=False):
         # clone website
-        self._log_debug("Pulling www2.threefold.io...")
+        self._log_debug("Pulling www.threefold.io...")
         yield j.clients.git.getContentPathFromURLorPath(THREEFOLD_IO, branch=self.branch, pull=pull)
 
         # all the rest is from master
@@ -52,13 +52,13 @@ class Package(j.baseclasses.threebot_package):
         _, team_path, community_path, farmers_path = self.clone_repos()
 
         for port in (80, 443):
-            website = server.websites.get(f"www2_threefold_io_{port}")
+            website = server.websites.get(f"www_threefold_io_{port}")
             website.domain = DOMAIN
             website.port = port
             website.ssl = port == 443
-            locations = website.locations.get(f"www2_threefold_io_locations_{port}")
+            locations = website.locations.get(f"www_threefold_io_locations_{port}")
 
-            include_location = locations.get_location_custom(f"www2_threefold_io_include_{port}")
+            include_location = locations.get_location_custom(f"www_threefold_io_include_{port}")
             # default website locations include wiki and other related locations
             # so include them
             # also, add rewrite, as a default static location is created for html directory
