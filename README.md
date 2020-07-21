@@ -18,7 +18,7 @@ We use a svelte app in some pages, and is served directly under `/public`.
 - `git clone https://github.com/threefoldfoundation/data_partners`
 - `git clone https://github.com/threefoldfoundation/data_team`
 - `cd www_threefold.io_new && git clone https://github.com/threefoldtech/jumpscaleX_weblibs`
-- `npm install`
+- `cd html && npm install`
 
 ### Running
 
@@ -32,6 +32,7 @@ We use a svelte app in some pages, and is served directly under `/public`.
 Before deploying to production, the latest bundle need to be built, so make sure you push the latest build when modify svelte app.
 
 ```
+cd html
 npm install
 npm run build
 ```
@@ -41,16 +42,11 @@ npm run build
 
 ### Jumpscale instructions
 
-#### Installing server and node dependecies
+You need to start 3bot:
 
-```
-kosmos 'j.builders.apps.threebot.install()'
-```
+`kosmos -p "j.servers.threebot.start()"`
 
-#### Running the packag:
 
-This will start threebot server, and also a worker to auto-pull related repositories in case it's not a production build (master branch).
-
-`kosmos -p 'j.threebot.package.threefold_io.start(branch="development", ssl=True)'`
+Then you need to register this package, for more on how to load/register a package, see [threebot documentation](https://github.com/threefoldtech/jumpscaleX_threebot/blob/development/docs/packages.md#registering-package).
 
 **No need to do any npm related commands, as the output of the build is already tracked in `/public` directory**

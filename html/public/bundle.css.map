@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\Partner.svelte",
+    "..\\Farmer.svelte",
+    "..\\Stars.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  export let partner = {};\r\n  import Stars from \"./Stars.svelte\";\r\n</script>\r\n\r\n<style>\r\n  .card {\r\n    background-color: transparent;\r\n    border: 1px solid rgba(0, 0, 0, 0);\r\n    margin-bottom: 20px;\r\n    min-height: 360.69px;\r\n  }\r\n  .card-body {\r\n    padding: 20px;\r\n    max-width: 100%;\r\n    margin: auto;\r\n  }\r\n\r\n  .card-body p {\r\n    overflow: hidden;\r\n    display: -webkit-box;\r\n    -webkit-line-clamp: 3;\r\n    -webkit-box-orient: vertical;\r\n  }\r\n\r\n  .img-thumbnail {\r\n    padding: 1.5rem;\r\n    border: none;\r\n  }\r\n</style>\r\n\r\n<div class=\"col-sm-4\">\r\n  <div class=\"card\">\r\n    <img\r\n      src=\"/partners_data/{partner.logo}\"\r\n      class=\"img-thumbnail card-img-top\"\r\n      alt={partner.name} />\r\n    <div class=\"card-body\">\r\n\r\n      <p class=\"card-text text-left\">{partner.description}</p>\r\n      <a href={partner.url} target=\"_blank\" class=\"btn btn-secondary\">\r\n        Learn more\r\n      </a>\r\n    </div>\r\n  </div>\r\n</div>\r\n",
+    "<script>\r\n  export let farmer = {};\r\n</script>\r\n\r\n<style>\r\n  .image {\r\n    min-height: 140px;\r\n    vertical-align: middle;\r\n    text-align: left;\r\n  }\r\n  p {\r\n    min-height: 199px;\r\n  }\r\n</style>\r\n\r\n<div class=\"col-sm-4 item my-5\">\r\n  <div class=\"image\">\r\n    <img\r\n      class=\"img-fluid\"\r\n      src=\"/farmers_data/{farmer.logo}\"\r\n      alt={farmer.name} />\r\n  </div>\r\n  <div class=\"desc mt-2\">\r\n    <p class=\"fs-15 lh-1-2 text-secondary text-left my-5\">\r\n      {farmer.description}\r\n    </p>\r\n    <p class=\"fs-15 lh-1-2 text-secondary text-left my-5\">\r\n      {farmer.contact}\r\n    </p>\r\n    <a\r\n      href={farmer.url}\r\n      class=\"button btn btn-secondary text-white fw-4 px-3\"\r\n      target=\"_blank\">\r\n      {farmer.name}\r\n    </a>\r\n  </div>\r\n</div>",
+    "<script>\r\n  import Star from \"./Star.svelte\";\r\n  export let count = 5;\r\n\r\n  $: starsArr = new Array(count);\r\n</script>\r\n\r\n<style>\r\n  .stars {\r\n    text-align: left;\r\n  }\r\n</style>\r\n\r\n{#if count > 0}\r\n  <div class=\"stars\">\r\n    {#each starsArr as item}\r\n      <Star />\r\n    {/each}\r\n  </div>\r\n{/if}\r\n"
+  ],
+  "names": [],
+  "mappings": "AAME,KAAK,4BAAC,CAAC,AACL,gBAAgB,CAAE,WAAW,CAC7B,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAClC,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,QAAQ,AACtB,CAAC,AACD,UAAU,4BAAC,CAAC,AACV,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,AACd,CAAC,AAED,wBAAU,CAAC,CAAC,cAAC,CAAC,AACZ,QAAQ,CAAE,MAAM,CAChB,OAAO,CAAE,WAAW,CACpB,kBAAkB,CAAE,CAAC,CACrB,kBAAkB,CAAE,QAAQ,AAC9B,CAAC,AAED,cAAc,4BAAC,CAAC,AACd,OAAO,CAAE,MAAM,CACf,MAAM,CAAE,IAAI,AACd,CAAC;ACvBD,MAAM,cAAC,CAAC,AACN,UAAU,CAAE,KAAK,CACjB,cAAc,CAAE,MAAM,CACtB,UAAU,CAAE,IAAI,AAClB,CAAC,AACD,CAAC,cAAC,CAAC,AACD,UAAU,CAAE,KAAK,AACnB,CAAC;ACJD,MAAM,cAAC,CAAC,AACN,UAAU,CAAE,IAAI,AAClB,CAAC"
+}
