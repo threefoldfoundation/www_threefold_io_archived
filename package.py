@@ -9,7 +9,7 @@ REPOS = {
     "farmers": "https://github.com/threefoldfoundation/data_farmers/tree/master/farmers"
 }
 
-DOMAIN = "threefold.io"
+DOMAIN = "www2.threefold.io"
 
 
 class Package(j.baseclasses.threebot_package):
@@ -22,7 +22,7 @@ class Package(j.baseclasses.threebot_package):
 
     def clone_repos(self, pull=False):
         # clone website
-        self._log_debug("Pulling threefold.io...")
+        self._log_debug("Pulling www2.threefold.io...")
         yield j.clients.git.getContentPathFromURLorPath(THREEFOLD_IO, branch=self.branch, pull=pull)
 
         # all the rest is from master
@@ -52,13 +52,13 @@ class Package(j.baseclasses.threebot_package):
         _, team_path, community_path, farmers_path = self.clone_repos()
 
         for port in (80, 443):
-            website = server.websites.get(f"threefold_io_{port}")
+            website = server.websites.get(f"www2_threefold_io_{port}")
             website.domain = DOMAIN
             website.port = port
             website.ssl = port == 443
-            locations = website.locations.get(f"threefold_io_locations_{port}")
+            locations = website.locations.get(f"www2_threefold_io_locations_{port}")
 
-            include_location = locations.get_location_custom(f"threefold_io_include_{port}")
+            include_location = locations.get_location_custom(f"www2_threefold_io_include_{port}")
             # default website locations include wiki and other related locations
             # so include them
             # also, add rewrite, as a default static location is created for html directory
@@ -88,7 +88,7 @@ class Package(j.baseclasses.threebot_package):
             stellar_location.config = """
                 location /.well-known/stellar.toml {
                 add_header 'Access-Control-Allow-Origin' '*';
-                alias /sandbox/code/github/threefoldfoundation/www_tffoundation/html/.well-known/stellar.toml;
+                alias /sandbox/code/github/threefoldfoundation/www_tfgrid/html/.well-known/stellar.toml;
                 }
             """            
             
