@@ -1590,8 +1590,16 @@ a:hover {
     width: 100%;
     float: left;
     position: absolute;
+    top: 15%;
+}
+
+.deploy_header {
+    width: 100%;
+    float: left;
+    position: absolute;
     top: 65%;
 }
+
 .home_page_banner.banner_home .desc p {
     color: #333;
     line-height: 1.2;
