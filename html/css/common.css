@@ -48,8 +48,12 @@ h6,
   font-weight: 500
 }
 
-.btn-secondary {
-  border-radius: 15px;
+.btn-secondary   {
+  border-radius: 5px;
+}
+
+.btn-success{
+  border-radius: 5px;
 }
 
 .btn-secondary {
