@@ -2333,6 +2333,14 @@ a:hover {
 /* deploy page  */
 .experiences p span,
 .kubernetes p span,
+.tf-grid p span .deploy_border {
+    border: 7px solid #fff !important;
+}
+.deploy_button {
+    padding: 0px 48px;
+}
+.experiences p span,
+.kubernetes p span,
 .tf-grid p span {
     width: 140px;
     height: 2px;
