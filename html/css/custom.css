@@ -2206,16 +2206,16 @@ a:hover {
     height: 100px;
     background: #ffffff;
     /* For WebKit (Safari, Google Chrome etc) */
-    
+
     background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#fff));
     /* For Mozilla/Gecko (Firefox etc) */
-    
+
     background: -moz-linear-gradient(top, #f1f1f1, #fff);
     /* For Internet Explorer 5.5 - 7 */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#f1f1f1);
     /* For Internet Explorer 8 */
-    
+
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#f1f1f1)";
 }
 .emptyDiv img {
@@ -2235,6 +2235,13 @@ a:hover {
 
 /* deploy page  */
 
+.deploy_border{
+  border: 7px solid #fff !important;
+}
+
+.deploy_button{
+  padding: 0px 48px;
+}
 .experiences p span,.kubernetes p span,.tf-grid p span {
     width: 140px;
     height: 2px;
