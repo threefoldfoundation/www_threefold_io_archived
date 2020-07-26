@@ -92,7 +92,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- NavBar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand " href="/ ">
             <img id="logo" src="assets/TFN_white.svg" height="22" alt="Threefold logo " />
         </a>
@@ -1434,11 +1434,8 @@
 
             function myFunction() {
                 let logo = document.getElementById('logo')
-                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                    logo.src = 'assets/TFN-black.svg'
-                } else {
-                    logo.src = "assets/TFN_white.svg"
-                }
+
+                return (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? logo.src = 'assets/TFN-black.svg' : logo.src = "assets/TFN_white.svg")
             }
 
         });
