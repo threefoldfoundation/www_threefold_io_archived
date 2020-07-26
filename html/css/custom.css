@@ -2164,13 +2164,16 @@ a:hover {
 .navbar-brand img {
     margin-left: 3rem;
 }
+.token-btn {
+    position: relative;
+}
 .token-btn:after {
     content: "";
     width: 35px;
     height: 34px;
     background: url('../img/logo_button.svg') no-repeat;
-    top: 20px;
-    right: 14px;
+    top: 7px;
+    right: -10px;
     position: absolute;
     display: inline-block;
 }
@@ -2340,6 +2343,13 @@ a:hover {
 .deploy_button {
     padding: 0px 48px;
 }
+.deploy p,
+.deploy button {
+    font-size: 1.5em;
+}
+.deploy h3 {
+    line-height: .9;
+}
 .experiences p span,
 .kubernetes p span,
 .tf-grid p span {
@@ -2389,6 +2399,14 @@ a:hover {
 .experiences p span:before,
 .tf-grid p span:before {
     margin-left: -13px
+}
+.navbar .navbar-toggler {
+    font-size: x-large;
+    border: none;
+}
+.nav-item {
+    font-size: 0.85rem;
+    font-weight: 700;
 }
 @media screen and (max-width:1300px) {
     .experiences p span,
@@ -2659,8 +2677,30 @@ a:hover {
     .small-header {
         font-size: 15px !important;
     }
+    
+    .navbar {
+        background-color: #fff;
+    }
 }
 @media screen and (max-width:767px) {
+    .token-btn:after {
+        display: none;
+    }
+    
+    .deploy {
+        background-position: top !important;
+        background-size: contain !important;
+    }
+    
+    .deploy .row {
+        justify-content: center !important;
+        margin-top: 100px;
+    }
+    
+    .blue {
+        display: none;
+    }
+    
     .bot_ps-timeline-sec .container ol:before {
         background: #348e80;
         content: "";
