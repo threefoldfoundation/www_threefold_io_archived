@@ -2164,13 +2164,16 @@ a:hover {
 .navbar-brand img {
     margin-left: 3rem;
 }
+.token-btn {
+    position: relative;
+}
 .token-btn:after {
     content: "";
     width: 35px;
     height: 34px;
     background: url('../img/logo_button.svg') no-repeat;
-    top: 20px;
-    right: 14px;
+    top: 7px;
+    right: -10px;
     position: absolute;
     display: inline-block;
 }
@@ -2659,8 +2662,20 @@ a:hover {
     .small-header {
         font-size: 15px !important;
     }
+    
+    .navbar {
+        background-color: #fff;
+    }
 }
 @media screen and (max-width:767px) {
+    .token-btn:after {
+        display: none;
+    }
+    
+    .blue {
+        display: none;
+    }
+    
     .bot_ps-timeline-sec .container ol:before {
         background: #348e80;
         content: "";
