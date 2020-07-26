@@ -2166,7 +2166,7 @@ a:hover {
     width: 35px;
     height: 34px;
     background: url('../img/logo_button.svg') no-repeat;
-    top: 38px;
+    top: 20px;
     right: 14px;
     position: absolute;
     display: inline-block;
@@ -2315,8 +2315,8 @@ a:hover {
     position: absolute;
     top: 0;
     left: 50px;
-    height: 80%;
-    width: 20%;
+    height: 70%;
+    width: 15%;
     text-align: center;
     background-color: #0071bc;
     border-radius: 0px 0px 200px 200px;
@@ -2325,7 +2325,7 @@ a:hover {
     position: absolute;
     left: 50px;
     bottom: 50px;
-    width: 75% !important;
+    width: 65% !important;
 }
 
 /* end Home page */

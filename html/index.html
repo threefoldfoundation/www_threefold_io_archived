@@ -94,8 +94,9 @@
     <!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand " href="/ ">
-            <img class="ml-5" id="logo" src="img/TFN_white.svg " width="250 " alt="Threefold logo " />
+            <img class="ml-4" id="logo" src="assets/TFN_white.svg" height="22" alt="Threefold logo " />
         </a>
+
         <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
         <span class="navbar-toggler-icon "></span>
       </button>
@@ -1434,10 +1435,10 @@
             function myFunction() {
                 let logo = document.getElementById('logo')
                 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                    logo.src = 'img/TFN-black.svg'
+                    logo.src = 'assets/TFN-black.svg'
                 } else {
-                    logo.src = "img/TFN_white.svg"
-                    logo.classList.add = 'ml-5'
+                    logo.src = "assets/TFN_white.svg"
+                    logo.classList.add = 'ml-4'
                 }
             }
 
