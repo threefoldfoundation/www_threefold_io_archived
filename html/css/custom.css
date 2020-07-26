@@ -2326,7 +2326,17 @@ a:hover {
     border-bottom: 7px solid #3c3c3b;
     vertical-align: top;
 }
-.home_page_banner .blue {
+.about-us {
+    position: relative;
+}
+.about-us p,
+.stand-for p,
+.experience-count p {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+.home_page_banner .blue,
+.about-us .green {
     position: absolute;
     top: 0;
     left: 50px;
@@ -2336,7 +2346,11 @@ a:hover {
     background-color: #0071bc;
     border-radius: 0px 0px 200px 200px;
 }
-.home_page_banner .blue a {
+.about-us .green {
+    background-color: #4ec48f;
+}
+.home_page_banner .blue a,
+.about-us .green a {
     position: absolute;
     left: 50px;
     bottom: 50px;
@@ -2724,7 +2738,8 @@ a:hover {
         margin-top: 100px;
     }
     
-    .blue {
+    .blue,
+    .green {
         display: none;
     }
     
@@ -4007,7 +4022,8 @@ a:hover {
         margin-top: 20px;
     }
     
-    .home_page_banner .blue a {
+    .home_page_banner .blue a,
+    .about-us .green {
         left: 10px;
     }
     
