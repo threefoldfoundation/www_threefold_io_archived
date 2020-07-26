@@ -54,6 +54,12 @@ h6,
 
 .btn-success{
   border-radius: 5px;
+  color: #ffffff;
+  background-color: #4EC48F;
+  border-color: #4EC48F;
+  padding: 2px 30px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
 }
 
 .btn-secondary {
@@ -62,6 +68,7 @@ h6,
   border-color: #006cbb;
   font-weight: 700 !important;
   letter-spacing: 0.6px;
+  padding: 2px 30px;
 }
 
 .lead {
