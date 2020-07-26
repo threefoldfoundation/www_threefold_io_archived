@@ -2343,6 +2343,13 @@ a:hover {
 .deploy_button {
     padding: 0px 48px;
 }
+.deploy p,
+.deploy button {
+    font-size: 1.5em;
+}
+.deploy h3 {
+    line-height: .9;
+}
 .experiences p span,
 .kubernetes p span,
 .tf-grid p span {
@@ -2392,6 +2399,14 @@ a:hover {
 .experiences p span:before,
 .tf-grid p span:before {
     margin-left: -13px
+}
+.navbar .navbar-toggler {
+    font-size: x-large;
+    border: none;
+}
+.nav-item {
+    font-size: 0.85rem;
+    font-weight: 700;
 }
 @media screen and (max-width:1300px) {
     .experiences p span,
@@ -2670,6 +2685,16 @@ a:hover {
 @media screen and (max-width:767px) {
     .token-btn:after {
         display: none;
+    }
+    
+    .deploy {
+        background-position: top !important;
+        background-size: contain !important;
+    }
+    
+    .deploy .row {
+        justify-content: center !important;
+        margin-top: 100px;
     }
     
     .blue {
