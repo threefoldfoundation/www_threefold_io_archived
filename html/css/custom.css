@@ -1656,16 +1656,20 @@ a:hover {
     background: none !important;
     width: 90%;
 }
+
+
+
 .table>tbody>tr>td,
 .table>tbody>tr>th,
 .table>tfoot>tr>td,
 .table>tfoot>tr>th,
 .table>thead>tr>td,
 .table>thead>tr>th {
-    border: 15px solid #333333;
-    width: 200px;
+    /* border: 15px solid #333333; */
+    border: 0px solid #ffffff;
+    /* width: 200px; */
     height: 56px;
-    padding: 0;
+    padding: 10px;
 }
 .home_autonomus .table_div .table th.row1 {
     vertical-align: middle;
@@ -2367,6 +2371,11 @@ a:hover {
 .deploy_border {
     border: 7px solid #fff !important;
 }
+
+.price_border{
+  border-bottom: 2px solid #fff !important;
+}
+
 .deploy_button {
     padding: 0px 48px;
 }
@@ -4223,7 +4232,7 @@ a:hover {
     .table>tfoot>tr>th,
     .table>thead>tr>td,
     .table>thead>tr>th {
-        border-width: 8px;
+        border-width: 1px;
     }
 
     .home_autonomus .table_div .table th.row1 {
@@ -4300,8 +4309,22 @@ a:hover {
     .three_pillars .th-dot .child {
         margin: 8px -8px;
     }
+
+
+    .table{
+       display: block !important;
+       overflow-x: auto !important;
+       width: 100% !important;
+     }
+
 }
 @media screen and (max-width:375px) {
+  .table{
+     display: block !important;
+     overflow-x: auto !important;
+     width: 100% !important;
+   }
+
     .ieo_page_banner.banner_ieo .desc {
         bottom: -40%;
     }
