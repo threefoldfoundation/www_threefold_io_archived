@@ -2896,6 +2896,45 @@ background-repeat: no-repeat;
     left: 86%;
 }
 
+@media screen and (max-width:1920px) {
+    .liqued {
+        display: none;
+    }
+    .aboutus-roadmap .step-1 {
+        margin-top: -220px;
+    }
+    .aboutus-roadmap .step-2 {
+        margin-top: -110px;
+    }
+    .aboutus-roadmap .step-3 {
+        margin-top: -180px;
+    }
+    .aboutus-roadmap .step-4 {
+        margin-top: -80px;
+    }
+    .aboutus-roadmap .step-5 {
+        margin-top: -45px;
+    }
+}
+
+@media screen and (min-width: 1824px) {
+    .aboutus-roadmap .step-1 {
+        margin-top: -190px;
+    }
+    .aboutus-roadmap .step-2 {
+        margin-top: -80px;
+    }
+    .aboutus-roadmap .step-3 {
+        margin-top: -145px;
+    }
+    .aboutus-roadmap .step-4 {
+        margin-top: -80px;
+    }
+    .aboutus-roadmap .step-5 {
+        margin-top: -10px;
+    }
+}
+
 @media screen and (max-width:1300px) {
     .experiences p span,
     .experiences p span:before,
@@ -3006,27 +3045,6 @@ background-repeat: no-repeat;
     }
     .aboutus-roadmap .step-5 {
         margin-top: -20px;
-    }
-}
-
-@media screen and (max-width:1920px) {
-    .liqued {
-        display: none;
-    }
-    .aboutus-roadmap .step-1 {
-        margin-top: -220px;
-    }
-    .aboutus-roadmap .step-2 {
-        margin-top: -110px;
-    }
-    .aboutus-roadmap .step-3 {
-        margin-top: -180px;
-    }
-    .aboutus-roadmap .step-4 {
-        margin-top: -80px;
-    }
-    .aboutus-roadmap .step-5 {
-        margin-top: -45px;
     }
 }
 
