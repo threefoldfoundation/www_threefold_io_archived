@@ -46,7 +46,7 @@
     </script>
     <style>
         /* Intro */
-
+        
         h3,
         h1,
         h2,
@@ -351,33 +351,16 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
     <script src="js/common.js "></script>
-    <script async=" " defer=" " src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfYLJW6FPTxcpRJiUz2mIPVcKzo4PzNb4&amp;callback=initMap "></script>
+    <script src="js/services.js "></script>
     <script src="js/map_nodes.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " crossorigin="anonymous " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
     <script src="js/smooth-scroll.js "></script>
-    <script src="js/slick.min.js "></script>
     <script>
         $(function() {
             var winH = $(window).innerHeight();
             var navH = $(".navbar ").innerHeight();
             $(".home_page_banner ").height(winH + navH);
-            $(".regular ").slick({
-                arrows: true,
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true,
-                        arrows: false
-                    }
-                }]
-            });
             window.onscroll = function(e) {
                 myFunction()
             };
