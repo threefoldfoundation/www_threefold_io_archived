@@ -2326,14 +2326,38 @@ a:hover {
     border-bottom: 7px solid #3c3c3b;
     vertical-align: top;
 }
-.about-us {
-    position: relative;
-}
 .about-us p,
 .stand-for p,
 .experience-count p {
     font-size: 1.5em;
     line-height: 1.2;
+}
+.aboutus-roadmap {
+    background-image: url(../assets/Farming_page/roadmap-platform.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.aboutus-roadmap .green-road {
+    color: #4ec48f;
+}
+.aboutus-roadmap .blue-road {
+    color: #006cbb;
+}
+.aboutus-roadmap .step-1 {
+    margin-top: -190px;
+}
+.aboutus-roadmap .step-2 {
+    margin-top: -85px;
+}
+.aboutus-roadmap .step-3 {
+    margin-top: -145px;
+}
+.aboutus-roadmap .step-4 {
+    margin-top: -70px;
+}
+.aboutus-roadmap .step-5 {
+    margin-top: -10px;
 }
 .home_page_banner .blue,
 .about-us .green {
@@ -2449,49 +2473,6 @@ a:hover {
     font-size: 1.3em;
     line-height: 1.2;
 }
-@media screen and (max-width:1300px) {
-    .experiences p span,
-    .experiences p span:before,
-    .kubernetes p span,
-    .kubernetes p span::after,
-    .tf-grid p span,
-    .tf-grid p span:before {
-        display: none
-    }
-    
-    .bot_fpp_3dot .content_div {
-        min-width: 400px;
-    }
-    
-    .banner_tech .banner-content-right {
-        width: 45%;
-        height: auto;
-        max-width: 800px;
-        margin: 0 auto;
-        position: absolute;
-        top: 10vh;
-        left: 55%;
-        padding-right: 5%;
-    }
-    
-    .bot_fpp_3dot .content_div .content .left {
-        width: 30%;
-        float: left;
-    }
-    
-    .bot_fpp_3dot .content_div .content .left img {
-        width: 100%;
-    }
-    
-    .bot_fpp_3dot .content_div .content .right {
-        width: calc(70% - 10px);
-        float: left;
-    }
-    
-    .three_pillars .triangle {
-        left: -81%;
-    }
-}
 .tech_fpp .content_div {
     min-width: 400px;
 }
@@ -2585,6 +2566,69 @@ a:hover {
 .grid_ps-timeline-sec .container ol.ps-timeline li.third span.ps-sp-bot:after {
     left: 86%;
 }
+@media screen and (max-width:1300px) {
+    .experiences p span,
+    .experiences p span:before,
+    .kubernetes p span,
+    .kubernetes p span::after,
+    .tf-grid p span,
+    .tf-grid p span:before {
+        display: none
+    }
+    
+    .bot_fpp_3dot .content_div {
+        min-width: 400px;
+    }
+    
+    .banner_tech .banner-content-right {
+        width: 45%;
+        height: auto;
+        max-width: 800px;
+        margin: 0 auto;
+        position: absolute;
+        top: 10vh;
+        left: 55%;
+        padding-right: 5%;
+    }
+    
+    .bot_fpp_3dot .content_div .content .left {
+        width: 30%;
+        float: left;
+    }
+    
+    .bot_fpp_3dot .content_div .content .left img {
+        width: 100%;
+    }
+    
+    .bot_fpp_3dot .content_div .content .right {
+        width: calc(70% - 10px);
+        float: left;
+    }
+    
+    .three_pillars .triangle {
+        left: -81%;
+    }
+    
+    .aboutus-roadmap .step-1 {
+        margin-top: -155px;
+    }
+    
+    .aboutus-roadmap .step-2 {
+        margin-top: -60px;
+    }
+    
+    .aboutus-roadmap .step-3 {
+        margin-top: -130px;
+    }
+    
+    .aboutus-roadmap .step-4 {
+        margin-top: -70px;
+    }
+    
+    .aboutus-roadmap .step-5 {
+        margin-top: -10px;
+    }
+}
 @media screen and (max-width:1200px) {
     .banner_tech .list ul li h1 {
         font-size: 30px;
@@ -2605,6 +2649,26 @@ a:hover {
     .tokenbanner_img {
         display: none;
     }
+    
+    .aboutus-roadmap .step-1 {
+        margin-top: -145px;
+    }
+    
+    .aboutus-roadmap .step-2 {
+        margin-top: -75px;
+    }
+    
+    .aboutus-roadmap .step-3 {
+        margin-top: -145px;
+    }
+    
+    .aboutus-roadmap .step-4 {
+        margin-top: -70px;
+    }
+    
+    .aboutus-roadmap .step-5 {
+        margin-top: -10px;
+    }
 }
 @media screen and (max-width:1100px) {
     .why_page_banner.banner_grid .desc {
@@ -2617,6 +2681,26 @@ a:hover {
     
     .tokenbanner_img {
         display: none;
+    }
+    
+    .aboutus-roadmap .step-1 {
+        margin-top: -145px;
+    }
+    
+    .aboutus-roadmap .step-2 {
+        margin-top: -110px;
+    }
+    
+    .aboutus-roadmap .step-3 {
+        margin-top: -125px;
+    }
+    
+    .aboutus-roadmap .step-4 {
+        margin-top: -70px;
+    }
+    
+    .aboutus-roadmap .step-5 {
+        margin-top: -20px;
     }
 }
 @media screen and (max-width:1920px) {
@@ -2663,6 +2747,26 @@ a:hover {
     
     .tokenbanner_img {
         display: none;
+    }
+    
+    .aboutus-roadmap .step-1 {
+        margin-top: -145px;
+    }
+    
+    .aboutus-roadmap .step-2 {
+        margin-top: -95px;
+    }
+    
+    .aboutus-roadmap .step-3 {
+        margin-top: -105px;
+    }
+    
+    .aboutus-roadmap .step-4 {
+        margin-top: -70px;
+    }
+    
+    .aboutus-roadmap .step-5 {
+        margin-top: -35px;
     }
 }
 @media screen and (max-width:991px) {
@@ -2721,6 +2825,26 @@ a:hover {
     
     .navbar {
         background-color: #fff;
+    }
+    
+    .aboutus-roadmap .step-1 {
+        margin-top: -130px;
+    }
+    
+    .aboutus-roadmap .step-2 {
+        margin-top: -85px;
+    }
+    
+    .aboutus-roadmap .step-3 {
+        margin-top: -95px;
+    }
+    
+    .aboutus-roadmap .step-4 {
+        margin-top: -70px;
+    }
+    
+    .aboutus-roadmap .step-5 {
+        margin-top: -25px;
     }
 }
 @media screen and (max-width:767px) {
@@ -4030,6 +4154,31 @@ a:hover {
     .navbar-brand img {
         margin-left: 0 !important;
     }
+    
+    .aboutus-roadmap {
+        background-image: none;
+    }
+    
+    .aboutus-roadmap .step-1,
+    .aboutus-roadmap .step-2,
+    .aboutus-roadmap .step-3,
+    .aboutus-roadmap .step-4,
+    .aboutus-roadmap .step-5 {
+        margin-top: 20px;
+    }
+    
+    .aboutus-roadmap .step-1 img,
+    .aboutus-roadmap .step-2 img,
+    .aboutus-roadmap .step-3 img,
+    .aboutus-roadmap .step-4 img,
+    .aboutus-roadmap .step-5 img {
+        width: auto !important;
+    }
+    
+    .aboutus-roadmap {
+        height: auto !important;
+        padding-top: 0 !important;
+    }
 }
 @media screen and (max-width:480px) {
     .navbar-nav .dropdown-menu {
@@ -4064,12 +4213,6 @@ a:hover {
         font-size: 1.1rem;
         font-weight: 300;
         line-height: 1.2rem;
-    }
-    
-    .pb-5,
-    .py-5 {
-        /* padding-bottom: 1.5rem !important; */
-        /* padding-top: 1.5rem !important; */
     }
     
     .token_page_banner {
