@@ -994,7 +994,7 @@ left: 0;
 
 
 /* .hover12 a {
-background: #1abc9c; 
+background: #1abc9c;
 
 
 }*/
@@ -2426,11 +2426,14 @@ background-repeat: no-repeat;
 }
 
 .map .image h1 {
-    font-size: 8em;
+    font-size: 7em;
 }
 
+.map_title{
+  text-align: center;
+}
 .map .image .live {
-    font-size: 14em;
+    font-size: 12em;
 }
 
 .home_map_sec p {
