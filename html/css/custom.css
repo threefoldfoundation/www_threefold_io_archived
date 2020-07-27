@@ -4045,6 +4045,12 @@ a:hover {
     }
 }
 @media screen and (max-width:480px) {
+
+.deploy {
+
+  top:-21px !important;
+}
+
     .navbar-nav .dropdown-menu {
         text-align: center;
     }
