@@ -2715,7 +2715,11 @@ background-repeat: no-repeat;
 }
 
 .farming h2,
-.farming p {
+.farming p,
+.become_farmer h2,
+.become_farmer p,
+.become_farmer h3,
+.become_farmer p {
     color: #000 !important
 }
 
@@ -2729,7 +2733,7 @@ background-repeat: no-repeat;
 }
 
 .become_farmer button {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .characteristics p {
