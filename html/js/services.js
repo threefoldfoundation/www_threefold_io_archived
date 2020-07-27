@@ -66,34 +66,41 @@ setTotalSpecs = (value) => {
         return node.location.country.length
     })
 
-    let con = value.map(node => {
-        return node.location
-    })
+    if (countries !== null) {
+        let con = value.map(node => {
+            return node.location
+        })
+        nodeSpecs.countries = a.length;
+        countries.innerHTML = nodeSpecs.countries;
+    }
 
-    nodeSpecs.countries = a.length;
-    countries.innerHTML = `Active nodes in ${nodeSpecs.countries} countries`;
+    if (cru !== null) {
+        let core = value.map(node => {
+            nodeSpecs.cru += node.total_resources.cru
+            return nodeSpecs.cru
+        })
 
-    let core = value.map(node => {
-        nodeSpecs.cru += node.total_resources.cru
-        return nodeSpecs.cru
-    })
-
-    cru.innerHTML = nodeSpecs.cru.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
-    let sru = value.map(node => {
-        nodeSpecs.sru += node.total_resources.sru
-        return nodeSpecs.sru
-    })
+        cru.innerHTML = nodeSpecs.cru.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
 
 
-    let hru = value.map(node => {
-        nodeSpecs.hru += node.total_resources.hru
-        return nodeSpecs.hru
-    })
+    if (capacity !== null) {
+        let sru = value.map(node => {
+            nodeSpecs.sru += node.total_resources.sru
+            return nodeSpecs.sru
+        })
 
-    storage = nodeSpecs.sru + nodeSpecs.hru;
 
-    capacity.innerHTML = storage.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        let hru = value.map(node => {
+            nodeSpecs.hru += node.total_resources.hru
+            return nodeSpecs.hru
+        })
+
+        storage = nodeSpecs.sru + nodeSpecs.hru;
+
+        capacity.innerHTML = storage.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
 }
 
 
