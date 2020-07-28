@@ -1672,6 +1672,9 @@ background: #1abc9c;
     top: 65%;
 }
 
+.benefits h5 {
+  font-size: 30px;
+}
 .home_page_banner.banner_home .desc p {
     color: #333;
     line-height: 1.2;
@@ -3112,7 +3115,7 @@ background-repeat: no-repeat;
         width: 100%;
     }
     .offer_div .offers .top .left h5 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .offer_div .w-50 {
         width: 530px !important;
