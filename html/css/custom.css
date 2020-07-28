@@ -2300,6 +2300,127 @@ background: #1abc9c;
     line-height: 1.1;
 }
 
+.tech_fpp .content_div {
+    min-width: 400px;
+}
+
+.tech_fpp .content_div .content .left {
+    width: 30%;
+    float: left;
+}
+
+.tech_fpp .content_div .content .left img {
+    width: 100%;
+}
+
+.tech_fpp .content_div .content .right {
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.fpp_3dot .content_div {
+    min-width: 400px;
+}
+
+.fpp_3dot .content_div .content .left {
+    width: 30%;
+    float: left;
+}
+
+.fpp_3dot .content_div .content .left img {
+    width: 100%;
+}
+
+.fpp_3dot .content_div .content .right {
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.token_banner-content-right,
+.banner-content-right {
+    top: 15vh
+}
+
+.grid_page_fpp .content_div {
+    min-width: 400px;
+}
+
+.grid_page_fpp .content_div .content .left {
+    width: 30%;
+    float: left;
+}
+
+.grid_page_fpp .content_div .content .left img {
+    width: 100%;
+}
+
+.grid_page_fpp .content_div .content .right {
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li .ps-bot .desc,
+.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot-sec .desc {
+    margin: 0 40%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot .desc {
+    margin: 0 -10%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li .ps-top-sec .desc {
+    margin: 0 60%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top-sec:before {
+    left: 105%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top-sec:after {
+    left: 104%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot:before {
+    left: 10%
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot:after {
+    left: 9%
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second .desc {
+    margin: 0 30%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-top:before {
+    left: 65%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-top:after {
+    left: 64%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot-sec .desc {
+    margin: 0 50%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot-sec:before,
+.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot-sec:after {
+    left: 80%
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.third .ps-bot .desc {
+    margin: 0 55%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.third span.ps-sp-bot:before {
+    left: 87%;
+}
+
+.grid_ps-timeline-sec .container ol.ps-timeline li.third span.ps-sp-bot:after {
+    left: 86%;
+}
+
 .coming_soon .container {
     background-image: url('../assets/experience/comming-soon2.png');
     background-position: top left;
@@ -2558,6 +2679,10 @@ background-repeat: no-repeat;
     vertical-align: top;
 }
 
+.about-us {
+    position: relative;
+}
+
 .about-us p,
 .stand-for p,
 .experience-count p {
@@ -2747,202 +2872,71 @@ background-repeat: no-repeat;
     line-height: 1.2;
 }
 
-@media screen and (max-width:1300px) {
-    .experiences p span,
-    .experiences p span:before,
-    .kubernetes p span,
-    .kubernetes p span::after,
-    .tf-grid p span,
-    .tf-grid p span:before {
-        display: none
-    }
-    .bot_fpp_3dot .content_div {
-        min-width: 400px;
-    }
-    .banner_tech .banner-content-right {
-        width: 45%;
-        height: auto;
-        max-width: 800px;
-        margin: 0 auto;
-        position: absolute;
-        top: 10vh;
-        left: 55%;
-        padding-right: 5%;
-    }
-    .bot_fpp_3dot .content_div .content .left {
-        width: 30%;
-        float: left;
-    }
-    .bot_fpp_3dot .content_div .content .left img {
-        width: 100%;
-    }
-    .bot_fpp_3dot .content_div .content .right {
-        width: calc(70% - 10px);
-        float: left;
-    }
-    .three_pillars .triangle {
-        left: -81%;
-    }
-}
-
-.tech_fpp .content_div {
-    min-width: 400px;
-}
-
-.tech_fpp .content_div .content .left {
-    width: 30%;
-    float: left;
-}
-
-.tech_fpp .content_div .content .left img {
+.rod {
+    position: relative;
+    overflow: hidden;
+    height: 620px;
     width: 100%;
 }
 
-.tech_fpp .content_div .content .right {
-    width: calc(70% - 10px);
-    float: left;
-}
-
-.fpp_3dot .content_div {
-    min-width: 400px;
-}
-
-.fpp_3dot .content_div .content .left {
-    width: 30%;
-    float: left;
-}
-
-.fpp_3dot .content_div .content .left img {
+.rod .roadmapLine {
+    position: absolute;
     width: 100%;
+    height: 350px;
+    bottom: 0;
 }
 
-.fpp_3dot .content_div .content .right {
-    width: calc(70% - 10px);
-    float: left;
+.rod .green-road {
+    color: #4ec48f;
 }
 
-.token_banner-content-right,
-.banner-content-right {
-    top: 15vh
+.rod .blue-road {
+    color: #006cbb;
 }
 
-.grid_page_fpp .content_div {
-    min-width: 400px;
+.rod p {
+    line-height: 1.2;
+    color: #000;
 }
 
-.grid_page_fpp .content_div .content .left {
-    width: 30%;
-    float: left;
+.rod .step-1,
+.rod .step-2,
+.rod .step-3,
+.rod .step-4,
+.rod .step-5 {
+    position: absolute;
+    height: 330px;
 }
 
-.grid_page_fpp .content_div .content .left img {
-    width: 100%;
+.rod .step-1 {
+    top: 5px;
+    left: 10%;
 }
 
-.grid_page_fpp .content_div .content .right {
-    width: calc(70% - 10px);
-    float: left;
+.rod .step-2 {
+    top: 130px;
+    left: 25%;
 }
 
-.grid_ps-timeline-sec .container ol.ps-timeline li .ps-bot .desc,
-.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot-sec .desc {
-    margin: 0 40%;
+.rod .step-3 {
+    top: 60px;
+    left: 45%;
 }
 
-.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot .desc {
-    margin: 0 -10%;
+.rod .step-4 {
+    top: 165px;
+    left: 62%;
 }
 
-.grid_ps-timeline-sec .container ol.ps-timeline li .ps-top-sec .desc {
-    margin: 0 60%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top-sec:before {
-    left: 105%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top-sec:after {
-    left: 104%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot:before {
-    left: 10%
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot:after {
-    left: 9%
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second .desc {
-    margin: 0 30%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-top:before {
-    left: 65%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-top:after {
-    left: 64%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second .ps-bot-sec .desc {
-    margin: 0 50%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot-sec:before,
-.grid_ps-timeline-sec .container ol.ps-timeline li.second span.ps-sp-bot-sec:after {
-    left: 80%
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.third .ps-bot .desc {
-    margin: 0 55%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.third span.ps-sp-bot:before {
-    left: 87%;
-}
-
-.grid_ps-timeline-sec .container ol.ps-timeline li.third span.ps-sp-bot:after {
-    left: 86%;
+.rod .step-5 {
+    top: 220px;
+    left: 85%;
 }
 
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
     }
-    .aboutus-roadmap .step-1 {
-        margin-top: -220px;
-    }
-    .aboutus-roadmap .step-2 {
-        margin-top: -110px;
-    }
-    .aboutus-roadmap .step-3 {
-        margin-top: -180px;
-    }
-    .aboutus-roadmap .step-4 {
-        margin-top: -80px;
-    }
-    .aboutus-roadmap .step-5 {
-        margin-top: -45px;
-    }
-}
-
-@media screen and (min-width: 1824px) {
-    .aboutus-roadmap .step-1 {
-        margin-top: -190px;
-    }
-    .aboutus-roadmap .step-2 {
-        margin-top: -80px;
-    }
-    .aboutus-roadmap .step-3 {
-        margin-top: -145px;
-    }
-    .aboutus-roadmap .step-4 {
-        margin-top: -80px;
-    }
-    .aboutus-roadmap .step-5 {
-        margin-top: -10px;
-    }
 }
 
 @media screen and (max-width:1300px) {
@@ -2981,20 +2975,52 @@ background-repeat: no-repeat;
     .three_pillars .triangle {
         left: -81%;
     }
-    .aboutus-roadmap .step-1 {
-        margin-top: -155px;
+    .rod .step-1 {
+        top: 35px;
     }
-    .aboutus-roadmap .step-2 {
-        margin-top: -60px;
+    .rod .step-2 {
+        top: 140px;
     }
-    .aboutus-roadmap .step-3 {
-        margin-top: -130px;
+    .rod .step-4 {
+        top: 180px;
     }
-    .aboutus-roadmap .step-4 {
-        margin-top: -70px;
+    .rod .step-5 {
+        top: 240px
     }
-    .aboutus-roadmap .step-5 {
-        margin-top: -10px;
+    .experiences p span,
+    .experiences p span:before,
+    .kubernetes p span,
+    .kubernetes p span::after,
+    .tf-grid p span,
+    .tf-grid p span:before {
+        display: none
+    }
+    .bot_fpp_3dot .content_div {
+        min-width: 400px;
+    }
+    .banner_tech .banner-content-right {
+        width: 45%;
+        height: auto;
+        max-width: 800px;
+        margin: 0 auto;
+        position: absolute;
+        top: 10vh;
+        left: 55%;
+        padding-right: 5%;
+    }
+    .bot_fpp_3dot .content_div .content .left {
+        width: 30%;
+        float: left;
+    }
+    .bot_fpp_3dot .content_div .content .left img {
+        width: 100%;
+    }
+    .bot_fpp_3dot .content_div .content .right {
+        width: calc(70% - 10px);
+        float: left;
+    }
+    .three_pillars .triangle {
+        left: -81%;
     }
 }
 
@@ -3041,20 +3067,11 @@ background-repeat: no-repeat;
     .tokenbanner_img {
         display: none;
     }
-    .aboutus-roadmap .step-1 {
-        margin-top: -145px;
+    .rod .step-1 {
+        top: 40px;
     }
-    .aboutus-roadmap .step-2 {
-        margin-top: -110px;
-    }
-    .aboutus-roadmap .step-3 {
-        margin-top: -125px;
-    }
-    .aboutus-roadmap .step-4 {
-        margin-top: -70px;
-    }
-    .aboutus-roadmap .step-5 {
-        margin-top: -20px;
+    .rod .step-5 {
+        top: 250px;
     }
 }
 
@@ -3090,20 +3107,14 @@ background-repeat: no-repeat;
     .tokenbanner_img {
         display: none;
     }
-    .aboutus-roadmap .step-1 {
-        margin-top: -145px;
+    .rod .step-1 {
+        top: 50px;
     }
-    .aboutus-roadmap .step-2 {
-        margin-top: -95px;
+    .rod .step-3 {
+        top: 65px;
     }
-    .aboutus-roadmap .step-3 {
-        margin-top: -105px;
-    }
-    .aboutus-roadmap .step-4 {
-        margin-top: -70px;
-    }
-    .aboutus-roadmap .step-5 {
-        margin-top: -35px;
+    .rod .step-5 {
+        top: 265px;
     }
 }
 
@@ -3151,20 +3162,20 @@ background-repeat: no-repeat;
     .navbar {
         background-color: #fff;
     }
-    .aboutus-roadmap .step-1 {
-        margin-top: -130px;
+    .rod .step-1 {
+        top: 55px;
     }
-    .aboutus-roadmap .step-2 {
-        margin-top: -85px;
+    .rod .step-2 {
+        top: 155px;
     }
-    .aboutus-roadmap .step-3 {
-        margin-top: -95px;
+    .rod .step-3 {
+        top: 70px;
     }
-    .aboutus-roadmap .step-4 {
-        margin-top: -70px;
+    .rod .step-4 {
+        top: 205px;
     }
-    .aboutus-roadmap .step-5 {
-        margin-top: -25px;
+    .rod .step-5 {
+        top: 275px;
     }
 }
 
@@ -4256,6 +4267,21 @@ margin: 0 0;
     .aboutus-roadmap {
         height: auto !important;
         padding-top: 0 !important;
+    }
+    .rod {
+        overflow: visible;
+        height: 195vh;
+    }
+    .rod .roadmapLine {
+        display: none;
+    }
+    .rod>div {
+        position: static !important;
+        height: auto !important;
+        display: block;
+    }
+    .rod>div img {
+        width: auto !important;
     }
 }
 
