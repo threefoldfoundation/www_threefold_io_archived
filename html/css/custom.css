@@ -1682,6 +1682,9 @@ background: #1abc9c;
 .benefits h5 {
   font-size: 30px;
 }
+
+
+
 .home_page_banner.banner_home .desc p {
     color: #333;
     line-height: 1.2;
@@ -2859,6 +2862,14 @@ background-repeat: no-repeat;
 .become_farmer h3,
 .become_farmer p {
     color: #000 !important
+}
+
+.farming_icons h4 {
+  font-size: 35px !important;
+}
+
+.farming_icons p {
+  font-size: 1.3em;
 }
 
 .farming p {
