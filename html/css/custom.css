@@ -2639,8 +2639,8 @@ background-repeat: no-repeat;
     padding: 0px 48px;
 }
 
-.deploy p,
-.deploy button {
+.deploy p
+ {
     font-size: 1.5em;
 }
 
