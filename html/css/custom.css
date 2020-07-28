@@ -3701,10 +3701,10 @@ margin: 0 0;
     .features_token_01 .item {
         margin-bottom: 30px;
     }
-    .token_price {
+    /* .token_price {
         padding-left: 30px;
         padding-left: 30px;
-    }
+    } */
     .token_price h5.text-white br {
         display: none;
     }
