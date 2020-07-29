@@ -2647,6 +2647,13 @@ background-repeat: no-repeat;
 
 .footer {
     background-color: #fff !important;
+    bottom: 0;
+    color: #707070;
+    height: 2em;
+    left: 0;
+    position: relative; //changed to relative from fixed also works if position is not there
+    font-size: small;
+    width: 100%;
 }
 
 .footer_header {
@@ -2904,6 +2911,7 @@ background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
     height: 620px;
+    min-height: calc(100vh - 650px);
     width: 100%;
 }
 
@@ -2959,6 +2967,10 @@ background-repeat: no-repeat;
 .rod .step-5 {
     top: 220px;
     left: 85%;
+}
+
+.footer {
+    height: 50px !important;
 }
 
 @media screen and (max-width:1920px) {
@@ -4299,10 +4311,6 @@ margin: 0 0;
         height: auto !important;
         padding-top: 0 !important;
     }
-    .rod {
-        overflow: visible;
-        height: 240vh;
-    }
     .rod .roadmapLine {
         display: none;
     }
@@ -4375,13 +4383,15 @@ margin: 0 0;
     .any-application img {
         margin-top: 0;
     }
-    .step-1,
     .step-2,
     .step-3,
     .step-4,
     .step-5 {
         margin-top: 4.5rem !important;
         margin-bottom: 4.5rem !important;
+    }
+    .rod {
+        height: auto;
     }
 }
 
@@ -4625,10 +4635,6 @@ margin-right: 1.5rem !important;
         overflow-x: auto !important;
         width: 100% !important;
     }
-    .rod {
-        overflow: visible;
-        height: 250vh;
-    }
 }
 
 @media screen and (max-width:375px) {
@@ -4694,10 +4700,6 @@ margin-right: 1.5rem !important;
     }
     .advanced_internet {
         background-image: none !important;
-    }
-    .rod {
-        overflow: visible;
-        height: 250vh;
     }
 }
 
