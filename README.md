@@ -1,4 +1,4 @@
-# www_threefold.io_new
+# www_tfgrid
 In this repo we will put the code for the new ThreeFold Grid website.
 
 You can see development updates at
