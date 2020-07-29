@@ -2498,8 +2498,8 @@ background-repeat: no-repeat;
 
 /* new Home page */
 
-.home-projects img{
-  width: 50%;
+.home-projects img {
+    width: 50%;
 }
 
 .navbar-brand img {
@@ -4389,15 +4389,18 @@ margin: 0 0;
     .rod {
         height: auto;
     }
+    .deploy h2,
+    .deploy p {
+        color: #3c3c3b;
+    }
 }
 
 @media screen and (max-width:480px) {
-.cru,
-.core2,
-.capacity {
-  font-size: 50px !important;
-}
-
+    .cru,
+    .core2,
+    .capacity {
+        font-size: 50px !important;
+    }
     .experiences {
         margin-bottom: 0px !important;
     }
