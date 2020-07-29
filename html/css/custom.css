@@ -2498,6 +2498,10 @@ background-repeat: no-repeat;
 
 /* new Home page */
 
+.home-projects img{
+  width: 50%;
+}
+
 .navbar-brand img {
     margin-left: 3rem;
 }
@@ -2566,7 +2570,7 @@ background-repeat: no-repeat;
 }
 
 .home_map_sec .image h1 {
-    font-size: 7em;
+    font-size: 6em;
 }
 
 .map_title {
@@ -2574,7 +2578,7 @@ background-repeat: no-repeat;
 }
 
 .home_map_sec .image .live {
-    font-size: 12em;
+    font-size: 11em;
 }
 
 .home_map_sec p {
@@ -4388,6 +4392,12 @@ margin: 0 0;
 }
 
 @media screen and (max-width:480px) {
+.cru,
+.core2,
+.capacity {
+  font-size: 50px !important;
+}
+
     .experiences {
         margin-bottom: 0px !important;
     }
