@@ -4297,7 +4297,7 @@ margin: 0 0;
     }
     .rod {
         overflow: visible;
-        height: 195vh;
+        height: 240vh;
     }
     .rod .roadmapLine {
         display: none;
@@ -4370,6 +4370,14 @@ margin: 0 0;
     }
     .any-application img {
         margin-top: 0;
+    }
+    .step-1,
+    .step-2,
+    .step-3,
+    .step-4,
+    .step-5 {
+        margin-top: 4.5rem !important;
+        margin-bottom: 4.5rem !important;
     }
 }
 
@@ -4607,6 +4615,10 @@ margin-right: 1.5rem !important;
         overflow-x: auto !important;
         width: 100% !important;
     }
+    .rod {
+        overflow: visible;
+        height: 250vh;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -4672,6 +4684,10 @@ margin-right: 1.5rem !important;
     }
     .advanced_internet {
         background-image: none !important;
+    }
+    .rod {
+        overflow: visible;
+        height: 250vh;
     }
 }
 
