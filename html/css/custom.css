@@ -1680,7 +1680,7 @@ background: #1abc9c;
     border-bottom: 2px solid black; /* This creates the border. Replace black with whatever color you want. */
 }
 .benefits h5 {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 
@@ -2954,6 +2954,10 @@ background-repeat: no-repeat;
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
+    }
+
+    .Planet_mobile{
+      display: none;
     }
 }
 
@@ -4304,9 +4308,42 @@ margin: 0 0;
 }
 
 @media screen and (max-width:480px) {
+
+.experiences{
+  margin-bottom: 0px !important;
+}
+
+.kubernetes{
+  margin-top:3.5rem  !important;
+}
+
+.Planet_desktop{
+  display: none !important;
+}
+
+.Planet_mobile{
+  display: block;
+}
+
+.bg-success img{
+  width: 65% !important;
+}
+.compute_part{
+  width: 65% !important;
+}
+
     .deploy {
-        top: -21px !important;
+        top: 45px !important;
     }
+
+   .app_part h5{
+     font-size: 35px !important;
+   }
+
+    .yor_benefits {
+      width:75%;
+    }
+
     .navbar-nav .dropdown-menu {
         text-align: center;
     }
