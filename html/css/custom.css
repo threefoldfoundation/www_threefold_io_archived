@@ -1641,7 +1641,6 @@ background: #1abc9c;
 .home_page_banner.banner_home {
     width: 100%;
     height: auto;
-    float: left;
     position: relative;
     top: 0;
 }
@@ -2528,6 +2527,10 @@ background-repeat: no-repeat;
     border-bottom-left-radius: 50%;
 }
 
+.intro-storage {
+    background-color: #f2f2f2;
+}
+
 .intro-storage p,
 .node3 p,
 .tf-projects p,
@@ -2969,8 +2972,8 @@ background-repeat: no-repeat;
     left: 85%;
 }
 
-.slide a:focus {
-    outline: 0;
+a:focus {
+    outline: transparent;
 }
 
 @media screen and (max-width:1920px) {
