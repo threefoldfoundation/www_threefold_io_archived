@@ -4400,6 +4400,10 @@ margin: 0 0;
     .deploy p {
         color: #3c3c3b;
     }
+    .app_part img {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:480px) {
