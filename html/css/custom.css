@@ -2772,7 +2772,7 @@ background-repeat: no-repeat;
 .home_page_banner .blue a,
 .about-us .green a {
     position: absolute;
-    left: 50px;
+    left: 17%;
     bottom: 50px;
     width: 65% !important;
 }
