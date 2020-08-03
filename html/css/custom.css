@@ -1641,7 +1641,6 @@ background: #1abc9c;
 .home_page_banner.banner_home {
     width: 100%;
     height: auto;
-    float: left;
     position: relative;
     top: 0;
 }
