@@ -2973,8 +2973,8 @@ background-repeat: no-repeat;
     left: 85%;
 }
 
-.slide a:focus {
-    outline: 0;
+a:focus {
+    outline: transparent;
 }
 
 @media screen and (max-width:1920px) {
