@@ -2839,7 +2839,7 @@ background-repeat: no-repeat;
 
 .kubernetes p span {
     top: 70%;
-    width: 58%;
+    width: 59%;
     right: -75%
 }
 
@@ -2854,7 +2854,7 @@ background-repeat: no-repeat;
 }
 
 .kubernetes p span::after {
-    margin-left: 181px
+    margin-left: 100%
 }
 
 .experiences p span:before,
