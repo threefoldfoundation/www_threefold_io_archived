@@ -2528,6 +2528,10 @@ background-repeat: no-repeat;
     border-bottom-left-radius: 50%;
 }
 
+.intro-storage {
+    background-color: #f2f2f2;
+}
+
 .intro-storage p,
 .node3 p,
 .tf-projects p,
