@@ -144,9 +144,13 @@
         <div class="col-md-3 ">
           <img class="d-block img-fluid mx-auto node " src="img/tf_home/3node3.png " alt=" ">
         </div>
-        <div class="col-md-3 d-flex flex-column justify-content-center text-uppercase node ">
-          <h3 class="text-uppercase mb-3 ">the</h3>
-          <h1 class="uppercase ">3node</h1>
+        <div class="container-fluid h-100 ">
+            <div class="row h-100 d-flex flex-column justify-content-center home_intro">
+                <div class="offset-md-8 col-md-4 d-flex flex-column align-content-center py-3">
+                    <h2 class="text-uppercase "><span class="header-span ">the</span> largest peer-to-peer <br> grid on the planet.</h2>
+                    <p>Decentralized storage and capacity with the <br>reliability and security of blockchain.</p>
+                </div>
+            </div>
         </div>
         <div class="offset-md-1 d-flex flex-column justify-content-center col-md-5 ">
           <h4 class="text-uppercase " style="line-height: 0.9;"> Powering the new internet <br>with our own operating system </h4>
@@ -155,15 +159,19 @@
         </div>
       </div>
     </div>
-  </div>
-  <section class="emptyDiv text-dark py-3 mb-5">
-    <div class="container-fluid ">
-      <div class="row ">
-        <div class="offset-md-6 col-md-6 d-flex flex-row justify-content-end ">
-          <img class="img-fluid mx-2 " src="img/tf_home/hp.png " alt=" ">
-          <img class="img-fluid mx-2 " src="img/tf_home/solution_providoer.svg " alt=" ">
-          <p class="d-inline-block text-dark text-left " style="font-size: 12px;
-      line-height: 1rem;"> *Certified ThreeFold<br>hardware is brought to you<br>by ThreeFold Tech and its<br>partner, Hewlett Packard<br>Enterprise. </p>
+    <!-- Intro storage -->
+    <div class="intro-storage text-dark py-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 d-flex flex-column justify-content-center ">
+                    <h3 class="text-uppercase "> INTRODUCING DECENTRALIZED <br> STORAGE AND COMPUTE. </h3>
+                    <p class="text-justify "> 3Nodes form a global grid of decentralized storage and compute. Connections between 3Nodes are fully encrypted and all workloads are managed by a Smart Contract for IT. This combined provides similar security and reliability as a blockchain,
+                        but at the performance of high-end server technology. </p>
+                </div>
+                <div class="col-md-6 ">
+                    <img class="d-block img-fluid " src="img/tf_home/storage_compute.png " alt=" ">
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -182,15 +190,15 @@
         </div>
       </div>
     </div>
-  </div>
-  <section class="home_map_sec py-4 bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 py-4 ">
-          <div class="map_left_desc ">
-            <div class="image w-100 ">
-              <h1 class="text-uppercase "> we are </h1>
-              <h1 class="text-uppercase live "> live </h1>
+    <section class="emptyDiv text-dark py-3 ">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="offset-md-6 col-md-6 d-flex flex-row justify-content-end ">
+                    <img class="img-fluid mx-2 " src="img/tf_home/hp.png " alt=" ">
+                    <img class="img-fluid mx-2 " src="img/tf_home/solution_providoer.svg " alt=" ">
+                    <p class="d-inline-block text-dark text-left " style="font-size: 12px;
+    line-height: 1rem;"> *Certified ThreeFold<br>hardware is brought to you<br>by ThreeFold Tech and its<br>partner, Hewlett Packard<br> Enterprise. </p>
+                </div>
             </div>
             <p class="fs-15 lh-1-4 text-secondary text-justify my-2 py-2 "> With significant storage and compute capacity available around the globe, the largest and most advanced P2P network continues to expand. </p>
             <h3 class="text-left capacity ">
@@ -209,8 +217,35 @@
                 </span> countries</b></p>
           </div>
         </div>
-        <div class="col-md-9 mt-4">
-          <!--
+    </section>
+    <section class="home_map_sec py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 py-4 ">
+                    <div class="map_left_desc ">
+                        <div class="image w-100 ">
+                            <h1 class="text-uppercase "> we are </h1>
+                            <h1 class="text-uppercase live "> live </h1>
+                        </div>
+                        <p class="fs-15 lh-1-4 text-secondary text-justify my-2 py-2 "> With &amp; nbsp; significant &amp; nbsp; <b> storage, compute and network </b> &amp; nbsp; capacity available around the globe, the largest and most advanced peer-to-peer cloud computing network continues to expand. </p>
+                        <h3 class="text-left capacity ">
+                        </h3>
+                        <p class="text-left border-0 ">
+                            <b> GIGABYTES OF EXISTING CAPACITY </b>
+                        </p>
+                        <h3 class="text-left cru ">
+                            <br>
+                        </h3>
+                        <p class="text-left border-0 ">
+                            <b> CPU CORES </b>
+                        </p>
+                        <h3 class="text-left core2"> 600 + </h3>
+                        <p class="text-left border-0 "> Active nodes in <span class="countries">
+              </span> countries</p>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-4">
+                    <!--
                   <div id="map" class="py-3">
                     <div class="img-container">
                         <img src="assets/map.jpg" alt="Map">
@@ -4004,34 +4039,43 @@
             CLICK ON A LOCATION TO SEE DETAILS (CITY, COUNTRY, NODES)<br />
           </p> -->
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- TF projects -->
-  <section class="tf-projects text-dark pt-5 pb-2">
-    <div class="container ">
-      <div class="row ">
-        <div class="col-md-7 pb-3">
-          <h2 class="text-uppercase ">Hosted on the threefold grid</h2>
-          <p class="pb-3"> Projects that empower and grow experiences and solutions that positively impact our planet and humanity. They leverage the ThreeFold Grid to benefit from its autonomous and peer-to-peer technology. </p>
-          <div class="row mb-3">
-            <!-- <div class="col-md-3 col-6"><img src="assets/logo_partners/hpe.png" class="img-fluid d-block mx-auto"></div> -->
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/digibyte.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/holochain.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/harmony.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/walk.png"></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-3 col-6"><img src="assets/logo_partners/logo.png" class="img-fluid d-block mx-auto"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/p.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/self-key.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/skale.png"></div>
-          </div>
-          <div class="row mb-2">
-            <div class="col-md-3 col-6"><img src="assets/logo_partners/steler.png" class="img-fluid d-block mx-auto"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/tom.png"></div>
-            <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/dash.png"></div>
-          </div>
+
+    </section>
+    <!-- TF projects -->
+    <section class="tf-projects text-dark pt-5 pb-2">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-7 pb-3">
+                    <h2 class="text-uppercase ">Hosted on the threefold grid</h2>
+                    <p class="pb-3"> Projects that empower and grow experiences and solutions that positively impact our planet and humanity. They leverage the ThreeFold Grid to benefit from its autonomous and peer-to-peer technology. </p>
+                    <div class="row mb-3">
+                        <div class="col-md-3 col-6"><img src="assets/logo_partners/hpe.png" class="img-fluid d-block mx-auto"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/digibyte.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/holochain.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/harmony.png"></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-3 col-6"><img src="assets/logo_partners/matic.png" class="img-fluid d-block mx-auto"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/p.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/self-key.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/skale.png"></div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-3 col-6"><img src="assets/logo_partners/steler.png" class="img-fluid d-block mx-auto"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/tom.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/dash.png"></div>
+                        <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/walk.png"></div>
+                    </div>
+                </div>
+                <div class="col-md-5 ">
+                    <h2 class="text-uppercase ">Decentralize now!</h2>
+                    <p> Any application which can run on Linux can run on the ThreeFold Grid, but with more speed, cost-efficiency, privacy &amp; security, sustainability, and more. Any individual or organization can utilize the ThreeFold Grid's capacity for
+                        any current or future IT workload - such as blockchain, loT, 5G, AI & VR/AR and benefit from improved performance and reduced costs. </p>
+                    <a href="deploy.html">
+                        <button type="button " class="btn btn-secondary text-uppercase font-weight-bold btn-block"> Deploy your application </button>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="col-md-5 ">
           <h2 class="text-uppercase ">Decentralize now!</h2>
@@ -4052,36 +4096,17 @@
           <h2 class="text-uppercase text-center text-md-left ">an internet for everyone.</h2>
           <p><b>With merely a source of energy, a network and the 3Node, access to internet becomes a reality for every human being on the planet.</b></p>
         </div>
-        <div class="col-md-6 "><img class="d-block img-fluid " src="img/tf_home/internet_foreveryone2.png" alt=" "></div>
-      </div>
-    </div>
-  </section>
-  <!-- By everyone -->
-  <section class="by-everyone text-dark pt-5 ">
-    <div class="by-everyone-grad ">
-      <div class="container-fluid ">
-        <div class="row ">
-          <div class="d-block col text-center" style="line-height: 1.2rem;" ;="">
-            <h2 class="uppercase ">By everyone.</h2>
-            <p><b>The new Internet is common good owned by all of us.</b></p>
-            <p><b>Everyone is invited to become a farmer and host the hardware</b></p>
-            <p><b>that is the backbone of this new peer-to-peer Internet.</b></p>
-          </div>
-        </div>
-      </div>
-      <img class="d-block img-fluid " src="img/tf_home/for_application4k.png " alt=" ">
-    </div>
-  </section>
-  <!-- any application -->
-  <section class="any-application text-dark pt-5 ">
-    <div class="container-fluid ">
-      <div class="row ">
-        <div class="offset-md-1 col-md-3 text-center text-md-left ">
-          <h2 class="text-uppercase ">for any application.</h2>
-          <p><b>Any application that runs on Kubernetes, Docker or<br>even Linux can be deployed on the ThreeFold Grid.</b></p>
-        </div>
-        <div class="offset-md-2 col-md-6 pr-0 pt-3 "><img src="img/tf_home/application2.png " alt=" "></div>
-        <!-- <div class="col compatible ">
+    </section>
+    <!-- any application -->
+    <section class="any-application text-dark pt-5 ">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="offset-md-1 col-md-3 text-center text-md-left ">
+                    <h2 class="text-uppercase ">for any application.</h2>
+                    <p><b>Any application that runs on Kubernetes, Docker or<br> even Linux can be deployed on the ThreeFold Grid.</b></p>
+                </div>
+                <div class="offset-md-2 col-md-6 pr-0 pt-3 "><img src="img/tf_home/application2.png " alt=" "></div>
+                <!-- <div class="col compatible ">
           <h4 class="uppercase text-center ">100% compatible</h4>
           <p class="text-center ">with Kubernetes, Docker,<br> S3 &amp; Linux.</p>
         </div> -->
