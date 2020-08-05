@@ -591,6 +591,10 @@ a:hover {
     padding: 10em 0;
 }
 
+.how_it_work {
+    width: 80%;
+}
+
 .token_growth {
     background: #f2f2f2;
 }
@@ -1641,7 +1645,6 @@ background: #1abc9c;
 .home_page_banner.banner_home {
     width: 100%;
     height: auto;
-    float: left;
     position: relative;
     top: 0;
 }
@@ -2528,6 +2531,10 @@ background-repeat: no-repeat;
     border-bottom-left-radius: 50%;
 }
 
+.intro-storage {
+    background-color: #f2f2f2;
+}
+
 .intro-storage p,
 .node3 p,
 .tf-projects p,
@@ -2535,7 +2542,7 @@ background-repeat: no-repeat;
 .any-application p,
 .wiki p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .node3 .node h3 {
@@ -2566,7 +2573,7 @@ background-repeat: no-repeat;
 }
 
 .emptyDiv img {
-    height: 70px;
+    height: 75px;
 }
 
 .home_map_sec .image h1 {
@@ -2772,7 +2779,7 @@ background-repeat: no-repeat;
 .home_page_banner .blue a,
 .about-us .green a {
     position: absolute;
-    left: 50px;
+    left: 17%;
     bottom: 50px;
     width: 65% !important;
 }
@@ -2815,7 +2822,7 @@ background-repeat: no-repeat;
 }
 
 .tf-grid p span {
-    top: 200px
+    top: 60px
 }
 
 .experiences p span {
@@ -2839,7 +2846,7 @@ background-repeat: no-repeat;
 
 .kubernetes p span {
     top: 70%;
-    width: 58%;
+    width: 59%;
     right: -75%
 }
 
@@ -2854,7 +2861,7 @@ background-repeat: no-repeat;
 }
 
 .kubernetes p span::after {
-    margin-left: 181px
+    margin-left: 100%
 }
 
 .experiences p span:before,
@@ -2969,8 +2976,12 @@ background-repeat: no-repeat;
     left: 85%;
 }
 
-.slide a:focus {
-    outline: 0;
+a:focus {
+    outline: transparent;
+}
+
+.slick-slide img {
+    margin: auto;
 }
 
 @media screen and (max-width:1920px) {
@@ -4397,6 +4408,10 @@ margin: 0 0;
     .deploy p {
         color: #3c3c3b;
     }
+    .app_part img {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -4637,6 +4652,9 @@ margin-right: 1.5rem !important;
         display: block !important;
         overflow-x: auto !important;
         width: 100% !important;
+    }
+    .how_it_work {
+        width: 100%;
     }
 }
 
