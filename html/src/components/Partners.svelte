@@ -144,21 +144,4 @@
     </div>
   {/if}
 
-  {#if exchange}
-    <h3 class="text-uppercase text-center">exchange partners</h3>
-    <p>
-      Are platforms where people and organisations can buy ThreeFold Tokens and
-      exchange them for other digital currencies (and fiat currencies).
-      They empower ThreeFold Token holders with more possibilities
-    </p>
-    <div class="row">
-      <div class="card-group my-5">
-        {#each exchange as partner}
-          <Partner {partner} />
-        {:else}
-          <Spinner />
-        {/each}
-      </div>
-    </div>
-  {/if}
 </div>
