@@ -52,7 +52,7 @@
 
     {#if developersHtml}
       <div class="intro mt-5 mx-auto text-center clearfix">
-        <h2>Developers</h2>
+        <h2>Contributors</h2>
         <p class="text-secondary text-center ">
           The team that created the open source technology driving the ThreeFold
           mission.
