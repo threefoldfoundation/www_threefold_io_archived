@@ -41,8 +41,8 @@
       <div class="intro mt-5 mx-auto text-center clearfix">
         <h2>Team</h2>
         <p class="text-secondary text-center ">
-          We are a team of people who are passionate about making the ThreeFold's
-          vision a reality. We help to promote and grow the ecosystem.
+          Creators of  the open source technology driving the ThreeFold mission.
+          Passionate people who are putting their talent and skills towards growing the ThreeFold Movement.
         </p>
       </div>
       {@html coreHtml}
@@ -54,8 +54,7 @@
       <div class="intro mt-5 mx-auto text-center clearfix">
         <h2>Contributors</h2>
         <p class="text-secondary text-center ">
-          The amazing people that has created the open source technology driving the ThreeFold
-          mission and puts their passion and skills towards growing the ThreeFold Movement.
+          Passioned
         </p>
       </div>
       {@html developersHtml}
