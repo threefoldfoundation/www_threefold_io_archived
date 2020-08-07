@@ -33,16 +33,16 @@
 
 <div class="container my-5">
   <div class="intro mb-5">
-    <h1>THREEFOLD TEAM</h1>
-    <p>The heartbeat behind the technology.</p>
+    <h1>THREEFOLD FOUNDATION</h1>
+    <p>The heartbeat behind the ThreeFold Movement.</p>
   </div>
   <div class="row">
     {#if coreHtml}
       <div class="intro mt-5 mx-auto text-center clearfix">
-        <h2>Organization</h2>
+        <h2>Team</h2>
         <p class="text-secondary text-center ">
-          We are a team of people who are passionate about making the ThreeFold
-          vision a reality. We help to promote and grow the ecosystem.
+          We are a team of people who are passionate about making the ThreeFold's
+          vision a reality. We help to promote and grow the ThreeFold Movement.
         </p>
       </div>
       {@html coreHtml}
@@ -52,10 +52,9 @@
 
     {#if developersHtml}
       <div class="intro mt-5 mx-auto text-center clearfix">
-        <h2>Developers</h2>
+        <h2>Contributors</h2>
         <p class="text-secondary text-center ">
-          The team that created the open source technology driving the ThreeFold
-          mission.
+          Creators of  the open source technology driving the ThreeFold mission. Passionate people who are putting their talent and skills towards growing the ThreeFold Movement.
         </p>
       </div>
       {@html developersHtml}
@@ -67,11 +66,11 @@
       <div class="intro mt-5 mx-auto text-center clearfix">
         <h2>Ambassadors</h2>
         <p class="text-secondary ">
-          Our ambassadors are people who support us on the journey to a better
+          Ambassadors are people who support us on the journey to a better
           world. Each of them believes in the values and mission of ThreeFold.
           They are proud Token Holders and all have a value-added network.
           Together these people serve on our community board driving the
-          Foundation forward.
+          ThreeFold Movement forward.
         </p>
       </div>
       {@html ambassadorsHtml}
