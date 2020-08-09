@@ -396,7 +396,7 @@ a:hover {
 }
 
 .news-header a {
-    color: #5f5f5f;
+    color: #303030;
 }
 
 .news-header a:hover {
@@ -2117,7 +2117,7 @@ background: #1abc9c;
 .home_page_banner.banner_home .desc p,
 .three_pillars p,
 .lead {
-    color: #4e4d4d;
+    color: #303030;
 }
 
 .three_pillars {
@@ -2703,7 +2703,7 @@ background-repeat: no-repeat;
 }
 
 .home_page_banner p {
-    color: #3c3c3b;
+    color: #303030;
     font-size: 1.5em;
     line-height: 1.1;
 }
@@ -2886,7 +2886,7 @@ background-repeat: no-repeat;
 .become_farmer p,
 .become_farmer h3,
 .become_farmer p {
-    color: #000 !important
+    color: #303030 !important
 }
 
 .farming_icons h4 {
@@ -2940,7 +2940,7 @@ background-repeat: no-repeat;
 
 .rod p {
     line-height: 1.2;
-    color: #000;
+    color: #303030;
 }
 
 .rod .step-1,
@@ -4365,7 +4365,7 @@ margin: 0 0;
         color: #fff;
         z-index: 999;
     }
-    
+
     .home_page_banner p {
         font-size: 1.5em;
         color: #fff;
