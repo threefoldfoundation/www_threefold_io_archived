@@ -396,7 +396,7 @@ a:hover {
 }
 
 .news-header a {
-    color: #5f5f5f;
+    color: #303030;
 }
 
 .news-header a:hover {
@@ -2117,7 +2117,7 @@ background: #1abc9c;
 .home_page_banner.banner_home .desc p,
 .three_pillars p,
 .lead {
-    color: #4e4d4d;
+    color: #303030;
 }
 
 .three_pillars {
@@ -2696,21 +2696,21 @@ background-repeat: no-repeat;
     border-radius: 5px;
 }
 
-.home_page_banner h2 {
+.home_page_banner h3 {
     color: #3c3c3b;
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
 .home_page_banner p {
-    color: #3c3c3b;
-    font-size: 2em;
-    line-height: 1.2;
+    color: #303030;
+    font-size: 1.5em;
+    line-height: 1.1;
 }
 
 .header-span {
     font-size: .6em;
-    border-bottom: 7px solid #3c3c3b;
+    border-bottom: 5px solid #3c3c3b;
     vertical-align: top;
 }
 
@@ -2808,6 +2808,7 @@ background-repeat: no-repeat;
 
 .deploy h3 {
     line-height: .9;
+    color: #3c3c3b !important;
 }
 
 .experiences p span,
@@ -2885,7 +2886,7 @@ background-repeat: no-repeat;
 .become_farmer p,
 .become_farmer h3,
 .become_farmer p {
-    color: #000 !important
+    color: #303030 !important
 }
 
 .farming_icons h4 {
@@ -2939,7 +2940,7 @@ background-repeat: no-repeat;
 
 .rod p {
     line-height: 1.2;
-    color: #000;
+    color: #303030;
 }
 
 .rod .step-1,
@@ -2990,6 +2991,10 @@ a:focus {
     }
     .Planet_mobile {
         display: none;
+    }
+
+    .deploy-headre{
+      padding-top: 50px;
     }
 }
 
@@ -3075,6 +3080,9 @@ a:focus {
     }
     .three_pillars .triangle {
         left: -81%;
+    }
+    .home_page_banner h3{
+      font-size: 3.5em !important;
     }
 }
 
@@ -4351,12 +4359,13 @@ margin: 0 0;
     .home_intro {
         justify-content: start !important;
     }
-    .home_page_banner h2 {
+    .home_page_banner h3 {
         margin-top: 100px;
         font-size: 3em;
         color: #fff;
         z-index: 999;
     }
+
     .home_page_banner p {
         font-size: 1.5em;
         color: #fff;
@@ -4656,7 +4665,17 @@ margin-right: 1.5rem !important;
     .how_it_work {
         width: 100%;
     }
+    .deploy-headre{
+      padding-top: 0px;
+    }
+    .deploy_h3{
+      font-size: 32px !important;
+    }
+    .home_page_banner h3{
+      font-size: 2.4em !important;
+    }
 }
+
 
 @media screen and (max-width:375px) {
     .table {
