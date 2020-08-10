@@ -33,7 +33,7 @@
 
 <div class="container my-5">
   <div class="intro mb-5">
-    <h1>THREEFOLD FOUNDATION</h1>
+    <h2>THREEFOLD FOUNDATION</h2>
     <p>The heartbeat behind the ThreeFold Movement.</p>
   </div>
   <div class="row">
