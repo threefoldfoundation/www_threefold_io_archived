@@ -3022,6 +3022,11 @@ a:focus {
         left: 55%;
         padding-right: 5%;
     }
+
+    .blue, .about-us .green {
+    width: 20.5% !important;
+    }
+
     .bot_fpp_3dot .content_div .content .left {
         width: 30%;
         float: left;
@@ -4369,7 +4374,7 @@ margin: 0 0;
     }
 
     .home_page_banner p {
-        font-size: 1.5em;
+        font-size: 1.3em;
         color: #fff;
         z-index: 999;
     }
@@ -4480,7 +4485,7 @@ margin: 0 0;
       font-size:45px !important;
     }
     .dynamic-sec p {
-      font-size:1.3em !important; 
+      font-size:1.3em !important;
     }
     .partners_grid .image img {
         width: 100% !important;
