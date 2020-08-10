@@ -2768,7 +2768,7 @@ background-repeat: no-repeat;
     top: 0;
     left: 50px;
     height: 70%;
-    width: 15%;
+    width: 14%;
     text-align: center;
     background-color: #0071bc;
     border-radius: 0px 0px 200px 200px;
@@ -3151,6 +3151,10 @@ a:focus {
         padding: 30px;
         float: left;
         top: 10vh;
+    }
+    .blue, .about-us .green {
+        width: 22% !important;
+        left: 71px !important;
     }
     .tech_page_banner.banner_tech .scroll_link {
         display: none
