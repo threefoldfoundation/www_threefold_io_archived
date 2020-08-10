@@ -79,7 +79,7 @@
                 <br />
                 partners
               </h1>
-              <p">
+              <p>
                 Together we build the new Internet
               </p>
             </div>
