@@ -79,7 +79,7 @@
                 <br />
                 partners
               </h1>
-              <p class="lead">
+              <p class="subeheader_p">
                 <b>Together we build the new Internet</b>
               </p>
             </div>
@@ -92,8 +92,8 @@
 
 <div class="container">
   {#if useCases}
-    <h3 class="text-uppercase text-center">grid use cases</h3>
-    <p>
+    <h2 class="text-uppercase text-center">grid use cases</h2>
+    <p class="subeheader_p">
       Are projects that empower and grow experiences and solutions that positively
       impact our planet and humanity. They leverage the ThreeFold Grid to benefit
       from its autonomous and peer-to-peer technology.
@@ -110,8 +110,8 @@
   {/if}
 
   {#if blockchain}
-    <h3 class="text-uppercase text-center">blockchain partners</h3>
-    <p>
+    <h2 class="text-uppercase text-center">blockchain partners</h2>
+    <p class="subeheader_p">
       Are projects that empower a decentralised and peer-to-peer digital world.
       They make use of the ThreeFold Grid to scale their blockchain ecosystems
       on a truly decentralised infrastructure.
@@ -128,8 +128,8 @@
   {/if}
 
   {#if tech}
-    <h3 class="text-uppercase text-center">technology partners</h3>
-    <p>
+    <h2 class="text-uppercase text-center">technology partners</h2>
+    <p class="subeheader_p">
       Are those projects that empower the ThreeFold Grid’s technology characteristics - scalability,
       performance, sustainability and more, with truly efficient infrastructure and energy solutions.
     </p>
