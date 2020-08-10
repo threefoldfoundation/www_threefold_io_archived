@@ -4476,6 +4476,9 @@ margin: 0 0;
     .home_partners .desc p {
         min-height: 150px;
     }
+    .dynamic-sec h2{
+      font-size:45px !important; 
+    }
     .partners_grid .image img {
         width: 100% !important;
     }
