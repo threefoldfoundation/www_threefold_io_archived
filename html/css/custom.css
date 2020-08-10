@@ -3152,6 +3152,9 @@ a:focus {
         float: left;
         top: 10vh;
     }
+    .blue, .about-us .green {
+    width: 26% !important;
+    }
     .tech_page_banner.banner_tech .scroll_link {
         display: none
     }
