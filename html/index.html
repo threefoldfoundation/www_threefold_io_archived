@@ -156,7 +156,7 @@
     <div class="home_page_banner banner_home h-100 mb-5 home " style=" background-image: url(img/tf_home2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; ">
         <div class="filter"></div>
         <div class="blue ">
-            <a href="https://vimeo.com/438190961" target="_blank"> <img src="img/tf_home/play_button.svg " alt=" ">
+            <a href="https://player.vimeo.com/video/438190961?autoplay=1" class="vpop"> <img src="img/tf_home/play_button.svg " alt=" ">
             </a>
         </div>
         <div class="container-fluid h-100 ">
@@ -166,6 +166,14 @@
                     <p>Decentralised storage and compute owned by everyone, everywhere.</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="video-popup-overlay"></div>
+
+    <div id="video-popup-container">
+        <div id="video-popup-close" class="fade">&#10006;</div>
+        <div id="video-popup-iframe-container">
+            <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     <!-- The 3Node -->
@@ -181,7 +189,8 @@
                 </div>
                 <div class="offset-md-1 d-flex flex-column justify-content-center col-md-5 ">
                     <h4 class="text-uppercase " style="line-height: 0.9;"> POWERING THE GRID WITH <br>OUR OWN OPERATING SYSTEM </h4>
-                    <p> Our open source operating system, Zero-OS, makes computers trustworthy. We call these computers 3Nodes and 3Node owners - Farmers. Farmers with their 3Nodes are what forms the ThreeFold Grid - the world's largest peer-to-peer network. </p>
+                    <p> Our open source operating system, Zero-OS, makes computers trustworthy. We call these computers 3Nodes and 3Node owners - Farmers. Farmers with their 3Nodes are what forms the ThreeFold Grid - the world's largest peer-to-peer network.
+                    </p>
                     <a href="https://www.farmer.threefold.io/" target="_blank"><button type="button " class="btn btn-secondary text-uppercase font-weight-bold my-3 "> Become a farmer </button></a>
                 </div>
             </div>
@@ -4082,8 +4091,8 @@
                 </div>
                 <div class="col-md-5 ">
                     <h2 class="text-uppercase ">Decentralize now!</h2>
-                    <p> Any application which can run on Linux can run on the ThreeFold Grid but wih more speed, cost-efficiency, privacy &amp; security and sustainability. Any individual or organization can utilize the ThreeFold Grid's capacity for
-                        any current or future IT workload - such as blockchain, IoT, 5G, AI and VR/AR, and benefit from improved performance and reduced costs. </p>
+                    <p> Any application which can run on Linux can run on the ThreeFold Grid but wih more speed, cost-efficiency, privacy &amp; security and sustainability. Any individual or organization can utilize the ThreeFold Grid's capacity for any current
+                        or future IT workload - such as blockchain, IoT, 5G, AI and VR/AR, and benefit from improved performance and reduced costs. </p>
                     <a href="deploy.html">
                         <button type="button " class="btn btn-secondary text-uppercase font-weight-bold btn-block"> Deploy your application </button>
                     </a>
@@ -4372,6 +4381,30 @@
                 let logo = document.getElementById('logo')
                 return (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? logo.src = 'assets/TFN-black.svg' : logo.src = "assets/TFN_white.svg");
             }
+
+            $(".vpop").on('click', function(e) {
+                e.preventDefault();
+                $("#video-popup-overlay,#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();
+
+                var srchref = $(this).attr('href');
+
+                $("#video-popup-iframe").attr('src', srchref);
+
+                $("#video-popup-iframe").on('load', function() {
+                    $("#video-popup-container").show();
+                });
+            });
+
+            $("#video-popup-close, #video-popup-overlay").on('click', function(e) {
+                $("#video-popup-iframe-container,#video-popup-container,#video-popup-close,#video-popup-overlay").hide();
+                $("#video-popup-iframe").attr('src', '');
+            });
+
+            /* 
+            minified
+            
+            $(".vpop").on("click",function(o){o.preventDefault(),$("#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();var p="",e="",i=$(this).data("id");if("vimeo"==$(this).data("type"))var p="//player.vimeo.com/video/";else if("youtube"==$(this).data("type"))var p="https://www.youtube.com/embed/";1==$(this).data("autoplay")&&(e="?autoplay=1"),$("#video-popup-iframe").attr("src",p+i+e),$("#video-popup-iframe").on("load",function(){$("#video-popup-overlay, #video-popup-container").show()})}),$("#video-popup-close, #video-popup-overlay").on("click",function(o){$("#video-popup-iframe-container,#video-popup-container,#video-popup-close").hide(),$("#video-popup-iframe").attr("src","")});
+            */
         });
     </script>
 </body>
