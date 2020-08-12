@@ -4517,6 +4517,9 @@ margin: 0 0;
         width: 50%;
         margin: auto;
     }
+    .navbar-brand {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -4543,9 +4546,9 @@ margin: 0 0;
     .compute_part {
         width: 65% !important;
     }
-    .deploy {
+    /* .deploy {
         top: 45px !important;
-    }
+    } */
     .app_part h5 {
         font-size: 35px !important;
     }
