@@ -1676,6 +1676,31 @@ background: #1abc9c;
     top: 65%;
 }
 
+.deploy a,
+.tf-projects a,
+.deploy_launch,
+.deploy_btn a {
+    padding: 0 0 0 1em;
+    border: 0;
+}
+
+.deploy a span,
+.tf-projects a span,
+.deploy_launch span,
+.deploy_btn a span {
+    border-radius: 0 5px 5px 0;
+    color: #256838;
+    margin-left: 5px;
+}
+
+.deploy_btn {
+    margin-top: 8px;
+}
+
+.deploy_btn span {
+    padding: 2px 15px;
+}
+
 .myborder:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
