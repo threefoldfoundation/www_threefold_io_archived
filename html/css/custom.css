@@ -3218,6 +3218,17 @@ a:focus {
     border-radius: 5px;
 }
 
+.play_store {
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.play_store img {
+    width: 15%;
+    float: left
+}
+
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
