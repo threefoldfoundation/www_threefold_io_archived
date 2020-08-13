@@ -3122,6 +3122,40 @@ a:focus {
     border-right: 27px solid transparent;
 }
 
+.plug-farm-option {
+    background-color: #202124;
+    color: #fff;
+}
+
+.plug-farm-option .pluto {
+    color: #1a73e8;
+}
+
+.plug-farm-option .titan {
+    color: #4EC48F;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.plug-farm-option .venus {
+    color: #5d6369;
+}
+
+.plug-farm-option p {
+    line-height: 1.3;
+}
+
+.plug-farm-option .ribbon-content {
+    width: 50%;
+    display: inline-block;
+    height: 50px;
+}
+
+.plug-farm-option span {
+    display: block;
+    line-height: 1.3;
+}
+
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
