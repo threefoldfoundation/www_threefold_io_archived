@@ -3171,6 +3171,10 @@ a:focus {
     line-height: 1.3;
 }
 
+.token_price a {
+    border-radius: 5px;
+}
+
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
