@@ -3092,6 +3092,11 @@ a:focus {
     border-right: 5px solid #006cbb;
 }
 
+.ribbon.base.success {
+    background: #4EC48F;
+    border-right: 5px solid #4EC48F;
+}
+
 .ribbon:before,
 .ribbon:after {
     content: '';
@@ -3108,18 +3113,28 @@ a:focus {
     bottom: 0;
 }
 
-.ribbon.base:before {
+.ribbon.base:before,
+.ribbon.base.success:before {
     width: 0;
     height: 0;
     border-top: 27px solid #006cbb;
     border-right: 27px solid transparent;
 }
 
-.ribbon.base:after {
+.ribbon.base.success:before {
+    border-top: 27px solid #4EC48F;
+}
+
+.ribbon.base:after,
+.ribbon.base.success:after {
     width: 0;
     height: 0;
     border-bottom: 27px solid #006cbb;
     border-right: 27px solid transparent;
+}
+
+.ribbon.base.success:after {
+    border-bottom: 27px solid #4EC48F;
 }
 
 .plug-farm-option {
