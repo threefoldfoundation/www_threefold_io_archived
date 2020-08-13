@@ -1691,14 +1691,32 @@ background: #1abc9c;
     border-radius: 0 5px 5px 0;
     color: #256838;
     margin-left: 5px;
+    /* font-size: 40px; */
+    text-shadow: -1px 1px 1px #fff, 1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff;
 }
 
 .deploy_btn {
     margin-top: 8px;
 }
 
+.deploy_btn a {
+    color: #fff !important;
+}
+
 .deploy_btn span {
     padding: 2px 15px;
+}
+
+.btn-success:hover {
+    color: #256838;
+    background-color: #4EC48F;
+    border-color: #4EC48F;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #0A73B8;
+    border-color: #0A73B8;
 }
 
 .myborder:after {
