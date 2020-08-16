@@ -4736,6 +4736,9 @@ margin: 0 0;
     /* .deploy {
         top: 45px !important;
     } */
+    .space_part{
+      display: none;
+    }
     .app_part h5 {
         font-size: 35px !important;
     }
