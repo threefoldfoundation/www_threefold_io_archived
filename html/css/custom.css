@@ -1710,16 +1710,16 @@ background: #1abc9c;
 }
 
 .deploy_btn a span {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
-.btn-success:hover {
-    color: #256838;
+.deploy_btn a span:hover {
+    color: #256838 !important;
     background-color: #4EC48F;
     border-color: #4EC48F;
 }
 
-.btn-primary:hover {
+.deploy_btn a:hover {
     color: #fff !important;
     background-color: #0A73B8;
     border-color: #0A73B8;
