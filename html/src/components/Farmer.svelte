@@ -29,7 +29,7 @@
     </p>
     <a
       href={farmer.url}
-      class="button btn btn-secondary text-white fw-4 px-3"
+      class="button btn btn-primary text-white fw-4 px-3"
       target="_blank">
       {farmer.name}
     </a>
