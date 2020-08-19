@@ -63,25 +63,64 @@
   });
 </script>
 
-<div
-  class="align-items-center home_page_banner banner_home home_intro"
-  style="background-image: url(/assets/partners-logo/partners.png);
-  background-position: center center; background-size: cover; background-repeat:
-  no-repeat; height: 1050.3px; top: -50px;">
-  <div class="desc" id="thingtohide" style="display: block;">
-    <div class="container">
-      <div class="row" style="padding-top: 10px;">
-        <div class="col-md-12 mx-auto">
-          <div class="desc">
-            <div class="content w-100 text-center">
-              <h1 class="1pb-2 mb-3 text-uppercase">
-                thank you
-                <br />
-                partners
-              </h1>
-              <p>
-                Together we build the new Internet
-              </p>
+<div class="align-items-center partner_page_banner" style=" height: 1050.3px;">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-md-12 mx-auto">
+        <div class="desc">
+          <img
+            src="/assets/partners-logo/partners.png"
+            alt="TF Partners"
+            class="w-50" />
+          <div class="content w-100 text-center">
+            <h1 class="1pb-2 text-uppercase">thank you partners</h1>
+            <p>Welcome to the growing ecosystem around ThreeFold</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+          <img src="https://via.placeholder.com/100" alt="">
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
+            <h4 class="text-uppercase">Christine perry</h4>
+            <p>VP Solutions Engineering</p>
+            <span>SKALE Labs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+          <img src="https://via.placeholder.com/100" alt="">
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
+            <h4 class="text-uppercase">Christine perry</h4>
+            <p>VP Solutions Engineering</p>
+            <span>SKALE Labs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+          <img src="https://via.placeholder.com/100" alt="">
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
+            <h4 class="text-uppercase">Christine perry</h4>
+            <p>VP Solutions Engineering</p>
+            <span>SKALE Labs</span>
             </div>
           </div>
         </div>
@@ -94,9 +133,9 @@
   {#if useCases}
     <h2 class="text-uppercase text-center">grid use cases</h2>
     <p>
-      Are projects that empower and grow experiences and solutions that positively
-      impact our planet and humanity. They leverage the ThreeFold Grid to benefit
-      from its autonomous and peer-to-peer technology.
+      Are projects that empower and grow experiences and solutions that
+      positively impact our planet and humanity. They leverage the ThreeFold
+      Grid to benefit from its autonomous and peer-to-peer technology.
     </p>
     <div class="row">
       <div class="card-group my-5">
@@ -130,8 +169,9 @@
   {#if tech}
     <h2 class="text-uppercase text-center">technology partners</h2>
     <p>
-      Are those projects that empower the ThreeFold Grid’s technology characteristics - scalability,
-      performance, sustainability and more, with truly efficient infrastructure and energy solutions.
+      Are those projects that empower the ThreeFold Grid’s technology
+      characteristics - scalability, performance, sustainability and more, with
+      truly efficient infrastructure and energy solutions.
     </p>
     <div class="row">
       <div class="card-group my-5">
