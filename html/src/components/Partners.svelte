@@ -68,10 +68,7 @@
     <div class="row pb-5">
       <div class="col-md-12 mx-auto">
         <div class="desc">
-          <img
-            src="/assets/partners-logo/partners.png"
-            alt="TF Partners"
-            class="w-50" />
+          <img src="/assets/partners-logo/partners_2.png" class="img-fluid" alt="TF Partners" />
           <div class="content w-100 text-center">
             <h1 class="1pb-2 text-uppercase">thank you partners</h1>
             <p>Welcome to the growing ecosystem around ThreeFold</p>
@@ -83,14 +80,19 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-4">
-          <img src="https://via.placeholder.com/100" alt="">
+            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
           </div>
           <div class="col-md-8 text-left">
             <div class="partner-text">
-            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
-            <h4 class="text-uppercase">Christine perry</h4>
-            <p>VP Solutions Engineering</p>
-            <span>SKALE Labs</span>
+              <p class="text-left mb-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                libero dolorem quo non animi exercitationem, adipisci labore
+                amet minima, enim deserunt earum tempora dicta optio! Dolor
+                officia cumque saepe atque!
+              </p>
+              <h4 class="text-uppercase">Christine perry</h4>
+              <p>VP Solutions Engineering</p>
+              <span>SKALE Labs</span>
             </div>
           </div>
         </div>
@@ -98,14 +100,19 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-4">
-          <img src="https://via.placeholder.com/100" alt="">
+            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
           </div>
           <div class="col-md-8 text-left">
             <div class="partner-text">
-            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
-            <h4 class="text-uppercase">Christine perry</h4>
-            <p>VP Solutions Engineering</p>
-            <span>SKALE Labs</span>
+              <p class="text-left mb-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                libero dolorem quo non animi exercitationem, adipisci labore
+                amet minima, enim deserunt earum tempora dicta optio! Dolor
+                officia cumque saepe atque!
+              </p>
+              <h4 class="text-uppercase">Christine perry</h4>
+              <p>VP Solutions Engineering</p>
+              <span>SKALE Labs</span>
             </div>
           </div>
         </div>
@@ -113,14 +120,19 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-4">
-          <img src="https://via.placeholder.com/100" alt="">
+            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
           </div>
           <div class="col-md-8 text-left">
             <div class="partner-text">
-            <p class="text-left mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero dolorem quo non animi exercitationem, adipisci labore amet minima, enim deserunt earum tempora dicta optio! Dolor officia cumque saepe atque!</p>
-            <h4 class="text-uppercase">Christine perry</h4>
-            <p>VP Solutions Engineering</p>
-            <span>SKALE Labs</span>
+              <p class="text-left mb-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                libero dolorem quo non animi exercitationem, adipisci labore
+                amet minima, enim deserunt earum tempora dicta optio! Dolor
+                officia cumque saepe atque!
+              </p>
+              <h4 class="text-uppercase">Christine perry</h4>
+              <p>VP Solutions Engineering</p>
+              <span>SKALE Labs</span>
             </div>
           </div>
         </div>

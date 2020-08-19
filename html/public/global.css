@@ -69,3 +69,7 @@ button:focus {
 .dynamic-sec h1 {
     font-size: 5.5em;
 }
+
+.partner-text p {
+    font-size: 1.2em !important;
+}
