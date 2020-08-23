@@ -68,7 +68,10 @@
     <div class="row pb-5">
       <div class="col-md-12 mx-auto">
         <div class="desc">
-          <img src="/assets/partners-logo/partners_2.png" class="img-fluid" alt="TF Partners" />
+          <img
+            src="/assets/partners-logo/partners_2.png"
+            class="img-fluid"
+            alt="TF Partners" />
           <div class="content w-100 text-center">
             <h1 class="1pb-2 text-uppercase">thank you partners</h1>
             <p>Welcome to the growing ecosystem around ThreeFold</p>
@@ -85,10 +88,10 @@
           <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-                libero dolorem quo non animi exercitationem, adipisci labore
-                amet minima, enim deserunt earum tempora dicta optio! Dolor
-                officia cumque saepe atque!
+                Not only do we share the mutual goal of a truly decentralized
+                secure, scalable network. SKALE developers will be able use
+                Threefolds peer-to-peer cloud to more easily build highly
+                scalable Ethereum Dapps.
               </p>
               <h4 class="text-uppercase">Christine perry</h4>
               <p>VP Solutions Engineering</p>
@@ -104,15 +107,14 @@
           </div>
           <div class="col-md-8 text-left">
             <div class="partner-text">
-              <p class="text-left mb-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-                libero dolorem quo non animi exercitationem, adipisci labore
-                amet minima, enim deserunt earum tempora dicta optio! Dolor
-                officia cumque saepe atque!
+              <p class="text-left mb-5">
+                Both DigiByte and Threefold have the same mission: creating a
+                truly decentralized world. It’s not just about technology but
+                also about equality and humanity.
               </p>
-              <h4 class="text-uppercase">Christine perry</h4>
-              <p>VP Solutions Engineering</p>
-              <span>SKALE Labs</span>
+              <h4 class="text-uppercase">Rudy Bouwman</h4>
+              <p>Secretary & Vice-Chairman</p>
+              <span>DigiByte Foundation</span>
             </div>
           </div>
         </div>
@@ -125,14 +127,16 @@
           <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-                libero dolorem quo non animi exercitationem, adipisci labore
-                amet minima, enim deserunt earum tempora dicta optio! Dolor
-                officia cumque saepe atque!
+                Presearch and our developer community are excited to enable our
+                node operators to easily deploy search nodes on the
+                decentralized ThreeFold network. Their distributed
+                infrastructure offering peer-to-peer storage and compute
+                resources paid with cryptocurrency is exactly what the project
+                needs to fulfill our roadmap and decentralize the platform.
               </p>
-              <h4 class="text-uppercase">Christine perry</h4>
-              <p>VP Solutions Engineering</p>
-              <span>SKALE Labs</span>
+              <h4 class="text-uppercase">Colin Pape</h4>
+              <p>founder and CEO</p>
+              <span>Presearch</span>
             </div>
           </div>
         </div>
