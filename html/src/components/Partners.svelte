@@ -82,10 +82,10 @@
     <div class="row">
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-3">
-            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
+          <div class="col-md-4">
+            <img src="/assets/partners-logo/Skale.png" class="mb-3" alt="" />
           </div>
-          <div class="col-md-9 text-left">
+          <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
                 Not only do we share the mutual goal of a truly decentralized
@@ -102,10 +102,10 @@
       </div>
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-3">
-            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
+          <div class="col-md-4">
+            <img src="/assets/partners-logo/digibyte.png" class="mb-3" alt="" />
           </div>
-          <div class="col-md-9 text-left">
+          <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-5">
                 Both DigiByte and Threefold have the same mission: creating a
@@ -121,10 +121,10 @@
       </div>
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-3">
-            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
+          <div class="col-md-4">
+            <img src="/assets/partners-logo/PRESEARCH.png" class="mb-3" alt="" />
           </div>
-          <div class="col-md-9 text-left">
+          <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
                 Threefolds distributed infrastructure offering peer-to-peer
