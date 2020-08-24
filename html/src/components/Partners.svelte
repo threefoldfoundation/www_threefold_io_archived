@@ -82,10 +82,10 @@
     <div class="row">
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-4">
-            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
           </div>
-          <div class="col-md-8 text-left">
+          <div class="col-md-9 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
                 Not only do we share the mutual goal of a truly decentralized
@@ -94,7 +94,7 @@
                 scalable Ethereum Dapps.
               </p>
               <h4 class="text-uppercase">Christine perry</h4>
-              <p>VP Solutions Engineering</p>
+              <p class="mb-0">VP Solutions Engineering</p>
               <span>SKALE Labs</span>
             </div>
           </div>
@@ -102,10 +102,10 @@
       </div>
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-4">
-            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
           </div>
-          <div class="col-md-8 text-left">
+          <div class="col-md-9 text-left">
             <div class="partner-text">
               <p class="text-left mb-5">
                 Both DigiByte and Threefold have the same mission: creating a
@@ -113,7 +113,7 @@
                 also about equality and humanity.
               </p>
               <h4 class="text-uppercase">Rudy Bouwman</h4>
-              <p>Secretary & Vice-Chairman</p>
+              <p class="mb-0">Secretary & Vice-Chairman</p>
               <span>DigiByte Foundation</span>
             </div>
           </div>
@@ -121,21 +121,19 @@
       </div>
       <div class="col-md-4">
         <div class="row">
-          <div class="col-md-4">
-            <img src="https://via.placeholder.com/100" class="mb-3" alt="" />
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/75" class="mb-3" alt="" />
           </div>
-          <div class="col-md-8 text-left">
+          <div class="col-md-9 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
-                Presearch and our developer community are excited to enable our
-                node operators to easily deploy search nodes on the
-                decentralized ThreeFold network. Their distributed
-                infrastructure offering peer-to-peer storage and compute
-                resources paid with cryptocurrency is exactly what the project
-                needs to fulfill our roadmap and decentralize the platform.
+                Threefolds distributed infrastructure offering peer-to-peer
+                storage and compute resources paid with cryptocurrency is
+                exactly what the project needs to fulfil our roadmap and
+                decentralize the platform.
               </p>
               <h4 class="text-uppercase">Colin Pape</h4>
-              <p>founder and CEO</p>
+              <p class="mb-0">founder and CEO</p>
               <span>Presearch</span>
             </div>
           </div>
