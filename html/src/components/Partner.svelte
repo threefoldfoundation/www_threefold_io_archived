@@ -38,7 +38,7 @@
     <div class="card-body">
 
       <p class="card-text text-left">{partner.description}</p>
-      <a href={partner.url} target="_blank" class="btn btn-secondary">
+      <a href={partner.url} target="_blank" class="btn btn-primary">
         Learn more
       </a>
     </div>

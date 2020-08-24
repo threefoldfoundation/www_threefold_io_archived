@@ -2,18 +2,6 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-100065546-1");
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- PAGE settings -->
@@ -56,6 +44,18 @@
             s.async = 1;
             d.getElementsByTagName("head")[0].appendChild(s);
         })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-100065546-1");
     </script>
 </head>
 
@@ -101,7 +101,7 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="align-items-center home_page_banner banner_home h-100 home_intro deploy mb-5" style="
+    <div class="align-items-center home_page_banner banner_home h-100 home_intro deploy py-5" style="
         background-image: url(assets/deploy_page/Deploy-Background.png);
         background-position: 100% 100%;
         background-size: cover;
@@ -110,7 +110,7 @@
       ">
         <div class="container-fluid h-100">
             <div class="row h-100 d-flex flex-column justify-content-end">
-                <div class="offset-md-7 col-md-5 deploy-headre">
+                <div class="offset-md-7 col-md-5 deploy-headre deploy_btn">
                     <h3 class="text-uppercase deploy_h3"> OWN 100% OF YOUR DEPLOYMENTS <br> VIA SMART CONTRACT FOR IT </h3>
                     <p class="mb-3"> Ensure the correct execution of your workloads and enjoy <br> compute, network, web and storage all in one place. </p>
                     <a href="#decentralize" target="_blank" class="btn btn-primary text-uppercase font-weight-bold"> DEPLOY YOUR APPLICATION <span class="text-uppercase btn btn-success font-weight-bold">Beta</span></a>
@@ -118,9 +118,9 @@
             </div>
         </div>
     </div>
-    <section class="benefits">
+    <section class="benefits py-5">
         <div class="container">
-            <div class="row py-3">
+            <div class="row">
                 <div class="col-md-3">
                     <img class="img-fluid d-block mx-auto pb-3 yor_benefits" src="assets/deploy_page/unlimited.png">
                 </div>
@@ -274,7 +274,7 @@
                     <div class="text-md-left text-white">
                         <h3 class="text-uppercase text-white mb-0" style="line-height: 1;"> compute, web&nbsp;<br>&amp; storage </h3>
                         <span></span>
-                        <p class="my-2 text-justify"> Where you deploy your&nbsp;<br>containers and ﬁles.<br><br>Compatible with&nbsp; <br>Kubernetes, Docker and S3.<br><span></span>
+                        <p class="my-2 "> Where you deploy your&nbsp;<br>containers and ﬁles.<br><br> Compatible with&nbsp; <br>Kubernetes, Docker and S3.<br><span></span>
                         </p>
                     </div>
                 </div>
@@ -284,15 +284,15 @@
                             <div class="text-md-left text-white">
                                 <h3 class="text-uppercase text-white mb-0" style="line-height: 1;"> applications </h3>
                                 <p class="text-white mb-0"><b></b></p>
-                                <p class="my-2 text-justify"> Apps that run on the ThreeFold grid are decentralized. Users beneﬁt from superior transparency, privacy and security.<br><span><br><br></span>
+                                <p class="my-2 "> Apps that run on the ThreeFold grid are decentralized. Users beneﬁt from superior transparency, privacy and security.<br><span><br><br></span>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12 my-5"></div>
+                        <div class="col-md-12 my-5 space_part"></div>
                         <div class="col-md-12 align-self-end tf-grid mt-5">
                             <div class="text-md-left text-white peer_to_peer">
                                 <h3 class="text-uppercase text-white mb-0" style="line-height: 1;"> Peer-to-peer<br>Network </h3>
-                                <p class="my-2 text-justify">Independent farmers dedicate hardware to form the ThreeFold Grid.<span></span>
+                                <p class="my-2 ">Independent farmers dedicate hardware to form the ThreeFold Grid.<span></span>
                                 </p>
                             </div>
                         </div>
@@ -316,11 +316,11 @@
                             <h1 class="my-2">1</h1>
                             <h5 style="" class="mb-0">install</h5>
                             <p style="line-height: 1.2;" class="text-dark">
-                                <b>the 3Bot<br>application</b>
+                                <b>the 3Bot<br> application</b>
                             </p>
                         </div>
                         <div class="col-md-7">
-                            <img class="img-fluid d-block my-2" src="assets/deploy_page/install2.png">
+                            <img class="img-fluid d-block my-2 mb-3" src="assets/deploy_page/install2.png">
                         </div>
                     </div>
                     <div class="row mb-2">
@@ -328,7 +328,8 @@
                             <a href="https://apps.apple.com/us/app/3bot-connect/id1459845885" target="_blank"><img class="img-fluid d-block mb-2" src="assets/deploy_page/app_store.png"></a>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&amp;hl=en_US" class="btn btn-dark text-uppercase play_store" target=" _blank "><img src="https://cdn0.iconfinder.com/data/icons/tuts/256/google_play.png ">Play Store </a>
+                          <a href="https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&amp;hl=en_US" target="_blank"><img class="img-fluid d-block mb-2" src="assets/deploy_page/google_play.png"></a>
+                            <!-- <a href="https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&amp;hl=en_US" class="btn btn-dark text-uppercase play_store" target=" _blank "><img src="assets/deploy_page/google_play.png"></a> -->
                         </div>
                     </div>
                 </div>
@@ -340,7 +341,7 @@
                             <p style="line-height: 1.2;font-size: 13px; " class="text-dark "><b>For a limited amount of time only, you can apply here to get Free TFT for testing purposes.</b></p>
                         </div>
                         <div class="col-md-7 ">
-                            <img class="img-fluid d-block my-2 " src="assets/deploy_page/get_it2.png ">
+                            <img class="img-fluid d-block my-2 mb-3" src="assets/deploy_page/get_it2.png ">
                         </div>
                     </div>
                     <div class="row mb-2 ">
@@ -361,14 +362,15 @@
                         </div>
                     </div>
                     <div class="row mb-2 ">
-                        <div class="col-md-12 text-center ">
-                            <a href="https://marketplace.grid.tf/auth/login?next_url=/marketplace/#/ " target="_blank " class="btn btn-primary text-uppercase font-weight-bold deploy_launch "> LAUNCH MARKETPLACE <span class="text-uppercase btn btn-success
+                        <div class="col-md-12 text-center deploy_btn">
+                            <a href="https://marketplace.grid.tf/auth/login?next_url=/marketplace/#/ " target="_blank " class="btn btn-primary text-uppercase font-weight-bold"> LAUNCH MARKETPLACE <span class="text-uppercase btn btn-success
                                 font-weight-bold ">Beta</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row ">
+    </section>
+    <!-- <div class="row ">
         <div class="bg-light deploy_border col-md-8 ">
           <div class="row mt-2 ">
             <div class="col-md-3 ">
@@ -418,7 +420,7 @@
         </div>
       </div>
     </div> -->
-            <!-- </section>
+    <!-- </section>
   <section class="py-5 bg-success ">
     <div class="container ">
       <div class="row pb-4 ">
@@ -480,123 +482,124 @@
       </div>
     </div>
   </section> -->
-            <section class="pt-5 ">
-                <div class="container-fluid ">
-                    <div class="row ">
-                        <div class="col-md-12 ">
-                            <h2 class="text-center ">planet friendly</h2>
-                            <p class="text-dark text-center pb-2 lead " style="font-size:1.5em;line-height: 1.2; "><b>The ThreeFold architecture maximizes energy efficiency by <br>leaving out unnecessary plumbing and utilizing green technology.</b></p>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-md-12 ">
-                            <img class="img-fluid d-block mx-auto Planet_desktop " src="assets/deploy_page/planet_friendly.png " width="80% ">
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-md-12 Planet_mobile ">
-                            <img class="img-fluid d-block mx-auto " src="assets/deploy_page/Planet-Friendly_mobile.png ">
-                        </div>
-                    </div>
+    <section class="py-5 ">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h2 class="text-center ">planet friendly</h2>
+                    <p class="text-dark text-center pb-2 lead " style="font-size:1.5em;line-height: 1.2; "><b>The ThreeFold architecture maximizes energy efficiency by <br>leaving out unnecessary plumbing and utilizing green technology.</b></p>
                 </div>
-            </section>
-            <section class="footer py-5 ">
-                <div class="container ">
-                    <div class="row ">
-                        <div class="offset-md-1 col-md-3 text-left mb-2 ">
-                            <p class="footer_header text-dark mb-1 "><b>Individuals</b></p>
-                            <ul>
-                                <li><a href="https://wiki.threefold.io/#/how_to_buy_and_sell " target="_blank ">Buy TFT</a></li>
-                                <li><a href="https://wiki.threefold.io/#/become_a_farmer " target="_blank ">Become a Farmer</a></li>
-                                <li><a href="https://wiki.threefold.io/#/ " target="_blank ">ThreeFold Wiki (knowledge-base)</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-2 text-left mb-2 ">
-                            <p class="footer_header text-dark mb-1 "><b>Developers</b></p>
-                            <ul>
-                                <!-- <li><a class="text-capitalize " href="http://marketplace.threefold.me/marketplace/#/ " target="_blank ">ThreeFold studio</a></li> -->
-                                <li><a href="https://marketplace.grid.tf/auth/login?next_url=/marketplace/#/network " target="_blank ">Capacity Marketplace</a></li>
-                                <li><a href="https://manual.threefold.io/#/ " target="_blank ">Developer Resources</a></li>
-                                <li><a href="https://github.com/threefoldfoundation " target="_blank ">ThreeFold GitHub</a></li>
-                                <li><a href="http://whitepaper.threefold.me/ " target="_blank ">ThreeFold Whitepaper</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 text-left mb-2 ">
-                            <p class="footer_header text-dark mb-1 "><b>Ecosystem</b></p>
-                            <ul>
-                                <li><a href="https://www.threefold.me/ " target="_blank ">ThreeFold Foundation</a></li>
-                                <li><a href="https://forum.threefold.io/ " target="_blank ">ThreeFold Forum</a></li>
-                                <li><a href="https://www.consciousinternet.org/ " target="_blank ">Alliance for a Conscious Internet</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 text-left mb-2 ">
-                            <p class="footer_header text-dark mb-1 "><b>ThreeFold</b></p>
-                            <ul>
-                                <li><a href="https://t.me/threefoldnews " target="_blank ">ThreeFold News</a></li>
-                                <li><a href="https://wiki.threefold.io/#/disclaimer " target="_blank ">Disclaimer</a></li>
-                                <li><a href="https://wiki.threefold.io/#/privacypolicy " target="_blank ">Privacy Policy</a></li>
-                                <li><a href="https://wiki.threefold.io/#/termsconditions " target="_blank ">Terms & Conditions</a></li>
-                                <li><a href="mailto:press@threefold.io ">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col ">
-                            <div class="list social my-5 text-center ">
-                                <ul class="text-center mb-2 ">
-                                    <li class="mx-2 ">
-                                        <a href="https://www.facebook.com/threefold.io " target="_blank ">
-                                            <i class="fab fa-facebook-f fa-2x "></i>
-                                        </a>
-                                    </li>
-                                    <li class="mx-2 ">
-                                        <a href="https://twitter.com/threefold_io " target="_blank ">
-                                            <i class="fab fa-twitter fa-2x "></i>
-                                        </a>
-                                    </li>
-                                    <li class="mx-2 ">
-                                        <a href="https://www.linkedin.com/company/threefold-foundation/ " target="_blank ">
-                                            <i class="fab fa-linkedin-in fa-2x "></i>
-                                        </a>
-                                    </li>
-                                    <li class="mx-2 ">
-                                        <a href=" https://www.youtube.com/threefoldfoundation " target="_blank "><i class="fab fa-youtube fa-2x "></i>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <img class="img-fluid d-block mx-auto Planet_desktop " src="assets/deploy_page/planet_friendly.png " width="80% ">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 Planet_mobile ">
+                    <img class="img-fluid d-block mx-auto " src="assets/deploy_page/Planet-Friendly_mobile.png ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer py-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="offset-md-1 col-md-3 text-left mb-2 ">
+                    <p class="footer_header text-dark mb-1 "><b>Individuals</b></p>
+                    <ul>
+                        <li><a href="https://wiki.threefold.io/#/how_to_buy_and_sell " target="_blank ">Buy TFT</a></li>
+                        <li><a href="https://wiki.threefold.io/#/become_a_farmer " target="_blank ">Become a Farmer</a></li>
+                        <li><a href="https://wiki.threefold.io/#/ " target="_blank ">ThreeFold Wiki (knowledge-base)</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-left mb-2 ">
+                    <p class="footer_header text-dark mb-1 "><b>Developers</b></p>
+                    <ul>
+                        <!-- <li><a class="text-capitalize " href="http://marketplace.threefold.me/marketplace/#/ " target="_blank ">ThreeFold studio</a></li> -->
+                        <li><a href="https://marketplace.grid.tf/auth/login?next_url=/marketplace/#/network " target="_blank ">Capacity Marketplace</a></li>
+                        <li><a href="https://manual.threefold.io/#/ " target="_blank ">Developer Resources</a></li>
+                        <li><a href="https://github.com/threefoldfoundation " target="_blank ">ThreeFold GitHub</a></li>
+                        <li><a href="http://whitepaper.threefold.me/ " target="_blank ">ThreeFold Whitepaper</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-left mb-2 ">
+                    <p class="footer_header text-dark mb-1 "><b>Ecosystem</b></p>
+                    <ul>
+                        <li><a href="https://www.threefold.me/ " target="_blank ">ThreeFold Foundation</a></li>
+                        <li><a href="https://forum.threefold.io/ " target="_blank ">ThreeFold Forum</a></li>
+                        <li><a href="https://blog.threefold.io/" target="_blank">ThreeFold Blog</a></li>
+                        <li><a href="https://www.consciousinternet.org/ " target="_blank ">Alliance for a Conscious Internet</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-left mb-2 ">
+                    <p class="footer_header text-dark mb-1 "><b>ThreeFold</b></p>
+                    <ul>
+                        <li><a href="https://t.me/threefoldnews " target="_blank ">ThreeFold News</a></li>
+                        <li><a href="https://wiki.threefold.io/#/disclaimer " target="_blank ">Disclaimer</a></li>
+                        <li><a href="https://wiki.threefold.io/#/privacypolicy " target="_blank ">Privacy Policy</a></li>
+                        <li><a href="https://wiki.threefold.io/#/termsconditions " target="_blank ">Terms & Conditions</a></li>
+                        <li><a href="mailto:press@threefold.io ">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col ">
+                    <div class="list social my-5 text-center ">
+                        <ul class="text-center mb-2 ">
+                            <li class="mx-2 ">
+                                <a href="https://www.facebook.com/threefold.io " target="_blank ">
+                                    <i class="fab fa-facebook-f fa-2x "></i>
+                                </a>
+                            </li>
+                            <li class="mx-2 ">
+                                <a href="https://twitter.com/threefold_io " target="_blank ">
+                                    <i class="fab fa-twitter fa-2x "></i>
+                                </a>
+                            </li>
+                            <li class="mx-2 ">
+                                <a href="https://www.linkedin.com/company/threefold-foundation/ " target="_blank ">
+                                    <i class="fab fa-linkedin-in fa-2x "></i>
+                                </a>
+                            </li>
+                            <li class="mx-2 ">
+                                <a href=" https://www.youtube.com/threefoldfoundation " target="_blank "><i class="fab fa-youtube fa-2x "></i>
               </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://t.me/threefoldnews " target="_blank ">
-                                            <i class="fab fa-telegram-plane fa-2x "></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <a href="/ "><img src="assets/TFN-black.svg " width="270 " alt=" "></a>
-                            </div>
-                        </div>
+                            </li>
+                            <li>
+                                <a href="https://t.me/threefoldnews " target="_blank ">
+                                    <i class="fab fa-telegram-plane fa-2x "></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="/ "><img src="assets/TFN-black.svg " width="270 " alt=" "></a>
                     </div>
                 </div>
-            </section>
-            <!-- JavaScript dependencies -->
-            <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
-            <script src="js/common.js "></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfYLJW6FPTxcpRJiUz2mIPVcKzo4PzNb4&amp;callback=initMap " async=" " defer=" "></script>
-            <script src="js/map_nodes.js "></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " crossorigin="anonymous " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "></script>
-            <script crossorigin="anonymous " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
-            <!-- Script: Smooth scrolling between anchors in a same page -->
-            <script src="js/smooth-scroll.js "></script>
-            <script>
-                $(function() {
-                    var winH = $(window).innerHeight();
-                    var navH = $(".navbar ").innerHeight();
-                    $(".home_page_banner ").height(winH + navH);
-                    window.onscroll = function(e) {
-                        myFunction();
-                    };
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
+    <script src="js/common.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfYLJW6FPTxcpRJiUz2mIPVcKzo4PzNb4&amp;callback=initMap " async=" " defer=" "></script>
+    <script src="js/map_nodes.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " crossorigin="anonymous " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "></script>
+    <script crossorigin="anonymous " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+    <!-- Script: Smooth scrolling between anchors in a same page -->
+    <script src="js/smooth-scroll.js "></script>
+    <script>
+        $(function() {
+            var winH = $(window).innerHeight();
+            var navH = $(".navbar ").innerHeight();
+            $(".home_page_banner ").height(winH + navH);
+            window.onscroll = function(e) {
+                myFunction();
+            };
 
-                    function myFunction() {
-                        let logo = document.getElementById("logo ");
-                        return document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? (logo.src = "assets/TFN-black.svg ") : (logo.src = "assets/TFN-black.svg ");
-                    }
-                });
-            </script>
+            function myFunction() {
+                let logo = document.getElementById("logo ");
+                return document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? (logo.src = "assets/TFN-black.svg ") : (logo.src = "assets/TFN-black.svg ");
+            }
+        });
+    </script>
 </body>
 
 </html>

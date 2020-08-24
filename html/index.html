@@ -2,18 +2,6 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-100065546-1");
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- PAGE settings -->
@@ -59,24 +47,6 @@
             d.getElementsByTagName("head")[0].appendChild(s);
         })();
     </script>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                "gtm.start": new Date().getTime(),
-                event: "gtm.js",
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != "dataLayer" ? "&l=" + l : "";
-            j.async = true;
-            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, "script", "dataLayer", "GTM-58B4KK2");
-    </script>
-    <!-- End Google Tag Manager -->
-
     <!-- MailerLite Universal -->
     <script>
         (function(m, a, i, l, e, r) {
@@ -104,12 +74,22 @@
     </script>
     <!-- End MailerLite Universal -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-100065546-1");
+    </script>
+
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58B4KK2 " height="0 " width="0 " style="display: none; visibility: hidden; "></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand " href="/ ">
@@ -151,7 +131,7 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="home_page_banner banner_home h-100 mb-5 home " style=" background-image: url(img/tf_home2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; ">
+    <div class="home_page_banner banner_home h-100 py-5 home " style=" background-image: url(img/tf_home2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; ">
         <div class="filter"></div>
         <div class="blue ">
             <a href="https://player.vimeo.com/video/438190961?autoplay=1" class="vpop"> <img src="img/tf_home/play_button.svg " alt=" ">
@@ -162,6 +142,7 @@
                 <div class="offset-md-8 col-md-4 d-flex flex-column align-content-center py-3">
                     <h3 class="text-uppercase "><span class="header-span ">the</span> largest peer-to-peer <br> grid on the planet</h3>
                     <p>Decentralized storage and compute owned by everyone, everywhere.</p>
+                    <a href="https://player.vimeo.com/video/438190961?autoplay=1" class="btn btn-primary mob-video text-uppercase font-weight-bold vpop">Watch Video</a>
                 </div>
             </div>
         </div>
@@ -189,12 +170,12 @@
                     <h4 class="text-uppercase " style="line-height: 0.9;"> POWERING THE GRID WITH <br>OUR OWN OPERATING SYSTEM </h4>
                     <p> Our open source operating system, Zero-OS, makes computers trustworthy. We call these computers 3Nodes and 3Node owners - Farmers. Farmers with their 3Nodes are what forms the ThreeFold Grid - the world's largest peer-to-peer network.
                     </p>
-                    <a href="farming.html"><button type="button " class="btn btn-secondary text-uppercase font-weight-bold my-3 "> Become a farmer </button></a>
+                    <a href="farming.html"><button type="button " class="btn btn-primary text-uppercase font-weight-bold my-3 "> Become a farmer </button></a>
                 </div>
             </div>
         </div>
     </div>
-    <section class="emptyDiv text-dark py-3 mb-5">
+    <section class="emptyDiv text-dark py-5 mb-5">
         <div class="container-fluid ">
             <div class="row ">
                 <div class="offset-md-6 col-md-6 d-flex flex-row justify-content-end ">
@@ -222,7 +203,7 @@
             </div>
         </div>
     </div>
-    <section class="home_map_sec py-4 bg-light">
+    <section class="home_map_sec py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 py-4 ">
@@ -4062,7 +4043,7 @@
         </div>
     </section>
     <!-- TF projects -->
-    <section class="tf-projects text-dark pt-5 pb-2">
+    <section class="tf-projects text-dark py-5">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-7 pb-3">
@@ -4087,7 +4068,7 @@
                         <div class="col-md-3 col-6"><img class="img-fluid d-block mx-auto" src="assets/logo_partners/dash.png"></div>
                     </div>
                 </div>
-                <div class="col-md-5 ">
+                <div class="col-md-5 deploy_btn">
                     <h2 class="text-uppercase ">Decentralize now!</h2>
                     <p> Any application which can run on Linux can run on the ThreeFold Grid but wih more speed, cost-efficiency, privacy &amp; security and sustainability. Any individual or organization can utilize the ThreeFold Grid's capacity for any current
                         or future IT workload - such as blockchain, IoT, 5G, AI and VR/AR, and benefit from improved performance and reduced costs. </p>
@@ -4097,9 +4078,9 @@
         </div>
     </section>
     <!-- Future of threefold -->
-    <section class="future-of-threefold text-dark pb-3">
+    <section class="future-of-threefold text-dark py-5">
         <div class="container">
-            <h2 class="text-uppercase text-center my-5 ">THE FEATURES OF THREEFOLD GRID</h2>
+            <h2 class="text-uppercase text-center">THE FEATURES OF THREEFOLD GRID</h2>
             <div class="row ">
                 <div class="d-flex flex-column justify-content-center col-md-6">
                     <h2 class="text-uppercase text-center text-md-left ">an internet for everyone</h2>
@@ -4140,12 +4121,15 @@
         </div>
     </section>
     <!-- in the news -->
-    <section class="in-the-news pb-5 ">
+    <section class="in-the-news py-5 ">
         <div class="container ">
-            <h1 class="text-center text-uppercase text-dark my-5 ">In the news</h1>
+            <h1 class="text-center text-uppercase text-dark">In the news</h1>
             <div class="row ">
                 <div class="col ">
                     <section class="regular slider ">
+                        <div>
+                            <a href="https://gritdaily.com/belarus-governments-control-internet/" target="_blank"><img class="d-block img-fluid" src="img/tf_home/grit-daily-logo-1-1.png"></a>
+                        </div>
                         <div>
                             <a href="https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf" target="_blank"><img src="img/tf_home/hackernoon.png"></a>
                         </div>
@@ -4208,7 +4192,7 @@
     <!-- sign up  -->
     <section class="wiki_part py-5" style="	background-image: url(&quot;img/tf_home/stay_in_touch.png&quot;);	background-position: top;	background-size: cover;	background-repeat: no-repeat;">
         <div class="container">
-            <div class="row mt-3">
+            <div class="row">
                 <div class="col">
                     <div class="head_div ">
                         <div class="row">
@@ -4217,7 +4201,7 @@
                                 <p class="lead text-center mb-1 text-dark"><b>Get the latest updates on everything ThreeFold via&nbsp;<br>email and join our Telegram group.&nbsp;</b></p>
                                 <div class="text-center">
                                     <!-- <div class="form-group"> <input type="email" class="form-control text-center" placeholder="Please enter your email address."> </div> -->
-                                    <button class="btn btn-secondary text-uppercase font-weight-bold my-3 mx-2" onclick="ml_account('webforms', '2461453', 'c2r0d8', 'show')">
+                                    <button class="btn btn-primary text-uppercase font-weight-bold my-3 mx-2" onclick="ml_account('webforms', '2461453', 'c2r0d8', 'show')">
                                         Sign up
                                       </button>
                                     <a href="https://t.me/threefoldnews" target="_blank"><button class="btn btn-success text-uppercase font-weight-bold text-white my-3 mx-2">Telegram</button></a>
@@ -4230,9 +4214,9 @@
         </div>
     </section>
     <!-- wiki  -->
-    <section class="wiki_part pt-4 pb-3" style="background-color:#969696">
+    <section class="wiki_part py-5" style="background-color:#969696">
         <div class="container">
-            <div class="row mt-3">
+            <div class="row">
                 <div class="col">
                     <div class="head_div ">
                         <div class="row">
@@ -4242,7 +4226,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="order-md-2 col-md-12 text-center"><img class="d-block img-fluid mx-auto pb-2" src="img/tf_home/Homepagelaptop2.png"><a class="btn text-uppercase mb-3 btn-secondary text-center" href="https://wiki.threefold.io/#/" target="_blank"><b> Wiki </b></a></div>
+                            <div class="order-md-2 col-md-12 text-center"><img class="d-block img-fluid mx-auto pb-2" src="img/tf_home/Homepagelaptop2.png"><a class="btn text-uppercase mb-3 btn-primary text-center" href="https://wiki.threefold.io/#/" target="_blank"><b> Wiki </b></a></div>
                         </div>
                     </div>
                 </div>
@@ -4276,6 +4260,7 @@
                     <ul>
                         <li><a href="https://www.threefold.me/ " target="_blank">ThreeFold Foundation</a></li>
                         <li><a href="https://forum.threefold.io/ " target="_blank">ThreeFold Forum</a></li>
+                        <li><a href="https://blog.threefold.io/" target="_blank">ThreeFold Blog</a></li>
                         <li><a href="https://www.consciousinternet.org/ " target="_blank">Alliance for a Conscious Internet</a></li>
                     </ul>
                 </div>
@@ -4352,21 +4337,21 @@
                         slidesToScroll: 3,
                         infinite: true,
                         dots: true,
-                        arrows: false
+                        arrows: true
                     }
                 }, {
                     breakpoint: 600,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
-                        arrows: false
+                        arrows: true
                     }
                 }, {
                     breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        arrows: false
+                        arrows: true
                     }
                 }]
             });
