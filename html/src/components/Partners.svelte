@@ -88,10 +88,12 @@
           <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
-                Not only do we share the mutual goal of a truly decentralized
-                secure, scalable network. SKALE developers will be able use
-                Threefolds peer-to-peer cloud to more easily build highly
-                scalable Ethereum Dapps.
+                <i>
+                  "Not only do we share the mutual goal of a truly decentralized
+                  secure, scalable network. SKALE developers will be able use
+                  Threefolds peer-to-peer cloud to more easily build highly
+                  scalable Ethereum Dapps."
+                </i>
               </p>
               <h4 class="text-uppercase">Christine perry</h4>
               <p class="mb-0">VP Solutions Engineering</p>
@@ -108,9 +110,11 @@
           <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-5">
-                Both DigiByte and Threefold have the same mission: creating a
-                truly decentralized world. It’s not just about technology but
-                also about equality and humanity.
+                <i>
+                  "Both DigiByte and Threefold have the same mission: creating a
+                  truly decentralized world. It’s not just about technology but
+                  also about equality and humanity."
+                </i>
               </p>
               <h4 class="text-uppercase">Rudy Bouwman</h4>
               <p class="mb-0">Secretary & Vice-Chairman</p>
@@ -122,15 +126,20 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-4">
-            <img src="/assets/partners-logo/PRESEARCH.png" class="mb-3" alt="" />
+            <img
+              src="/assets/partners-logo/PRESEARCH.png"
+              class="mb-3"
+              alt="" />
           </div>
           <div class="col-md-8 text-left">
             <div class="partner-text">
               <p class="text-left mb-4">
-                Threefolds distributed infrastructure offering peer-to-peer
-                storage and compute resources paid with cryptocurrency is
-                exactly what the project needs to fulfil our roadmap and
-                decentralize the platform.
+                <i>
+                  "Threefolds distributed infrastructure offering peer-to-peer
+                  storage and compute resources paid with cryptocurrency is
+                  exactly what the project needs to fulfil our roadmap and
+                  decentralize the platform."
+                </i>
               </p>
               <h4 class="text-uppercase">Colin Pape</h4>
               <p class="mb-0">founder and CEO</p>
