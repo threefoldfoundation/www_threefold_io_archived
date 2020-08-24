@@ -3236,6 +3236,10 @@ a:focus {
     float: left
 }
 
+.mob-video {
+    display: none;
+}
+
 @media screen and (max-width:1920px) {
     .liqued {
         display: none;
@@ -4707,6 +4711,9 @@ margin: 0 0;
     }
     .navbar-brand {
         width: 80%;
+    }
+    .mob-video {
+        display: block;
     }
 }
 
