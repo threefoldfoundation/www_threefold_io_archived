@@ -4723,6 +4723,11 @@ margin: 0 0;
     .capacity {
         font-size: 50px !important;
     }
+
+    .app_part h1{
+      font-size: 55px;
+    }
+
     .experiences {
         margin-bottom: 0px !important;
     }
