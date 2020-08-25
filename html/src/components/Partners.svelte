@@ -63,7 +63,7 @@
   });
 </script>
 
-<div class="align-items-center partner_page_banner" style=" height: 1050.3px;">
+<div class="align-items-center partner_page_banner" style=" min-height: 1050.3px;">
   <div class="container">
     <div class="row pb-5">
       <div class="col-md-12 mx-auto">
