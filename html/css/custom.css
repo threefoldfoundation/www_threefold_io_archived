@@ -411,7 +411,7 @@ a:hover {
 /* Svelte pages */
 
 .dynamic-sec {
-    padding: 100px 0 !important;
+    padding: 50px 0 !important;
 }
 
 .rj-team .rj-team-member {
@@ -4723,11 +4723,9 @@ margin: 0 0;
     .capacity {
         font-size: 50px !important;
     }
-
-    .app_part h1{
-      font-size: 55px;
+    .app_part h1 {
+        font-size: 55px;
     }
-
     .experiences {
         margin-bottom: 0px !important;
     }

@@ -63,7 +63,7 @@
   });
 </script>
 
-<div class="align-items-center partner_page_banner" style=" height: 1050.3px;">
+<div class="align-items-center partner_page_banner" style=" min-height: 1050.3px;">
   <div class="container">
     <div class="row pb-5">
       <div class="col-md-12 mx-auto">
@@ -79,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row my-5">
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-4">
