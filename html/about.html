@@ -1,47 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- PAGE settings -->
     <link rel="shortcut icon" type="image/icon" href="assets/favicon.ico" />
     <title>ThreeFold</title>
     <!-- OpenGraph Metadata & Metadata -->
-    <meta
-      property="og:title"
-      content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET."
-    />
-    <meta
-      property="og:description"
-      content="Decentralized storage and compute for everyone, owned by everyone, everywhere."
-    />
-    <meta
-      property="og:image"
-      content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/home_opengraph.png"
-    />
+    <meta property="og:title" content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET." />
+    <meta property="og:description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/home_opengraph.png" />
     <meta property="og:url" content="https://www.threefold.io/index.html" />
-    <meta
-      name="twitter:title"
-      content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET."
-    />
-    <meta
-      name="twitter:description"
-      content="Decentralized storage and compute for everyone, owned by everyone, everywhere."
-    />
-    <meta
-      name="twitter:image"
-      content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/tfgrid.png"
-    />
+    <meta name="twitter:title" content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET." />
+    <meta name="twitter:description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/tfgrid.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:url" content="https://www.threefold.io/index.html" />
-    <meta
-      name="keywords"
-      content="ThreeFold, ThreeFold, ThreeFold Foundation, ThreeFold Grid, ThreeFold Token, 3Bot, Peer-to-Peer, P2P, Decentralization, Impact Project"
-    />
-    <meta
-      name="description"
-      content="Decentralized storage and compute for everyone, owned by everyone, everywhere."
-    />
+    <meta name="keywords" content="ThreeFold, ThreeFold, ThreeFold Foundation, ThreeFold Grid, ThreeFold Token, 3Bot, Peer-to-Peer, P2P, Decentralization, Impact Project" />
+    <meta name="description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere." />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
@@ -53,76 +30,51 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Bebas+Neue&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&amp;display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&amp;display=swap" rel="stylesheet" />
     <!-- Script: Make my navbar transparent when the document is scrolled to top -->
     <script src="js/navbar-ontop.js"></script>
     <script src="js/animate-in.js"></script>
     <script type="text/javascript">
-      window.$crisp = [];
-      window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
-      (function () {
-        d = document;
-        s = d.createElement("script");
-        s.src = "https://client.crisp.chat/l.js";
-        s.async = 1;
-        d.getElementsByTagName("head")[0].appendChild(s);
-      })();
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-      gtag("config", "UA-100065546-1");
+        gtag("config", "UA-100065546-1");
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="/ ">
-        <img
-          id="logo"
-          src="assets/TFN_white.svg"
-          height="22"
-          alt="Threefold logo "
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        <a class="navbar-brand" href="/ ">
+            <img id="logo" src="assets/TFN_white.svg" height="22" alt="Threefold logo " />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item">
-              <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="index.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="index.html">Home</a
+            >
           </li>
           <li class="nav-item">
             <a
@@ -160,12 +112,8 @@
             >
               Info
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a
-                class="dropdown-item"
-                href="https://blog.threefold.io/blog/tfblog/posts?page=1"
-                target="_blank"
-                >Blog</a
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://blog.threefold.io/blog/tfblog/posts?page=1" target="_blank">Blog</a
               >
               <a
                 class="dropdown-item"
@@ -180,15 +128,11 @@
                 >Wiki</a
               >
               <a class="dropdown-item" href="/public/#/team">Team</a>
-              <a class="dropdown-item" href="news.html">In The News</a>
-            </div>
-          </li>
-          <li class="nav-item deploy_btn">
-            <a
-              class="nav-link btn btn-primary text-uppercase pr-0 font-weight-bold"
-              href="deploy.html"
-              class="btn btn-primary text-uppercase font-weight-bold"
-              >Deploy
+                        <a class="dropdown-item" href="news.html">In The News</a>
+                    </div>
+                </li>
+                <li class="nav-item deploy_btn">
+                    <a class="nav-link btn btn-primary text-uppercase pr-0 font-weight-bold" href="deploy.html" class="btn btn-primary text-uppercase font-weight-bold">Deploy
               <span class="text-uppercase btn btn-success font-weight-bold"
                 >Beta</span
               ></a
@@ -203,44 +147,30 @@
                 Tokens
               </button>
             </a>
-          </li>
-        </ul>
-      </div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- End Navbar -->
-    <div
-      class="h-100 about-us py-5"
-      style="
+    <div class="h-100 about-us py-5" style="
         background-image: url(assets/about_us/abot_header.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-      "
-    >
-      <div class="green">
-        <a
-          href="https://player.vimeo.com/video/400675796?autoplay=1"
-          class="vpop"
-        >
-          <img src="img/tf_home/play_button.svg " alt=" " />
-        </a>
-      </div>
-      <div class="container-fluid h-100">
-        <div class="row h-100">
-          <div
-            class="offset-md-3 col-md-6 d-flex flex-column justify-content-end"
-          >
-            <h2 class="text-uppercase text-center">Built on values</h2>
-            <p class="text-center text-dark">
-              ThreeFold is not about a team, it is about a movement. Our
-              development process is open to contributions from anybody. We
-              invite you to participate in our
-              <a href="https://forum.threefold.io/" target="_blank">Forum</a>
-              and
-              <a
-                href="https://github.com/search?q=org%3Athreefoldfoundation+threefold&amp;unscoped_q=threefold"
-                target="_blank"
-                >Github</a
+      ">
+        <div class="green">
+            <a href="https://player.vimeo.com/video/400675796?autoplay=1" class="vpop">
+                <img src="img/tf_home/play_button.svg " alt=" " />
+            </a>
+        </div>
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="offset-md-3 col-md-6 d-flex flex-column justify-content-end">
+                    <h2 class="text-uppercase text-center">Built on values</h2>
+                    <p class="text-center text-dark">
+                        ThreeFold is not about a team, it is about a movement. Our development process is open to contributions from anybody. We invite you to participate in our
+                        <a href="https://forum.threefold.io/" target="_blank">Forum</a> and
+                        <a href="https://github.com/search?q=org%3Athreefoldfoundation+threefold&amp;unscoped_q=threefold" target="_blank">Github</a
               >
               <a
                 href="https://player.vimeo.com/video/400675796?autoplay=1"
@@ -320,121 +250,191 @@
     </section>
     <!-- End what we stand for -->
 
-    <section class="why_node_grid py-4" >
-       <div class="container">
-         <div class="row">
-           <div class="col-md-8 mx-auto">
-             <div class="head_div">
-               <h2 class="mb-0 text-secondary text-center">OUR WHY’S</h2>
-               <br>
-             </div>
-           </div>
-         </div>
-         <div class="row">
-           <div class="col-md-10 mx-auto">
-             <div class="row">
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/kristof-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> Kristof is a motivated entrepreneur, having founded more than 10 companies (6 sold) in storage, automation, and cloud computing. More importantly, though, he is a humanist – passionate to help make the world a better place through building technology for all to use.&nbsp; </p>
-                       <h6 class="text-secondary fs-20">
-                         Kristof De Spiegeleer (Belgium)
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/reem-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> Reem believes that technology is the key to making the world a little bit better and greener. So after studying Digital Media Engineering Technology and Computer Science she joined ThreeFold in the pursuit of making the world a nicer place through lines of code. </p>
-                       <h6 class="text-secondary fs-20">
-                         Reem Khamis (Egypt)
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/chris-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> Originating out of Zimbabwe, Chris is passionate about seeing Africa transform into a world-first digital economy. For him, the macroeconomic and social impact ThreeFold can impart within emerging markets is unprecedented and can revolutionize many sectors &amp; uplift nations.&nbsp; </p>
-                       <h6 class="text-secondary fs-20">
-                         Chris Hutton (Zimbabwe)
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-         <div class="row">
-           <div class="col-md-10 mx-auto">
-             <div class="row">
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/sam-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> Sam believes in following momentum, &amp; momentum led him to ThreeFold. "The movement represents a new frontier, a new mindset, and a better, more fair &amp; honest way forward. We have the opportunity &amp; ability to have great, positive, and widespread impact on the world." </p>
-                       <h6 class="text-secondary fs-20">
-                         Sam Taggart (United States)
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/sabrina-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> Sabrina is a firm believer in equality and fairness. She believes that everyone should be treated the same, regardless of where you were born, where you live or who you are. Everyone should be given the same opportunities in life, and with ThreeFold we can help reach that goal by creating a digital world without borders nor geographical discrimination. </p>
-                       <h6 class="text-secondary fs-20">
-                         Sabrina Sadik (Belgium)
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-4">
-                 <div class="item row py-4">
-                   <div class="col-12">
-                     <div class="image text-left">
-                       <img src="assets/weynand-quote.png" height="120" class="w-100 of-contain" style="object-position: left;">
-                     </div>
-                     <div class="desc text-left">
-                       <p class="fs-15 lh-1-4 text-secondary text-justify my-2"> For Weynand, the Internet is where the next generation will expand their minds and innovate. He experienced this first-hand when his son outsmarted him by learning online how to boil an egg in a microwave. Such learning ability should be available globally, sustainably and efficiently. </p>
-                       <h6 class="text-secondary fs-20">
-                         Weynand Kuijpers (Netherlands) 
-                       </h6>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
-
+    <section class="why_node_grid py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="head_div">
+              <h2 class="mb-0 text-secondary text-center">OUR WHY’S</h2>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/kristof-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        Kristof is a motivated entrepreneur, having founded more
+                        than 10 companies (6 sold) in storage, automation, and
+                        cloud computing. More importantly, though, he is a
+                        humanist – passionate to help make the world a better
+                        place through building technology for all to use.&nbsp;
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Kristof De Spiegeleer (Belgium)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/reem-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        Reem believes that technology is the key to making the
+                        world a little bit better and greener. So after studying
+                        Digital Media Engineering Technology and Computer
+                        Science she joined ThreeFold in the pursuit of making
+                        the world a nicer place through lines of code.
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Reem Khamis (Egypt)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/chris-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        Originating out of Zimbabwe, Chris is passionate about
+                        seeing Africa transform into a world-first digital
+                        economy. For him, the macroeconomic and social impact
+                        ThreeFold can impart within emerging markets is
+                        unprecedented and can revolutionize many sectors &amp;
+                        uplift nations.&nbsp;
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Chris Hutton (Zimbabwe)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/sam-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        Sam believes in following momentum, &amp; momentum led
+                        him to ThreeFold. "The movement represents a new
+                        frontier, a new mindset, and a better, more fair &amp;
+                        honest way forward. We have the opportunity &amp;
+                        ability to have great, positive, and widespread impact
+                        on the world."
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Sam Taggart (United States)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/sabrina-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        Sabrina is a firm believer in equality and fairness. She
+                        believes that everyone should be treated the same,
+                        regardless of where you were born, where you live or who
+                        you are. Everyone should be given the same opportunities
+                        in life, and with ThreeFold we can help reach that goal
+                        by creating a digital world without borders nor
+                        geographical discrimination.
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Sabrina Sadik (Belgium)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item row py-4">
+                  <div class="col-12">
+                    <div class="image text-left">
+                      <img
+                        src="assets/weynand-quote.png"
+                        height="120"
+                        class="w-100 of-contain"
+                        style="object-position: left;"
+                      />
+                    </div>
+                    <div class="desc text-left">
+                      <p class="fs-15 lh-1-4 text-secondary text-justify my-2">
+                        For Weynand, the Internet is where the next generation
+                        will expand their minds and innovate. He experienced
+                        this first-hand when his son outsmarted him by learning
+                        online how to boil an egg in a microwave. Such learning
+                        ability should be available globally, sustainably and
+                        efficiently.
+                      </p>
+                      <h6 class="text-secondary fs-20">
+                        Weynand Kuijpers (Netherlands)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Experience count -->
     <section class="experience-count py-5">
@@ -442,32 +442,24 @@
         <h2 class="text-uppercase text-center">Experience counts</h2>
         <p class="text-dark text-center pb-5">
           Some early ThreeFold developers have been on a journey together with
-          <a href="https://www.incubaid.com/" target="_blank">Incubaid</a> over
-          the past two decades, building parts of the cloud we use today and
-          achieving more than 500 million USD in exits. After many years in the
-          industry, they realized that a new internet architecture was needed to
-          bring positive change to our world. So, they set the foundation for
-          what would later become the ThreeFold Movement.
-        </p>
-      </div>
-    </section>
-    <!-- End Experience count -->
-    <section class="rod py-5">
-      <img
-        class="roadmapLine"
-        src="assets/Farming_page/roadmap-platform.png"
-        alt=""
-      />
-      <!-- step1 -->
-      <div class="step-1 text-center">
-        <h2 class="green-road">2005</h2>
-        <h5 class="text-uppercase">data center technologies</h5>
-        <p class="mb-0">
-          Data reduction and capacity <br />optimization software for
-          <br />disk-based backup.
-        </p>
-        <p class="text-uppercase">
-          <small class="d-block">Acquired by</small
+          <a href="https://www.incubaid.com/" target="_blank">Incubaid</a> over the past two decades, building parts of the cloud we use today and achieving more than 500 million USD in exits. After many years in the industry,
+                        they realized that a new internet architecture was needed to bring positive change to our world. So, they set the foundation for what would later become the ThreeFold Movement.
+                    </p>
+                </div>
+                </section>
+                <!-- End Experience count -->
+                <section class="rod py-5">
+                    <img class="roadmapLine" src="assets/Farming_page/roadmap-platform.png" alt="" />
+                    <!-- step1 -->
+                    <div class="step-1 text-center">
+                        <h2 class="green-road">2005</h2>
+                        <h5 class="text-uppercase">data center technologies</h5>
+                        <p class="mb-0">
+                            Data reduction and capacity <br />optimization software for
+                            <br />disk-based backup.
+                        </p>
+                        <p class="text-uppercase">
+                            <small class="d-block">Acquired by</small
           ><span class="blue-road font-weight-bold">Veritas</span>
         </p>
         <img
