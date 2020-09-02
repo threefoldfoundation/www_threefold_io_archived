@@ -73,7 +73,7 @@
             class="img-fluid"
             alt="TF Partners" />
           <div class="content w-100 text-center">
-            <h1 class="1pb-2 text-uppercase">thank you partners</h1>
+            <h2 class="1pb-2 text-uppercase">thank you partners</h2>
             <p>Welcome to the growing ecosystem around ThreeFold</p>
           </div>
         </div>
