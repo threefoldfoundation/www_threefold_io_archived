@@ -65,15 +65,15 @@
 
 <div class="align-items-center partner_page_banner" style=" min-height: 1050.3px;">
   <div class="container">
-    <div class="row pb-5">
+    <div class="row">
       <div class="col-md-12 mx-auto">
         <div class="desc">
           <img
-            src="/assets/partners-logo/partners_2.png"
-            class="img-fluid"
+            src="/assets/partners-logo/partners_3.png"
+            class="img-fluid w-50 mt-5"
             alt="TF Partners" />
           <div class="content w-100 text-center">
-            <h2 class="1pb-2 text-uppercase">thank you partners</h2>
+            <h2 class="1pb-2 text-uppercase mt-4">thank you partners</h2>
             <p>Welcome to the growing ecosystem around ThreeFold</p>
           </div>
         </div>
