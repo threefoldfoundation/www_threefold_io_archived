@@ -21,10 +21,8 @@ class API {
     getMembers(projects, contribution_types) {
         if (!window.process.env.dev) {
             return axios.post("/api/members/list", {
-                args: {
-                    projects: projects,
-                    contribution_types: contribution_types
-                }
+                projects: projects,
+                contribution_types: contribution_types
             })
         } else {
             let newRes = {
