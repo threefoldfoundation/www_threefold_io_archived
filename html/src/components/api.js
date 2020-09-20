@@ -20,7 +20,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/json';
 class API {
     getMembers(projects, contribution_types) {
         if (!window.process.env.dev) {
-            return axios.post("/threefold/www_threefold_io/actors/team/list_members", {
+            return axios.post("/api/members/list", {
                 args: {
                     projects: projects,
                     contribution_types: contribution_types
@@ -40,7 +40,7 @@ class API {
 
     getPartners() {
         if (!window.process.env.dev) {
-            return axios.post("/threefold/www_threefold_io/actors/community/list_partners")
+            return axios.post("/api/partners/list")
         } else {
             console.log("dev")
 
@@ -54,7 +54,7 @@ class API {
 
     getFarmers() {
         if (!window.process.env.dev) {
-            return axios.post("/threefold/www2_threefold_io/actors/farmers/list_farmers")
+            return axios.post("/api/farmers/list")
         } else {
             return new Promise(function (resolve, reject) {
                 resolve({

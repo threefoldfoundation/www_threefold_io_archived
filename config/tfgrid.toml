@@ -1,0 +1,71 @@
+#can be many wiki & many www sites
+
+[server]
+port = 3000
+addr = "0.0.0.0"
+
+
+[[www]]
+name = "threefold_io"
+url = "git@github.com:threefoldfoundation/www_tfgrid.git"
+path = ""
+autocommit = false
+branch = "master"
+branchswitch = true
+srcdir = "html"
+environment = "production"
+
+[[www]]
+name = "threefold_io2"
+url = "git@github.com:threefoldfoundation/www_tfgrid.git"
+path = ""
+autocommit = false
+branch = "development"
+branchswitch = true
+srcdir = "html"
+environment = "testing"
+
+
+# weblibs, do not change the name, it's referenced in the html of the previous websites
+[[www]]
+name = "weblibs"
+url = "https://github.com/threefoldtech/jumpscaleX_weblibs"
+path = ""
+autocommit = false
+branch = "development"
+branchswitch = true
+srcdir = "static"
+environment = "testing"
+
+
+# the following data sites are needed by team/partners/farmers api used in the previous websites
+# they have the names of team/partners/farmers
+[[data]]
+name = "team"
+url = "https://github.com/threefoldfoundation/data_team"
+path = ""
+autocommit = false
+branch = "master"
+branchswitch = true
+srcdir = "team"
+environment = "production"
+
+[[data]]
+name = "partners"
+url = "https://github.com/threefoldfoundation/data_partners"
+path = ""
+autocommit = false
+branch = "master"
+branchswitch = true
+srcdir = "partners"
+environment = "production"
+
+[[data]]
+name = "farmers"
+url = "https://github.com/threefoldfoundation/data_farmers"
+path = ""
+autocommit = false
+branch = "master"
+branchswitch = true
+srcdir = "farmers"
+environment = "production"

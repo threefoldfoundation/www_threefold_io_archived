@@ -4,10 +4,10 @@
   import Partner from "./Partner.svelte";
   import Spinner from "./Spinner.svelte";
 
-  export let useCases = "";
-  export let blockchain = "";
-  export let tech = "";
-  export let exchange = "";
+  export let useCases;
+  export let blockchain;
+  export let tech;
+  export let exchange;
 
   document.body.style.backgroundColor = "white";
   const lowestRank = 99999;
