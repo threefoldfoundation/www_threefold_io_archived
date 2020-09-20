@@ -63,23 +63,87 @@
   });
 </script>
 
-<div
-  class="align-items-center home_page_banner banner_home home_intro"
-  style="background-image: url(/assets/partners-logo/partners.png);
-  background-position: center center; background-size: cover; background-repeat:
-  no-repeat; height: 1050.3px; top: -50px;">
-  <div class="desc" id="thingtohide" style="display: block;">
-    <div class="container">
-      <div class="row" style="padding-top: 10px;">
-        <div class="col-md-12 mx-auto">
-          <div class="desc">
-            <div class="content w-100 text-center">
-              <h1 class="1pb-2 mb-3 text-uppercase">
-                thank you
-                <br />
-                partners
-              </h1>
-              <p>Together we build the new Internet</p>
+<div class="align-items-center partner_page_banner" style=" min-height: 1050.3px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mx-auto">
+        <div class="desc">
+          <img
+            src="/assets/partners-logo/partners_3.png"
+            class="img-fluid w-50 mt-5"
+            alt="TF Partners" />
+          <div class="content w-100 text-center">
+            <h2 class="1pb-2 text-uppercase mt-4">thank you partners</h2>
+            <p>Welcome to the growing ecosystem around ThreeFold</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/assets/partners-logo/Skale.png" class="mb-3" alt="" />
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+              <p class="text-left mb-4">
+                <i>
+                  "Not only do we share the mutual goal of a truly decentralized
+                  secure, scalable network. SKALE developers will be able use
+                  Threefolds peer-to-peer cloud to more easily build highly
+                  scalable Ethereum Dapps."
+                </i>
+              </p>
+              <h4 class="text-uppercase">Christine perry</h4>
+              <p class="mb-0">VP Solutions Engineering</p>
+              <span>SKALE Labs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/assets/partners-logo/digibyte.png" class="mb-3" alt="" />
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+              <p class="text-left mb-5">
+                <i>
+                  "Both DigiByte and Threefold have the same mission: creating a
+                  truly decentralized world. It’s not just about technology but
+                  also about equality and humanity."
+                </i>
+              </p>
+              <h4 class="text-uppercase">Rudy Bouwman</h4>
+              <p class="mb-0">Secretary & Vice-Chairman</p>
+              <span>DigiByte Foundation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="/assets/partners-logo/PRESEARCH.png"
+              class="mb-3"
+              alt="" />
+          </div>
+          <div class="col-md-8 text-left">
+            <div class="partner-text">
+              <p class="text-left mb-4">
+                <i>
+                  "Threefolds distributed infrastructure offering peer-to-peer
+                  storage and compute resources paid with cryptocurrency is
+                  exactly what the project needs to fulfil our roadmap and
+                  decentralize the platform."
+                </i>
+              </p>
+              <h4 class="text-uppercase">Colin Pape</h4>
+              <p class="mb-0">founder and CEO</p>
+              <span>Presearch</span>
             </div>
           </div>
         </div>
