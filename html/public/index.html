@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/map_points.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&amp;display=swap" rel="stylesheet" />
     <!-- Script: Make my navbar transparent when the document is scrolled to top -->
@@ -146,7 +149,7 @@
                     <p class="footer_header text-dark mb-1"><b>Developers</b></p>
                     <ul>
                         <!-- <li><a class="text-capitalize " href="http://marketplace.threefold.me/marketplace/#/ " target="_blank">ThreeFold studio</a></li> -->
-                        <li><a href="https://marketplace.grid.tf/auth/login?next_url=/marketplace/#/network" target="_blank">Capacity Marketplace</a></li>
+                        <li><a href="https://marketplace.threefold.me/auth/login?next_url=/" target="_blank">Capacity Marketplace</a></li>
                         <li><a href="https://manual.threefold.io/#/" target="_blank">Developer Resources</a></li>
                         <li><a href="https://github.com/threefoldfoundation" target="_blank">ThreeFold GitHub</a></li>
                         <li><a href="http://whitepaper.threefold.me/" target="_blank">ThreeFold Whitepaper</a></li>
@@ -212,6 +215,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Script: Smooth scrolling between anchors in a same page -->
     <script src="/js/smooth-scroll.js"></script>
+    <script src="/js/slick.min.js "></script>
+
     <script>
         $(function() {
             var winH = $(window).innerHeight();
@@ -262,7 +267,7 @@
 
             function myFunction() {
                 let logo = document.getElementById('logo')
-                return (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? logo.src = '/assets/TFN-black.svg' : logo.src = "/assets/TFN_white.svg");
+                return (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? logo.src = '/assets/TFN-black.svg' : logo.src = "/assets/TFN-black.svg");
             }
         });
     </script>

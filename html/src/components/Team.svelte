@@ -8,7 +8,7 @@
   let ambassadorsHtml = "";
 
   onMount(() => {
-    TeamWidget.avatarPrefix = "/team_data";
+    TeamWidget.avatarPrefix = "/team";
     TeamWidget.setupHandlers();
 
     // get members with filteration by project and contribution ids
@@ -41,8 +41,9 @@
       <div class="intro mt-5 mx-auto text-center clearfix">
         <h2>Team</h2>
         <p class="text-secondary text-center ">
-          We are a team of people who are passionate about making the ThreeFold's
-          vision a reality. We help to promote and grow the ThreeFold Movement.
+          We are a team of people who are passionate about making the
+          ThreeFold's vision a reality. We help to promote and grow the
+          ThreeFold Movement.
         </p>
       </div>
       {@html coreHtml}
@@ -54,7 +55,9 @@
       <div class="intro mt-5 mx-auto text-center clearfix">
         <h2>Contributors</h2>
         <p class="text-secondary text-center ">
-          Creators of  the open source technology driving the ThreeFold mission. Passionate people who are putting their talent and skills towards growing the ThreeFold Movement.
+          Creators of the open source technology driving the ThreeFold mission.
+          Passionate people who are putting their talent and skills towards
+          growing the ThreeFold Movement.
         </p>
       </div>
       {@html developersHtml}

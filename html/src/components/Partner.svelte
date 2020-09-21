@@ -32,7 +32,7 @@
 <div class="col-sm-4">
   <div class="card">
     <img
-      src="/partners_data/{partner.logo}"
+      src="/partners/{partner.logo}"
       class="img-thumbnail card-img-top"
       alt={partner.name} />
     <div class="card-body">
