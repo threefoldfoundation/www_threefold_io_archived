@@ -142,7 +142,7 @@
                 </i>
               </p>
               <h4 class="text-uppercase">Colin Pape</h4>
-              <p class="mb-0">founder and CEO</p>
+              <p class="mb-0">Founder and CEO</p>
               <span>Presearch</span>
             </div>
           </div>
