@@ -1678,8 +1678,7 @@ background: #1abc9c;
 
 .deploy a,
 .tf-projects a,
-.deploy_launch,
-.deploy_btn a {
+.deploy_launch {
     padding: 0 0 0 1em;
     border: 0;
 }
@@ -1702,7 +1701,7 @@ background: #1abc9c;
 .deploy_btn a {
     display: inline-block;
     color: #fff !important;
-    padding-left: 20px !important;
+    padding-left: 0 48px;
 }
 
 .deploy_btn span {
