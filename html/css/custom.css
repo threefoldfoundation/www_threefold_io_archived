@@ -1680,7 +1680,7 @@ background: #1abc9c;
 .tf-projects a,
 .deploy_launch,
 .deploy_btn a {
-    padding: 0 0 0 1em;
+    /* padding: 0 0 0 1em; */
     border: 0;
 }
 
@@ -1702,7 +1702,7 @@ background: #1abc9c;
 .deploy_btn a {
     display: inline-block;
     color: #fff !important;
-    padding-left: 20px !important;
+    /* padding-left: 20px !important; */
 }
 
 .deploy_btn span {
@@ -1721,7 +1721,7 @@ background: #1abc9c;
 
 .deploy_btn a:hover {
     color: #fff !important;
-    background-color: #0A73B8;
+    /* background-color: #0A73B8; */
     border-color: #0A73B8;
 }
 
@@ -2851,7 +2851,7 @@ background-repeat: no-repeat;
 }
 
 .deploy_button {
-    padding: 0px 48px;
+    padding: 0px 17px;
 }
 
 .deploy p {
@@ -3125,7 +3125,7 @@ a:focus {
 
 .ribbon {
     position: absolute;
-    top: 20px;
+    top: 26px;
     left: -5px;
     padding: 5px 15px;
 }
@@ -3254,6 +3254,12 @@ a:focus {
     padding: 10px!important;
     width: 93%!important;
     box-sizing: border-box!important;
+}
+
+@media screen and (max-width:3840px) {
+  .Planet_mobile {
+      display: none;
+  }
 }
 
 @media screen and (max-width:1920px) {
