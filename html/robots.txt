@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: / .well-known/
+Disallow: / .well-known/stellar.toml
+Disallow: /.well-known/stellar.toml/
