@@ -637,6 +637,20 @@ left: 0;
 
 /**/
 
+
+/* TF NOW page */
+
+.app p{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+/* end of TFNOW page */
+
+
+
+
 .tech_ps-timeline-sec {
     position: relative;
     /* background: #fff; */
