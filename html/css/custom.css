@@ -640,16 +640,13 @@ left: 0;
 
 /* TF NOW page */
 
-.app p{
+.app p {
     font-size: 1em;
     line-height: 1.3;
 }
 
 
 /* end of TFNOW page */
-
-
-
 
 .tech_ps-timeline-sec {
     position: relative;
@@ -3270,10 +3267,31 @@ a:focus {
     box-sizing: border-box!important;
 }
 
+
+/* TF NOW */
+
+.app {
+    background-color: #fafafa;
+}
+
+.get_3bot p {
+    line-height: 1.3;
+}
+
+.tf_now_btn {
+    border: 1px solid #000 !important;
+    border-radius: 5px;
+    color: #303030 !important;
+}
+
+.tf_now_btn:hover {
+    color: #fff !important;
+}
+
 @media screen and (max-width:3840px) {
-  .Planet_mobile {
-      display: none;
-  }
+    .Planet_mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width:1920px) {
@@ -5093,6 +5111,9 @@ margin-right: 1.5rem !important;
     }
     .desc img {
         width: 75% !important;
+    }
+    .app img {
+        width: 50% !important;
     }
 }
 
