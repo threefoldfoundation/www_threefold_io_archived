@@ -2968,6 +2968,9 @@ background-repeat: no-repeat;
     font-size: 1.3em;
     line-height: 1.1;
 }
+.farming_banner{
+    padding-top: 10rem;
+}
 
 .become_farmer p {
     font-size: 1.5em;
@@ -5053,6 +5056,11 @@ margin-right: 1.5rem !important;
     .farming h5 {
         font-size: 30px;
         line-height: 0.9;
+    }
+
+    .farming_banner{
+        padding-top: 0rem !important;
+
     }
 }
 
