@@ -2971,7 +2971,16 @@ background-repeat: no-repeat;
 }
 
 .farming_banner {
-    padding-top: 10rem;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+
+.farming_section{
+    padding-top: 6rem;
+}
+
+.farming_section p{
+    font-size: ;
 }
 
 .become_farmer p {
@@ -5078,6 +5087,11 @@ margin-right: 1.5rem !important;
     }
     .farming_banner {
         padding-top: 0rem !important;
+        padding-bottom:  0rem !important;
+    }
+    .farming_section {
+        padding-top: 0rem !important;
+        margin-top: 0rem !important
     }
 }
 
@@ -5119,7 +5133,7 @@ margin-right: 1.5rem !important;
         margin: 8px -8px;
     }
     .lead {
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
         font-weight: 300;
         line-height: 1.2rem !important;
     }
