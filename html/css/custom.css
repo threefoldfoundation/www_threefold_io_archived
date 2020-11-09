@@ -637,6 +637,16 @@ left: 0;
 
 /**/
 
+
+/* TF NOW page */
+
+.app p {
+    line-height: 1.3;
+}
+
+
+/* end of TFNOW page */
+
 .tech_ps-timeline-sec {
     position: relative;
     /* background: #fff; */
@@ -2949,9 +2959,28 @@ background-repeat: no-repeat;
     font-size: 1.3em;
 }
 
+.how_itwork p {
+    font-size: 1rem !important;
+    line-height: 1.3 !important;
+    font-weight: 400;
+}
+
 .farming p {
-    font-size: 1.6em;
+    font-size: 1.3em;
     line-height: 1.1;
+}
+
+.farming_banner {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.farming_section{
+    padding-top: 6rem;
+}
+
+.farming_section p{
+    font-size: ;
 }
 
 .become_farmer p {
@@ -3256,10 +3285,51 @@ a:focus {
     box-sizing: border-box!important;
 }
 
+
+/* TF NOW */
+
+.app {
+    background-color: #fafafa;
+}
+
+.get_3bot p {
+    line-height: 1.3;
+}
+
+.tf_now_btn {
+    border: 1px solid #000 !important;
+    border-radius: 5px;
+    color: #303030 !important;
+    padding: 0.175rem 2rem;
+    text-transform: uppercase;
+}
+
+.tf_now_btn:hover {
+    color: #fff !important;
+}
+
+.how_itwork_step {
+    position: relative;
+    height: 390px;
+}
+
+.how_itwork_step:after {
+    content: '';
+    position: absolute;
+    left: 285px;
+    top: 115px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #d8d8d8;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    clear: both;
+}
+
 @media screen and (max-width:3840px) {
-  .Planet_mobile {
-      display: none;
-  }
+    .Planet_mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width:1920px) {
@@ -5011,6 +5081,21 @@ margin-right: 1.5rem !important;
         margin: 0;
         margin-left: 25px;
     }
+    .farming h5 {
+        font-size: 30px;
+        line-height: 0.9;
+    }
+    .farming_banner {
+        padding-top: 0rem !important;
+        padding-bottom:  0rem !important;
+    }
+    .farming_section {
+        padding-top: 0rem !important;
+        margin-top: 0rem !important
+    }
+    .app h5{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -5051,7 +5136,7 @@ margin-right: 1.5rem !important;
         margin: 8px -8px;
     }
     .lead {
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
         font-weight: 300;
         line-height: 1.2rem !important;
     }
@@ -5079,6 +5164,12 @@ margin-right: 1.5rem !important;
     }
     .desc img {
         width: 75% !important;
+    }
+    .app img {
+        width: 50% !important;
+    }
+    .how_itwork_step:after {
+        display: none;
     }
 }
 

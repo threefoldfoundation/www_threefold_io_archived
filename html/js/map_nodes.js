@@ -656,7 +656,6 @@ function initMap(nodes) {
     //         InfoWindows.setContent(airport.content);
     //     });
     // });
-
     nodes.map(function(node) {
         var marker = new google.maps.Marker({
             position: { lat: node.location.latitude, lng: node.location.longitude },

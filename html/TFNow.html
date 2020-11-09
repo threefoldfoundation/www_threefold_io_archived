@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="shortcut icon" type="image/icon" href="assets/favicon.ico">
+  <title>ThreeFold</title>
+  <!-- OpenGraph Metadata & Metadata -->
+  <meta property="og:title" content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET.">
+  <meta property="og:description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/home_opengraph.png">
+  <meta property="og:url" content="https://www.threefold.io/index.html">
+  <meta name="twitter:title" content="THREEFOLD | THE LARGEST PEER-TO-PEER GRID ON THE PLANET.">
+  <meta name="twitter:description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/threefoldfoundation/www_threefold.io_new/development/html/assets/opengraph/tfgrid.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://www.threefold.io/index.html">
+  <meta name="keywords" content="ThreeFold, ThreeFold, ThreeFold Foundation, ThreeFold Grid, ThreeFold Token, 3Bot, Peer-to-Peer, P2P, Decentralization, Impact Project">
+  <meta name="description" content="Decentralized storage and compute for everyone, owned by everyone, everywhere.">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="threefold.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/map_points.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&amp;display=swap" rel="stylesheet">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <script src="js/animate-in.js"></script>
+  <script type="text/javascript">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
+    (function() {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+  <script> window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-100065546-1");
+    </script>
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/ ">
+      <img id="logo" src="assets/TFN-black.svg" height="22" alt="Threefold logo ">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="farming.html">Farming</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" style="padding: 0.8rem;" href="/public/#/partners">Partners</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-uppercase pt-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Info </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="TFNow.html">ThreeFold NOW</a>
+            <a class="dropdown-item" href="https://blog.threefold.io/blog/tfblog/posts?page=1" target="_blank">Blog</a>
+            <a class="dropdown-item" href="https://forums.threefold.io/" target="_blank">Forums</a>
+            <a class="dropdown-item" href="https://wiki.threefold.io/#/" target="_blank">Wiki</a>
+            <a class="dropdown-item" href="/public/#/team">Team</a>
+            <a class="dropdown-item" href="news.html">In The News</a>
+          </div>
+        </li>
+        <li class="nav-item deploy_btn">
+          <a class="btn btn-primary text-uppercase font-weight-bold" href="deploy.html">Deploy </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link token-btn" href="tokens.html">
+            <button type="button" class="btn btn-success text-uppercase font-weight-bold text-white"> Tokens </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="align-items-center h-100 home_intro py-5" style="	background-image: url(&quot;assets/tfnow_page/tfnow-Background.jpg&quot;);	background-position: bottom;	background-size: cover;	background-repeat: no-repeat;	overflow: hidden;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="img-fluid d-block mx-auto py-3" src="assets/tfnow_page/tfnow_logo.svg" width="55%">
+          <h3 class="text-uppercase mb-3">RECLAIM YOUR DIGITAL FREEDOM&nbsp;</h3>
+          <p class="mb-3 text-dark lead"><b>ThreeFold NOW is providing an improved version of your digital life, where&nbsp;<br>you own your own data and are not the product anymore.</b></p>
+          <a href="https://marketplace2.threefold.io/marketplace/#/" target="_blank" class="btn btn-success text-uppercase"> ENTER tHREEFOLD nOW</a>
+          <!-- <a href="#decentralize" target="_blank" class="btn btn-primary text-uppercase font-weight-bold"> DEPLOY YOUR APPLICATION <span class="text-uppercase btn btn-success font-weight-bold">Beta</span></a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="benefits my-5">
+    <div class="container">
+      <div class="row py-3">
+        <!-- <div class="col-md-3">
+          <img class="img-fluid d-block yor_benefits mx-auto my-3 py-4" src="assets/tfnow_page/tfnow_logo.svg">
+        </div> -->
+        <div class="col-md-4 py-2">
+          <p class="text-dark text-uppercase mb-2" style="line-height: 1.3"><b>YOU ARE no longer the&nbsp;</b><b>product</b></p>
+          <p class="mb-3 text-dark" style="font-size: 1rem;line-height: 1.3">Data is the most valuable resource of the digital age. Stop giving your data away for free NOW. </p>
+        </div>
+        <div class="col-md-4 py-2">
+          <p class="text-dark text-uppercase mb-2" style="line-height: 1.3"><b>No company owns your&nbsp;</b><b>digital profile</b></p>
+          <p class="mb-3 text-dark" style="font-size: 1rem;line-height: 1.3">Through the decentralized architecture of the ThreeFold Grid, you are the only one that controls access to your data.</p>
+        </div>
+        <div class="col-md-4 py-2">
+          <p class="text-dark text-uppercase mb-2" style="line-height: 1.3"><b>RECLAIM YOUR DIGITAL AUTONOMY</b></p>
+          <div><b></b></div>
+          <p class="mb-3 text-dark" style="font-size: 1rem;line-height: 1.3">Enjoy privacy in your digital life.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center"><a class="btn btn-success text-center text-uppercase" href="https://marketplace2.threefold.io/marketplace/#/" target="_blank">Enter ThreeFold NOW</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="app py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-uppercase text-center pb-5">THREEFOLD NOW APPS ARE LIVE!</h3>
+          <!-- <p class="text-dark text-center lead pb-2 my-4"><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores voluptatibus unde cum obcaecati rerum minima dignissimos sint</b></p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/wikis.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5>wiki</h5>
+          <p class="text-dark">Wiki is a versatile online encyclopedia builder, accessible via a public web address.</p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/web.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5>website</h5>
+          <p class="text-dark">Website is a P2P alternative to centralized cloud-hosted websites. Host your own website with access via a public web address.</p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/blog.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5>blog</h5>
+          <p class="text-dark">Blog is a P2P alternative to centralized blogging platforms like Tumblr or Blogspot.</p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/mattermost.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">Team Collaboration</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(Mattermost)</b></p>
+          <p class="text-dark">Mattermost is a flexible, open source messaging platform that enables secure team collaboration.</p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/peertube.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">Video Sharing</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(pEERTUBE)</b></p>
+          <p class="text-dark">Peertube is an open-source video platform that uses peer-to-peer technologies to reduce load on individual servers when viewing videos. </p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/gitea.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">Git Servive</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(GITEA)</b></p>
+          <p class="text-dark">Gitea is a painless self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab.</p>
+        </div>
+        <div class="col-md-1 pb-3"><img class="img-fluid d-block mx-auto" src="assets/tfnow_page/apps/discourse.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">Community Forum</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(DISCOURSE)</b></p>
+          <p class="text-dark">Discourse is an open source Internet forum and mailing list management software application built to educate members about civil community engagement.</p>
+        </div>
+        <div class="col-md-1"><img class="img-fluid d-block mx-auto pb-3" src="assets/tfnow_page/apps/cryptpad.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">Office Tools</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(cRYPTPAD)</b></p>
+          <p class="text-dark">Cryptpad is a fully-secured, encrypted alternative to popular office tools and cloud services.</p>
+        </div>
+        <div class="col-md-1"><img class="img-fluid d-block mx-auto pb-3" src="assets/tfnow_page/apps/taiga.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5 class="mb-0">PROJECT MANAGEMENT</h5>
+          <p class="text-dark text-uppercase mb-2"><b>(TAIGA)</b></p>
+          <p class="text-dark">Taiga is a P2P alternative to centralized project management tool for multi-functional agile teams.</p>
+        </div>
+        <div class="col-md-1"><img class="img-fluid d-block mx-auto pb-3" src="assets/tfnow_page/apps/video_chat.png"></div>
+        <div class="col-md-3 pb-4">
+          <h5>Video Chat</h5>
+          <!-- <p class="text-dark text-uppercase mb-2"><b>(TAIGA)</b></p> -->
+          <p class="text-dark">P2P alternative to centralised video conferencing solution such as Zoom.</p>
+        </div>
+        <div class="col-md-1"><img class="img-fluid d-block mx-auto pb-3 " style="filter: grayscale(100%); opacity: 0.4;" src="assets/tfnow_page/apps/virtual_spaces.png"></div>
+        <div class="col-md-3 pb-4" style="opacity: 0.4;">
+          <h5>virtual spaces</h5> 
+          <p class="text-dark">Meetup experiences and collaboration in virtual reality</p>
+          <p class="text-dark text-uppercase mb-2"><b>coming soon ...</b></p>
+        </div>
+        <div class="col-md-1"><img class="img-fluid d-block mx-auto pb-3 " style="filter: grayscale(100%); opacity: 0.4;" src="assets/tfnow_page/apps/commento.png"></div>
+        <div class="col-md-3 pb-4" style="opacity: 0.4;">
+          <h5>commento</h5> 
+          <p class="text-dark">Collaborate on online content without giving up your privacy</p>
+          <p class="text-dark text-uppercase mb-2"><b>coming soon ...</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="benefits my-5" style="">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-md-8">
+          <h3 class="text-uppercase text-left" contenteditable="true">SECURED BY 3BOT CONNECT</h3>
+          <p class="mb-3 text-dark lead"><b>The 3Bot Connect application provides secure 2-factor-authentification for all your ThreeFold Now applications.</b></p>
+          <div class="row">
+            <div class="col-md-6"><img class="img-fluid d-block mx-auto py-3" src="assets/tfnow_page/1_number.png" width="100">
+              <h4 class="text-uppercase text-center">GET A 3BOT ID</h4>
+              <div class="col-md-12">
+                <a href="https://apps.apple.com/us/app/3bot-connect/id1459845885" target="_blank"><img class="img-fluid d-block mb-2 mx-auto" src="assets/deploy_page/app_store.png" width="60%"><img class="img-fluid d-block mb-2 mx-auto" src="assets/deploy_page/google_play.png" width="60%"></a>
+              </div>
+            </div>
+            <div class="col-md-6"><img class="img-fluid d-block mx-auto py-3" src="assets/tfnow_page/2_number.png" width="100">
+              <h4 class="text-uppercase text-center pb-2">LOGIN TO THREEFOLD&nbsp;<br>NOW DEMO TESTNET</h4>
+              <div class="col-md-12 text-center"><a class="btn btn-outline-secondary text-center tf_now_btn" href="https://marketplace2.threefold.io/marketplace/#/" target="_blank">Enter ThreeFold NOW</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="py-2 col-md-4">
+          <img class="img-fluid d-block py-2" src="assets/tfnow_page/tfnow-logo-black.png"><img class="img-fluid d-block" src="assets/tfnow_page/3bot_mobile.jpg">
+          <div><b></b></div>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </section>
+  <section class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-1 col-md-3 text-left mb-2">
+          <p class="footer_header text-dark mb-1"><b>Individuals</b></p>
+          <ul>
+            <li>
+              <a href="https://wiki.threefold.io/#/how_to_buy_and_sell" target="_blank">Buy TFT</a>
+            </li>
+            <li>
+              <a href="https://wiki.threefold.io/#/become_a_farmer " target="_blank">Become a Farmer</a>
+            </li>
+            <li>
+              <a href="https://wiki.threefold.io/#/ " target="_blank">ThreeFold Wiki (knowledge-base)</a>
+            </li>
+            <li><a href="TFNow.html">ThreeFold NOW</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-left mb-2">
+          <p class="footer_header text-dark mb-1"><b>Developers</b></p>
+          <ul>
+            <!-- <li><a class="text-capitalize " href="http://marketplace.threefold.me/marketplace/#/ " target="_blank">ThreeFold studio</a></li> -->
+            <li><a href="https://deploy3bot.testnet.grid.tf" target="_blank">3Bot (Testnet)</a></li>
+            <li><a href="https://manual.threefold.io/#/" target="_blank">ThreeFold Manual</a></li>
+            <li>
+              <a href="https://github.com/threefoldfoundation" target="_blank">ThreeFold GitHub</a>
+            </li>
+            <li>
+              <a href="http://whitepaper.threefold.me/" target="_blank">ThreeFold Whitepaper</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-left mb-2">
+          <p class="footer_header text-dark mb-1"><b>Ecosystem</b></p>
+          <ul>
+            <li>
+              <a href="https://www.threefold.me/ " target="_blank">ThreeFold Foundation</a>
+            </li>
+            <li>
+              <a href="https://forum.threefold.io/ " target="_blank">ThreeFold Forum</a>
+            </li>
+            <li>
+              <a href="https://blog.threefold.io/" target="_blank">ThreeFold Blog</a>
+            </li>
+            <li>
+              <a href="https://www.consciousinternet.org/ " target="_blank">Alliance for a Conscious Internet</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-left mb-2">
+          <p class="footer_header text-dark mb-1"><b>ThreeFold</b></p>
+          <ul>
+            <li>
+              <a href="https://t.me/threefoldnews " target="_blank">ThreeFold News</a>
+            </li>
+            <li>
+              <a href="https://wiki.threefold.io/#/disclaimer" target="_blank">Disclaimer</a>
+            </li>
+            <li>
+              <a href="https://wiki.threefold.io/#/privacypolicy" target="_blank">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="https://wiki.threefold.io/#/terms_conditions_websites" target="_blank">Terms &amp; Conditions</a>
+            </li>
+            <li><a href="mailto:press@threefold.io ">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="list social my-5 text-center">
+            <ul class="text-center mb-2">
+              <li class="mx-2">
+                <a href="https://www.facebook.com/threefold.io " target="_blank ">
+                  <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a href="https://twitter.com/threefold_io " target="_blank ">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a href="https://www.linkedin.com/company/threefold-foundation/ " target="_blank ">
+                  <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a href=" https://www.youtube.com/threefoldfoundation " target="_blank "><i class="fab fa-youtube fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/threefoldnews " target="_blank ">
+                  <i class="fab fa-telegram-plane fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+            <a href="/"><img src="assets/TFN-black.svg" width="270" alt=" "></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
+  <script src="js/common.js "></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfYLJW6FPTxcpRJiUz2mIPVcKzo4PzNb4&amp;callback=initMap " async=" " defer=" "></script>
+  <script src="js/map_nodes.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " crossorigin="anonymous " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "></script>
+  <script crossorigin="anonymous " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+  <!-- Script: Smooth scrolling between anchors in a same page -->
+  <script src="js/smooth-scroll.js "></script>
+  <script>
+    $(function() {
+      var winH = $(window).innerHeight();
+      var navH = $(".navbar ").innerHeight();
+      $(".home_page_banner ").height(winH + navH);
+      window.onscroll = function(e) {
+        myFunction();
+      };
+
+      function myFunction() {
+        let logo = document.getElementById("logo ");
+        return document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ? (logo.src = "assets/TFN-black.svg ") : (logo.src = "assets/TFN-black.svg ");
+      }
+    });
+  </script>
+</body>
+
+</html>
