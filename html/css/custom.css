@@ -5096,6 +5096,10 @@ margin-right: 1.5rem !important;
     .app h5{
         font-size: 30px;
     }
+    .bot_header{
+          text-align: center !important;
+    }
+
 }
 
 @media screen and (max-width:375px) {
@@ -5171,6 +5175,9 @@ margin-right: 1.5rem !important;
     .how_itwork_step:after {
         display: none;
     }
+    .bot_header{
+        text-align: center !important;
+  }
 }
 
 @media screen and (max-width:320px) {
