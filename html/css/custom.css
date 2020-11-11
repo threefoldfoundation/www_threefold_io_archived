@@ -3292,6 +3292,9 @@ a:focus {
     background-color: #fafafa;
 }
 
+.app p{
+    font-size: 1rem !important;
+}
 .get_3bot p {
     line-height: 1.3;
 }
