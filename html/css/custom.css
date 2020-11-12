@@ -3307,6 +3307,22 @@ a:focus {
     text-transform: uppercase;
 }
 
+.tf_now_green {
+    border: 2px solid #4ec48f !important;
+    border-radius: 5px;
+    color: #303030 !important;
+    padding: 0.175rem 2rem;
+    text-transform: uppercase;
+}
+
+.tf_now_green:hover {
+    color: #fff !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #4ec48f !important;
+}
+
 .tf_now_btn:hover {
     color: #fff !important;
 }
